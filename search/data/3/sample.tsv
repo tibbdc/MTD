@@ -1,0 +1,56 @@
+Sample ID	Strain	Strategy	Carbon Sources	Temperature	Time	Study Title	Series Accession	Related Sample
+tr001001	QM6a		Glucose		48h	Genome-wide transcriptional response of the filamentous fungus Trichoderma reesei to lignocellulose using RNA sequencing and comparison with Aspergillus niger	GSE44648	GSM1088351,GSM1088352,GSM1088353
+tr001002	QM6a		Straw		24h	Genome-wide transcriptional response of the filamentous fungus Trichoderma reesei to lignocellulose using RNA sequencing and comparison with Aspergillus niger	GSE44648	GSM1088354,GSM1088355,GSM1088356
+tr001003	QM6a		Straw + glucose		5h	Genome-wide transcriptional response of the filamentous fungus Trichoderma reesei to lignocellulose using RNA sequencing and comparison with Aspergillus niger	GSE44648	GSM1088357,GSM1088358
+tr002001	QM9414		Cellulose			Transcriptional landscape of XYR1 in Trichoderma reesei during the degradation of cellulosic material	GSE66982	GSM1297497,GSM1297498,GSM1297499
+tr002002	QM9414		Sophorose			Transcriptional landscape of XYR1 in Trichoderma reesei during the degradation of cellulosic material	GSE66982	GSM1297500,GSM1297501,GSM1297502
+tr002003	QM9414		Glucose			Transcriptional landscape of XYR1 in Trichoderma reesei during the degradation of cellulosic material	GSE66982	GSM1297503,GSM1297505,GSM1297504
+tr002004	Δxyr1		Cellulose			Transcriptional landscape of XYR1 in Trichoderma reesei during the degradation of cellulosic material	GSE66982	GSM1635465,GSM1635466,GSM1635467
+tr002005	Δxyr1		Sophorose			Transcriptional landscape of XYR1 in Trichoderma reesei during the degradation of cellulosic material	GSE66982	GSM1635468,GSM1635469,GSM1635470
+tr002006	Δxyr1		Glucose			Transcriptional landscape of XYR1 in Trichoderma reesei during the degradation of cellulosic material	GSE66982	GSM1635471,GSM1635472,GSM1635473
+tr003001	Δcre1		Cellulose			Genome-wide RNA-seq analysis during carbon catabolite repression in Trichoderma reesei reveals a multilevel control of cellulase production and action	GSE57374	GSM1381336,GSM1381337,GSM1381338
+tr003002	Δcre1		Glucose			Genome-wide RNA-seq analysis during carbon catabolite repression in Trichoderma reesei reveals a multilevel control of cellulase production and action	GSE57374	GSM1381339,GSM1381340,GSM1381341
+tr005001	Tu-6 DeltaKap8		Sophorose		3h	The ß-importin KAP8 (Pse1/Kap121) is required for nuclear import of the cellulase transcriptional regulator XYR1, asexual sporulation and stress resistance in Trichoderma reesei	GSE59600	GSM1440308,GSM1440309,GSM1440310
+tr005002	Tu-6 DeltaKap8		Glycerol			The ß-importin KAP8 (Pse1/Kap121) is required for nuclear import of the cellulase transcriptional regulator XYR1, asexual sporulation and stress resistance in Trichoderma reesei	GSE59600	GSM1440311,GSM1440312,GSM1440313
+tr005003	Retransformed kap8		Sophorose		3h	The ß-importin KAP8 (Pse1/Kap121) is required for nuclear import of the cellulase transcriptional regulator XYR1, asexual sporulation and stress resistance in Trichoderma reesei	GSE59600	GSM1440314,GSM1440315,GSM1440316
+tr005004	Retransformed kap8		Glycerol			The ß-importin KAP8 (Pse1/Kap121) is required for nuclear import of the cellulase transcriptional regulator XYR1, asexual sporulation and stress resistance in Trichoderma reesei	GSE59600	GSM1440317,GSM1440318,GSM1440319
+tr006001	Δcre1		Sophorose			Genome-wide RNA-seq analysis during CRE1-mediated carbon catabolite repression in Trichoderma reesei grown in sophorose	GSE66915	GSM1634264,GSM1634265,GSM1634266
+tr006002	QM9414		Sophorose			Genome-wide RNA-seq analysis during CRE1-mediated carbon catabolite repression in Trichoderma reesei grown in sophorose	GSE66915	GSM1634267,GSM1634268,GSM1634269
+tr007001	QM9978 cellulase negative		Glucose			Genome sequencing and transcriptome analysis of Trichoderma reesei QM9978 reveals vib1 to be essential for cellulase induction	GSE89199	GSM2360585,GSM2360586
+tr007002	QM9978 cellulase negative		Lactose		24h 	Genome sequencing and transcriptome analysis of Trichoderma reesei QM9978 reveals vib1 to be essential for cellulase induction	GSE89199	GSM2360587,GSM2360588
+tr007003	QM9978 cellulase negative		Lactose		48h	Genome sequencing and transcriptome analysis of Trichoderma reesei QM9978 reveals vib1 to be essential for cellulase induction	GSE89199	GSM2360589,GSM2360590
+tr007004	QM6a wild type		Glucose			Genome sequencing and transcriptome analysis of Trichoderma reesei QM9978 reveals vib1 to be essential for cellulase induction	GSE89199	GSM2360591,GSM2360592
+tr007005	QM6a wild type		Lactose		24h	Genome sequencing and transcriptome analysis of Trichoderma reesei QM9978 reveals vib1 to be essential for cellulase induction	GSE89199	GSM2360593,GSM2360594
+tr007006	QM6a wild type		Lactose		48h	Genome sequencing and transcriptome analysis of Trichoderma reesei QM9978 reveals vib1 to be essential for cellulase induction	GSE89199	GSM2360595,GSM2360596
+tr008001	QM6a		Glucose			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144332,GSM2144333,GSM2144334
+tr008002	QM6a		Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144341,GSM2144342,GSM2144343
+tr008003	QM6a A. niger+T. reesei		Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144347,GSM2144348,GSM2144349
+tr008004	QM6a T. reesei+P. chrysogenum		Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144350,GSM2144351,GSM2144352
+tr008005	QM6a A. niger+T. reesei+P. chrysogenum		Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144356,GSM2144357,GSM2144358
+tr009001	QM6a		Sugarcane			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688537,GSM2688538,GSM2688539
+tr009002	QM6a		Glucose			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688540,GSM2688541,GSM2688542
+tr009003	QM6a		Glycerol			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688543,GSM2688544,GSM2688545
+tr009004	tmk1		Sugarcane			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688546,GSM2688547,GSM2688548
+tr009005	tmk1		Glucose			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688549,GSM2688550,GSM2688551
+tr009006	tmk1		Glycerol			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688552,GSM2688553,GSM2688554
+tr009007	tmk2		Sugarcane			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688555,GSM2688556,GSM2688557
+tr009008	tmk2		Glucose			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688558,GSM2688559,GSM2688560
+tr009009	tmk2		Glycerol			Global Transcriptome and Gene Regulatory Network of MAPK Signaling Pathway in Trichoderma reesei During Sugarcane Bagasse Degradation	GSE100602	GSM2688561,GSM2688562,GSM2688563
+tr010001	QM9414		L-arabinose			ARA1 regulates not only L-arabinose but also D-galactose catabolism in Trichoderma reesei	GSE104606	GSM2804019
+tr010002	QM9414 Δxyr1Δara1		L-arabinose			ARA1 regulates not only L-arabinose but also D-galactose catabolism in Trichoderma reesei	GSE104606	GSM2804024,GSM2804033
+tr011001	QM6a	Constant light				YPR2 is a light dependent regulator of carbon and secondary metabolism in Trichoderma reesei	GSE119126	GSM3358789,GSM3358790
+tr011002	ypr2	Constant light				YPR2 is a light dependent regulator of carbon and secondary metabolism in Trichoderma reesei	GSE119126	GSM3358791,GSM3358792
+tr011003	QM6a	Constant darkness				YPR2 is a light dependent regulator of carbon and secondary metabolism in Trichoderma reesei	GSE119126	GSM3358793,GSM3358794
+tr011004	ypr2	Constant darkness				YPR2 is a light dependent regulator of carbon and secondary metabolism in Trichoderma reesei	GSE119126	GSM3358795,GSM3358796
+tr012001	RUT-C30		Glucose	24h		Growing Trichoderma reseei on a mix of carbon sources reveals links between development and cellulase production	GSE82287	GSM2188043,GSM2188044,GSM2188045,GSM2188046,GSM2188047,GSM2188048
+tr012002	RUT-C30		Glucose	48h		Growing Trichoderma reseei on a mix of carbon sources reveals links between development and cellulase production	GSE82287	GSM2188049,GSM2188050,GSM2188051,GSM2188052,GSM2188053,GSM2188054
+tr012003	RUT-C30		Lactose	24h		Growing Trichoderma reseei on a mix of carbon sources reveals links between development and cellulase production	GSE82287	GSM2188055,GSM2188056,GSM2188057,GSM2188058,GSM2188059,GSM2188060
+tr012004	RUT-C30		Lactose	48h		Growing Trichoderma reseei on a mix of carbon sources reveals links between development and cellulase production	GSE82287	GSM2188061,GSM2188062,GSM2188063,GSM2188064,GSM2188065,GSM2188066
+tr012005	RUT-C30		Glucose 90%-lactose 10%	24h		Growing Trichoderma reseei on a mix of carbon sources reveals links between development and cellulase production	GSE82287	GSM2188067,GSM2188068,GSM2188069,GSM2188070,GSM2188071,GSM2188072
+tr012006	RUT-C30		Glucose 90%-lactose 10%	48h		Growing Trichoderma reseei on a mix of carbon sources reveals links between development and cellulase production	GSE82287	GSM2188073,GSM2188074,GSM2188075,GSM2188076,GSM2188077,GSM2188078
+tr013001	QPP		1% (w/v) cellulose			The effects of gul1 deletion on the transcriptome of Trichoderma reesei	GSE147192	GSM4420167,GSM4420168,GSM4420169
+tr013002	dgul1		1% (w/v) cellulose			The effects of gul1 deletion on the transcriptome of Trichoderma reesei	GSE147192	GSM4420170,GSM4420171,GSM4420172
+tr014001	QM6a	Cellulose in darkness				RGS4 impacts carbohydrate and siderophore metabolism in Trichoderma reesei	GSE216955	GSM6701328,GSM6701329,GSM6701330
+tr014002	rgs4	Cellulose in darkness				RGS4 impacts carbohydrate and siderophore metabolism in Trichoderma reesei	GSE216955	GSM6701331,GSM6701332,GSM6701333
+tr014003	QM6a	Cellulose in light				RGS4 impacts carbohydrate and siderophore metabolism in Trichoderma reesei	GSE216955	GSM6701334,GSM6701335,GSM6701336
+tr014004	rgs4	Cellulose in light				RGS4 impacts carbohydrate and siderophore metabolism in Trichoderma reesei	GSE216955	GSM6701337,GSM6701338,GSM6701339

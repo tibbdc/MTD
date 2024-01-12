@@ -1,0 +1,159 @@
+Sample ID	Strain	Strategy	Carbon Sources	Temperature	Time	Study Title	Series Accession	Related Sample
+an001001	N402		Glucose		48h	Genome-wide Transcriptional Responses of the Filamentous Fungus Aspergillus niger to Lignocellulose (Wheat straw) using RNA-sequencing	GSE33852	GSM838010,GSM838011,GSM838012
+an001002	N402		Straw		24h	Genome-wide Transcriptional Responses of the Filamentous Fungus Aspergillus niger to Lignocellulose (Wheat straw) using RNA-sequencing	GSE33852	GSM838013,GSM838014,GSM838015
+an001003	N402		Glucose+straw		5h	Genome-wide Transcriptional Responses of the Filamentous Fungus Aspergillus niger to Lignocellulose (Wheat straw) using RNA-sequencing	GSE33852	GSM838016,GSM838017,GSM838018
+an002001	N402	Acm 			developmental stage: dormant conidia	Trancriptional landscape of Aspergillus niger at breaking of conidial dormancy revealed by RNA-sequencing	GSE42652	GSM1047321,GSM1047322
+an002002	N402	Acm 			conidia germinated for 1h	Trancriptional landscape of Aspergillus niger at breaking of conidial dormancy revealed by RNA-sequencing	GSE42652	GSM1047323,GSM1047324
+an003001	N402		Glucose		48h	The role of carbon starvation in the induction of enzymes that degrade plant-derived carbohydrates in Aspergillus niger	GSE57315	GSM1379419,GSM1379420
+an003002	N402		Wheat straw		6h	The role of carbon starvation in the induction of enzymes that degrade plant-derived carbohydrates in Aspergillus niger	GSE57315	GSM1379421,GSM1379422
+an003003	N402		Starvation		6h	The role of carbon starvation in the induction of enzymes that degrade plant-derived carbohydrates in Aspergillus niger	GSE57315	GSM1379423,GSM1379424
+an003004	N402		Starvation		24h	The role of carbon starvation in the induction of enzymes that degrade plant-derived carbohydrates in Aspergillus niger	GSE57315	GSM1379425,GSM1379426
+an004001	N402		Glucose		48h	RNA-sequencing reveals the complexities of the transcriptional response to lignocellulosic biofuel substrates in Aspergillus niger.	GSE62284	GSM1524800,GSM1524801
+an004002	N402		Willow		24h	RNA-sequencing reveals the complexities of the transcriptional response to lignocellulosic biofuel substrates in Aspergillus niger.	GSE62284	GSM1524802,GSM1524803
+an004003	N402		Willow + glucose		24h	RNA-sequencing reveals the complexities of the transcriptional response to lignocellulosic biofuel substrates in Aspergillus niger.	GSE62284	GSM1524804,GSM1524805
+an005001	CBS 141257	Medium with ga			2h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121232,GSM2121233
+an005002	ΔgaaR	Medium with ga			2h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121234,GSM2121235
+an005003	CBS 141257	Medium with sbp			2h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121236,GSM2121237
+an005004	ΔgaaR	Medium with sbp			2h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121238,GSM2121239
+an005005	CBS 141257	Medium with sbp			8h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121240,GSM2121241
+an005006	ΔgaaR	Medium with sbp			8h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121242,GSM2121243
+an005007	CBS 141257	Medium with sbp			24h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121244,GSM2121245
+an005008	ΔgaaR	Medium with sbp			24h	The transcriptional activator GaaR of Aspergillus niger is required for release and utilization of D-galacturonic acid from pectin	GSE80227	GSM2121246,GSM2121247
+an006001	CBS 141257	Mm + l-rhamnose			2h	In vivo functional analysis of L-rhamnose metabolic pathway in Aspergillus niger: a tool to identify the potential inducer of RhaR	GSE99865	GSM2656437,GSM2656438
+an006002	CBS 141257	Mm + l-rhamnose			2h	In vivo functional analysis of L-rhamnose metabolic pathway in Aspergillus niger: a tool to identify the potential inducer of RhaR	GSE99865	GSM2656439,GSM2656440
+an006003	CBS 141257	Mm + l-rhamnose			2h	In vivo functional analysis of L-rhamnose metabolic pathway in Aspergillus niger: a tool to identify the potential inducer of RhaR	GSE99865	GSM2656441,GSM2656442
+an006004	CBS 141257	Mm + l-rhamnose			2h	In vivo functional analysis of L-rhamnose metabolic pathway in Aspergillus niger: a tool to identify the potential inducer of RhaR	GSE99865	GSM2656443,GSM2656444
+an006005	CBS 141257	Mm + l-rhamnose			2h	In vivo functional analysis of L-rhamnose metabolic pathway in Aspergillus niger: a tool to identify the potential inducer of RhaR	GSE99865	GSM2656445,GSM2656446
+an007001	SDP20.6	Medium with ga			2h	Evidence for inducer function of 2-keto-3-deoxy-L-galactonate in D-galacturonic acid induced gene expression in Aspergillus niger	GSE95776	GSM2525710,GSM2525711
+an008001	N402		Glucose	maturation on the conidiophore	2d	Maturation of conidia on conidiophores of Aspergillus niger	GSE83819	GSM2219084,GSM2219085
+an008002	N402		Glucose	maturation on the conidiophore	5d	Maturation of conidia on conidiophores of Aspergillus niger	GSE83819	GSM2219086,GSM2219087
+an008003	N402		Glucose	maturation on the conidiophore	8d	Maturation of conidia on conidiophores of Aspergillus niger	GSE83819	GSM2219088,GSM2219089
+an009001	delta-araR	A		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584483,GSM2584484
+an009002	delta-araR	A		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584485,GSM2584486
+an009003	delta-araRdelta-gaaR	Ag		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584487,GSM2584488
+an009004	delta-araRdelta-gaaR	Ag		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584489,GSM2584490
+an009005	delta-araRdelta-rhaR	Ar		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584491,GSM2584492
+an009006	delta-araRdelta-rhaR	Ar		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584493,GSM2584494
+an009007	delta-gaaR	G		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584495,GSM2584496
+an009008	delta-gaaR	G		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584497,GSM2584498
+an009009	delta-gaaRdelta-araRdelta-rhaR	Gar		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584499,GSM2584500
+an009010	delta-gaaRdelta-araRdelta-rhaR	Gar		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584501,GSM2584502
+an009011	delta-gaaRdelta-rhaR	Gr		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584503,GSM2584504
+an009012	delta-gaaRdelta-rhaR	Gr		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584505,GSM2584506
+an009013	delta-rhaR	R		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584507,GSM2584508
+an009014	delta-rhaR	R		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584509,GSM2584510
+an009015	N593 delta-kusA	Ref		28°	2h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584511,GSM2584512
+an009016	N593 delta-kusA	Ref		28°	8h	Combinatorial control of gene expression in Aspergillus niger grown on sugar beet pectin	GSE97974	GSM2584513,GSM2584514
+an010001	H915-1				6h	Transcriptome study on Aspergillus niger during citrate fermentation.	GSE74544	GSM1922437
+an010002	H915-1				12h	Transcriptome study on Aspergillus niger during citrate fermentation.	GSE74544	GSM1922438
+an010003	H915-1				24h	Transcriptome study on Aspergillus niger during citrate fermentation.	GSE74544	GSM1922439
+an010004	H915-1				36h	Transcriptome study on Aspergillus niger during citrate fermentation.	GSE74544	GSM1922440
+an010005	H915-1				48h	Transcriptome study on Aspergillus niger during citrate fermentation.	GSE74544	GSM1922441
+an010006	H915-1		1.5vvm			Transcriptome study on Aspergillus niger during citrate fermentation.	GSE74544	GSM1922442
+an011001	N402		Glucose			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144329,GSM2144330,GSM2144331
+an011002	N402		Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144338,GSM2144339,GSM2144340
+an011003	N402	A. niger+t. reesei 	Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144347,GSM2144348,GSM2144349
+an011004	N402	A. niger+p. chrysogenum	Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144353,GSM2144354,GSM2144355
+an011005	N402	A. niger+t. reesei+p. chrysogenum	Straw			Transcriptomic responses of mixed cultures of ascomycete fungi to lignocellulose using dual RNA-seq reveal inter-species antagonism and limited beneficial effects on CAZyme expression	GSE81187	GSM2144356,GSM2144357,GSM2144358
+an012001	MA234.1		Glucose + xylose			The FlbA-regulated transcription factor FusR of Aspergillus niger is involved in production of fumonisin	GSE93990	GSM2466360,GSM2466361
+an012002	MA234.1		Glucose + xylose			The FlbA-regulated transcription factor FusR of Aspergillus niger is involved in production of fumonisin	GSE93990	GSM2466362,GSM2466363
+an013001	MJK17.25 (derivative of MA169.4)				post exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369681,GSM3369682
+an013002	MJK11.17 (derivative of MA169.4) MjkB OE				post exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369683,GSM3369684
+an013003	MJK11.17 (derivative of MA169.4) MjkA OE				post exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369685,GSM3369686
+an013004	MJK17.25 (derivative of MA169.4) histone deacetylase				post exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369687,GSM3369688
+an013005	MJK14.7 (derivative of MA169.4) MjkA/{delta}MjkB				post exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369689,GSM3369690
+an013006	MJK15.4 (derivative of MA169.4) MjkA				post exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369691,GSM3369692
+an013007	MJK16.5  (derivative of MA169.4) MjkB				post exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369693,GSM3369694
+an013008	MJK17.25 (derivative of MA169.4)				exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369695,GSM3369696
+an013009	MJK10.12 (derivative of MA169.4) MjkA OE				exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369697,GSM3369698
+an013010	MJK10.12 (derivative of MA169.4) histone deacetylase				exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369699,GSM3369700
+an013011	MJK11.17 (derivative of MA169.4) MjkB OE				exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369701,GSM3369702
+an013012	MJK18.1 (derivative of MA169.4) MjkA/{delta}MjkB				exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369703,GSM3369704
+an013013	MJK15.4 (derivative of MA169.4) MjkA				exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369705,GSM3369706
+an013014	MJK16.5 (derivative of MA169.4) MjkB				exponential growth phase	Comparative transcriptomics of Aspergillus niger when deleted or overexpressed for the putative transcription factors MjkA, MjkB and the histon deactelyase HdaX	GSE119311	GSM3369707,GSM3369708
+an014001	N402	P7-1				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350357
+an014002	N402	P7-2				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350358
+an014003	N402	P7-3				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350359
+an014004	N402	P7-4				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350360
+an014005	N402	P7-5				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350361
+an014006	N402	P7-6				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350362
+an014007	N402	P7-7				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350363
+an014008	N402	P7-8				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350364
+an014009	N402	P7-9				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350365
+an014010	N402	P11-1				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350366
+an014011	N402	P11-2				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350367
+an014012	N402	P11-3				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350368
+an014013	N402	P11-4				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350369
+an014014	N402	P11-5				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350370
+an014015	N402	P11-6				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350371
+an014016	N402	P11-7				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350372
+an014017	N402	P11-8				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350373
+an014018	N402	P11-9				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350374
+an014019	N402	P14-1				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350375
+an014020	N402	P14-2				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350376
+an014021	N402	P14-3				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350377
+an014022	N402	P14-4				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350378
+an014023	N402	P14-5				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350379
+an014024	N402	P14-6				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350380
+an014025	N402	P14-7				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350381
+an014026	N402	P14-8				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350382
+an014027	N402	P14-9				An Aspergillus niger colony locally adapts its molecular responses to spatially separated substrates	GSE118894	GSM3350383
+an015001	Fa6	Pc		30°	2h	Evolutionary adaptation of Aspergillus niger for increased ferulic acid tolerance	GSE135001	GSM3983442,GSM3983443
+an015002	Fa6	Fa		30°	2h	Evolutionary adaptation of Aspergillus niger for increased ferulic acid tolerance	GSE135001	GSM3983444,GSM3983445
+an015003	Fa6	Nc		30°	2h	Evolutionary adaptation of Aspergillus niger for increased ferulic acid tolerance	GSE135001	GSM3983446,GSM3983447
+an015004	N402	Fa		30°	2h	Evolutionary adaptation of Aspergillus niger for increased ferulic acid tolerance	GSE135001	GSM3983448,GSM3983449
+an016001	N402	Pc		30°	2h	Discovery and characterization of a novel p-hydroxybenzoate-m-hydroxylase, protocatechuate 3,4 ring-cleavage dioxygenase and hydroxyquinol 1,2 ring-cleavage dioxygenase from Aspergillus niger	GSE134999	GSM3983426,GSM3983427
+an016002	N402	Ca		30°	2h	Discovery and characterization of a novel p-hydroxybenzoate-m-hydroxylase, protocatechuate 3,4 ring-cleavage dioxygenase and hydroxyquinol 1,2 ring-cleavage dioxygenase from Aspergillus niger	GSE134999	GSM3983428,GSM3983429
+an016003	N402	Ph		30°	2h	Discovery and characterization of a novel p-hydroxybenzoate-m-hydroxylase, protocatechuate 3,4 ring-cleavage dioxygenase and hydroxyquinol 1,2 ring-cleavage dioxygenase from Aspergillus niger	GSE134999	GSM3983430,GSM3983431
+an016004	N402	Pr		30°	2h	Discovery and characterization of a novel p-hydroxybenzoate-m-hydroxylase, protocatechuate 3,4 ring-cleavage dioxygenase and hydroxyquinol 1,2 ring-cleavage dioxygenase from Aspergillus niger	GSE134999	GSM3983432,GSM3983433
+an016005	N402	Nc		30°	2h	Discovery and characterization of a novel p-hydroxybenzoate-m-hydroxylase, protocatechuate 3,4 ring-cleavage dioxygenase and hydroxyquinol 1,2 ring-cleavage dioxygenase from Aspergillus niger	GSE134999	GSM3983434,GSM3983435
+an017001	MA234.1	Percentage of maximum biomass: 70%	Glucose			A seven-membered cell wall related transglycosylase gene family in Aspergillus niger is relevant for cell wall integrity in cell wall mutants with reduced 伪-glucan or galactomannan	GSE142461	GSM4227764,GSM4227765
+an017002	TLF39	Percentage of maximum biomass: 70%	Glucose			A seven-membered cell wall related transglycosylase gene family in Aspergillus niger is relevant for cell wall integrity in cell wall mutants with reduced 伪-glucan or galactomannan	GSE142461	GSM4227766,GSM4227767
+an017003	TLF39	Percentage of maximum biomass: 70%	Glucose			A seven-membered cell wall related transglycosylase gene family in Aspergillus niger is relevant for cell wall integrity in cell wall mutants with reduced 伪-glucan or galactomannan	GSE142461	GSM4227768,GSM4227769
+an017004	MA234.1	Percentage of maximum biomass: 70%	Glucose			A seven-membered cell wall related transglycosylase gene family in Aspergillus niger is relevant for cell wall integrity in cell wall mutants with reduced 伪-glucan or galactomannan	GSE142461	GSM4227770,GSM4227771
+an018001	AB4.1deltapclA	Percentage of maximum biomass: 90percent	Glucose			Deletion of the Aspergillus niger pro-protein processing protease gene kexB results in a pH-dependent morphological transition during submerged cultivations and increases cell wall chitin content	GSE151618	GSM4586710
+an018002	N402	Percentage of maximum biomass: 90percent	Glucose			Deletion of the Aspergillus niger pro-protein processing protease gene kexB results in a pH-dependent morphological transition during submerged cultivations and increases cell wall chitin content	GSE151618	GSM4586711
+an018003	AB4.1deltapclA	Percentage of maximum biomass: 90percent	Glucose			Deletion of the Aspergillus niger pro-protein processing protease gene kexB results in a pH-dependent morphological transition during submerged cultivations and increases cell wall chitin content	GSE151618	GSM4586712
+an018004	N402	Percentage of maximum biomass: 90percent	Glucose			Deletion of the Aspergillus niger pro-protein processing protease gene kexB results in a pH-dependent morphological transition during submerged cultivations and increases cell wall chitin content	GSE151618	GSM4586713
+an019001	N593 delta-kusA parent	1xmm +1% wheat bran			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964905,GSM4964906,GSM4964907
+an019002	N593 delta-kusA parent	1xmm +1% wheat bran			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964908,GSM4964909,GSM4964910
+an019003	N593 delta-kusA parent	1xmm +1% wheat bran			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964911,GSM4964912,GSM4964913
+an019004	N593 delta-kusA parent	1xmm + 1% sugar beet pulp			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964914,GSM4964915,GSM4964916
+an019005	N593 delta-kusA parent	1xmm + 1% sugar beet pulp			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964917,GSM4964918,GSM4964919
+an019006	N593 delta-kusA parent	1xmm + 1% sugar beet pulp			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964920,GSM4964921,GSM4964922
+an019007	N593 delta-kusA xkiA	1xmm +1% wheat bran			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964923,GSM4964924,GSM4964925
+an019008	N593 delta-kusA xkiA	1xmm +1% wheat bran			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964926,GSM4964927,GSM4964928
+an019009	N593 delta-kusA xkiA	1xmm +1% wheat bran			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964929,GSM4964930,GSM4964931
+an019010	N593 delta-kusA xkiA	1xmm + 1% sugar beet pulp			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964932,GSM4964933,GSM4964934
+an019011	N593 delta-kusA xkiA	1xmm + 1% sugar beet pulp			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964935,GSM4964936,GSM4964937
+an019012	N593 delta-kusA xkiA	1xmm + 1% sugar beet pulp			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964938,GSM4964939,GSM4964940
+an019013	N593 delta-kusA larA/larB/xyrA	1xmm +1% wheat bran			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964941,GSM4964942,GSM4964943
+an019014	N593 delta-kusA larA/larB/xyrA	1xmm +1% wheat bran			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964944,GSM4964945,GSM4964946
+an019015	N593 delta-kusA larA/larB/xyrA	1xmm +1% wheat bran			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964947,GSM4964948,GSM4964949
+an019016	N593 delta-kusA larA/larB/xyrA	1xmm + 1% sugar beet pulp			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964950,GSM4964951,GSM4964952
+an019017	N593 delta-kusA larA/larB/xyrA	1xmm + 1% sugar beet pulp			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964953,GSM4964954,GSM4964955
+an019018	N593 delta-kusA larA/larB/xyrA	1xmm + 1% sugar beet pulp			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964956,GSM4964957,GSM4964958
+an019019	N593 delta-kusA ladA/xdhA/sdhA	1xmm +1% wheat bran			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964959,GSM4964960,GSM4964961
+an019020	N593 delta-kusA ladA/xdhA/sdhA	1xmm +1% wheat bran			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964962,GSM4964963,GSM4964964
+an019021	N593 delta-kusA ladA/xdhA/sdhA	1xmm +1% wheat bran			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964965,GSM4964966,GSM4964967
+an019022	N593 delta-kusA ladA/xdhA/sdhA	1xmm + 1% sugar beet pulp			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964968,GSM4964969,GSM4964970
+an019023	N593 delta-kusA ladA/xdhA/sdhA	1xmm + 1% sugar beet pulp			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964971,GSM4964972,GSM4964973
+an019024	N593 delta-kusA ladA/xdhA/sdhA	1xmm + 1% sugar beet pulp			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964974,GSM4964975,GSM4964976
+an019025	N593 delta-kusA lxrA/lxrB	1xmm +1% wheat bran			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964977,GSM4964978,GSM4964979
+an019026	N593 delta-kusA lxrA/lxrB	1xmm +1% wheat bran			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964980,GSM4964981,GSM4964982
+an019027	N593 delta-kusA lxrA/lxrB	1xmm +1% wheat bran			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964983,GSM4964984,GSM4964985
+an019028	N593 delta-kusA lxrA/lxrB	1xmm + 1% sugar beet pulp			2h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964986,GSM4964987,GSM4964988
+an019029	N593 delta-kusA lxrA/lxrB	1xmm + 1% sugar beet pulp			8h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964989,GSM4964990,GSM4964991
+an019030	N593 delta-kusA lxrA/lxrB	1xmm + 1% sugar beet pulp			24h	Re-routing of sugar catabolism provides a better insight into fungal flexibility in using plant biomass-derived monomers as substrates	GSE162901	GSM4964992,GSM4964993,GSM4964994
+an020001	N402	Incubation on cinnamic acid			2h	Identification of three enzymes of the vanillin and vanillic acid metabolic pathway in the filamentous fungi Aspergillus niger	GSE154865	GSM4681730,GSM4681731
+an020002	N402	Incubation on coniferyl alcohol			2h	Identification of three enzymes of the vanillin and vanillic acid metabolic pathway in the filamentous fungi Aspergillus niger	GSE154865	GSM4681732,GSM4681733
+an020003	N402	Incubation on vanillic acid			2h	Identification of three enzymes of the vanillin and vanillic acid metabolic pathway in the filamentous fungi Aspergillus niger	GSE154865	GSM4681734,GSM4681735
+an020004	N402	Incubation on veratric acid			2h	Identification of three enzymes of the vanillin and vanillic acid metabolic pathway in the filamentous fungi Aspergillus niger	GSE154865	GSM4681736,GSM4681737
+an021001	ku70	 incubation on inulin			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190805,GSM6190806,GSM6190807
+an021002	amyR mutant	Incubation on inulin			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190808,GSM6190809,GSM6190810
+an021003	inuR mutant	Incubation on inulin			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190811,GSM6190812,GSM6190813
+an021004	amyR & inuR mutant	Incubation on inulin			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190814,GSM6190815,GSM6190816
+an021005	ku70	 incubation on sucrose			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190817,GSM6190818,GSM6190819
+an021006	amyR mutant	 incubation on sucrose			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190820,GSM6190821,GSM6190822
+an021007	inuR mutant	 incubation on sucrose			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190823,GSM6190824,GSM6190825
+an021008	amyR & inuR mutant	 incubation on sucrose			40h 	Regulation of inulin and sucrose utilization by Aspergillus niger AmyR and InuR	GSE204768	GSM6190826,GSM6190827,GSM6190828

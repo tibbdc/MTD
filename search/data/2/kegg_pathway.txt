@@ -1,0 +1,125 @@
+Metabolic pathways
+Sphingolipid metabolism
+Protein processing in endoplasmic reticulum
+Biosynthesis of secondary metabolites
+Terpenoid backbone biosynthesis
+Glycerolipid metabolism
+mRNA surveillance pathway
+MAPK signaling pathway - yeast
+Meiosis - yeast
+Fatty acid metabolism
+Biosynthesis of cofactors
+Fatty acid biosynthesis
+Biotin metabolism
+N-Glycan biosynthesis
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+Non-homologous end-joining
+Homologous recombination
+Carbon metabolism
+Pentose phosphate pathway
+Biosynthesis of amino acids
+Arginine and proline metabolism
+Carbapenem biosynthesis
+Autophagy - yeast
+Ribosome
+Starch and sucrose metabolism
+Cyanoamino acid metabolism
+Biosynthesis of various plant secondary metabolites
+Nucleocytoplasmic transport
+Glycerophospholipid metabolism
+Cysteine and methionine metabolism
+Histidine metabolism
+Spliceosome
+Protein export
+Methane metabolism
+Purine metabolism
+Ubiquitin mediated proteolysis
+Autophagy - other
+Mitophagy - yeast
+Phenylalanine, tyrosine and tryptophan biosynthesis
+Nicotinate and nicotinamide metabolism
+Cell cycle - yeast
+Amino sugar and nucleotide sugar metabolism
+SNARE interactions in vesicular transport
+Motor proteins
+Glycolysis / Gluconeogenesis
+Pentose and glucuronate interconversions
+Ascorbate and aldarate metabolism
+Pyruvate metabolism
+Nucleotide metabolism
+Pyrimidine metabolism
+Lysine degradation
+Nucleotide excision repair
+Base excision repair
+ABC transporters
+Peroxisome
+Fatty acid degradation
+Ribosome biogenesis in eukaryotes
+RNA degradation
+Steroid biosynthesis
+Glyoxylate and dicarboxylate metabolism
+Tryptophan metabolism
+Inositol phosphate metabolism
+Phosphatidylinositol signaling system
+Pantothenate and CoA biosynthesis
+Valine, leucine and isoleucine degradation
+beta-Alanine metabolism
+Oxidative phosphorylation
+Aminoacyl-tRNA biosynthesis
+RNA polymerase
+Viral life cycle - HIV-1
+Endocytosis
+Nitrogen metabolism
+Basal transcription factors
+Butanoate metabolism
+Alanine, aspartate and glutamate metabolism
+Arginine biosynthesis
+Taurine and hypotaurine metabolism
+Porphyrin metabolism
+Folate biosynthesis
+Sulfur relay system
+Riboflavin metabolism
+Glutathione metabolism
+Carotenoid biosynthesis
+2-Oxocarboxylic acid metabolism
+Glycine, serine and threonine metabolism
+Lysine biosynthesis
+Monobactam biosynthesis
+Lipoic acid metabolism
+Biosynthesis of nucleotide sugars
+Fructose and mannose metabolism
+Galactose metabolism
+Various types of N-glycan biosynthesis
+Fatty acid elongation
+Phagosome
+Propanoate metabolism
+Citrate cycle (TCA cycle)
+Tyrosine metabolism
+Valine, leucine and isoleucine biosynthesis
+Other glycan degradation
+Proteasome
+One carbon pool by folate
+DNA replication
+Mismatch repair
+Vitamin B6 metabolism
+Thiamine metabolism
+Ubiquinone and other terpenoid-quinone biosynthesis
+Mannose type O-glycan biosynthesis
+Other types of O-glycan biosynthesis
+Sulfur metabolism
+C5-Branched dibasic acid metabolism
+Phenylalanine metabolism
+Selenocompound metabolism
+Ether lipid metabolism
+Phosphonate and phosphinate metabolism
+Biosynthesis of unsaturated fatty acids
+Arachidonic acid metabolism
+Atrazine degradation
+Caffeine metabolism
+Glycosaminoglycan degradation
+beta-Lactam resistance
+alpha-Linolenic acid metabolism
+Linoleic acid metabolism
+Sesquiterpenoid and triterpenoid biosynthesis
+D-Amino acid metabolism
+Glycosphingolipid biosynthesis - ganglio series
