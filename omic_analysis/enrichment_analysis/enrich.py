@@ -134,7 +134,7 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, p_adjust=0.05,
     fig.write_html(output_html_path)
     
     # 测试用
-    return output_image_path
+    return output_image_path, output_html_path
 
 
 def plot_go_chart(workdir, go_relust, width=1280, height=720, p_value=0.05, font_size=15, chart_num=30, chart_size=30, pic_type='bubble', color='rdbu_r', funciton_type='All'):
@@ -229,6 +229,8 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_value=0.05, font
     # 保存为html
     output_html_path = os.path.join(workdir, "output_file", "go.html")
     fig.write_html(output_html_path)
+
+    return output_image_path, output_html_path
 
 
 if __name__ == "__main__":
