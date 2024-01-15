@@ -165,7 +165,7 @@ def plot_corr_gene(workdir, gene_exp_input_path, width=900, height=600, color='g
     return output_image_path, output_html_path
 
 
-def create_gene_network(workdir, gene_exp_input_path, width=1200, height=900, bubble_size=4, threshold=0.6, k_value=0.5, iterations=10, color='geyser', method='pearson'):
+def plot_gene_network(workdir, gene_exp_input_path, width=1200, height=900, bubble_size=4, threshold=0.6, k_value=0.5, iterations=10, color='geyser', method='pearson'):
     """
     根据输入文件路径中的标准化基因表达水平矩阵，绘制基因相关性网络图
     
@@ -357,7 +357,7 @@ if __name__ == "__main__":
                 method='pearson')
     
     # 基因相关性网络图
-    create_gene_network(
+    plot_gene_network(
                 '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis',
                 '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis/input_file/expression_matrix_corr.csv',
                 width=900,
