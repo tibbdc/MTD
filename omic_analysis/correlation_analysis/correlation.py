@@ -13,12 +13,15 @@ def plot_corr_sample(workdir, gene_exp_input_path, width=900, height=600, color=
     根据输入文件路径中的标准化基因表达水平矩阵，绘制样本相关性热图
     
     Args:
+        workdir (str): 工作目录
         gene_exp_input_path (str): 标准化基因表达水平矩阵的文件路径
         workdir (str): 输出文件的工作目录
         width (int): 图片宽度
         height (int): 图片高度
         color (str): 颜色方案
         method (str): 计算相关性的方法，pearson或spearman
+
+    Returns: 图片路径，html路径
     """
     # 读取数据
     df_corr = pd.read_csv(gene_exp_input_path)
@@ -96,6 +99,8 @@ def plot_corr_gene(workdir, gene_exp_input_path, width=900, height=600, color='g
         height (int): 图片高度
         color (str): 颜色方案
         method (str): 计算相关性的方法，pearson或spearman
+
+    Returns: 图片路径，html路径
     """
     # 读取数据
     df_corr = pd.read_csv(gene_exp_input_path)
@@ -172,7 +177,16 @@ def plot_gene_network(workdir, gene_exp_input_path, width=1200, height=900, bubb
     Args:
         gene_exp_input_path (str): 标准化基因表达水平矩阵的文件路径
         workdir (str): 输出文件的工作目录
-        ...其他参数...
+        width (int): 图片宽度
+        height (int): 图片高度
+        color (str): 颜色方案
+        method (str): 计算相关性的方法，pearson或spearman
+        bubble_size (int): 节点大小
+        threshold (float): 相关性系数
+        k_value (float): 节点之间的距离
+        iterations (int): 迭代次数
+
+    Returns: 图片路径，html路径
     """
     # 读取数据
     df_corr = pd.read_csv(gene_exp_input_path)

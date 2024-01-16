@@ -18,9 +18,6 @@ def run_enrich(workdir, input_path, output_path, species, p_adjust, enrich_type)
         species (str): 菌种名称。
         p_adjust (float): P值阈值。
         enrich_type (str): 分析类型，"GO" 或 "KEGG"。
-
-    Returns:
-        str: R脚本的输出。
     """
     # 根据enrich_type确定脚本路径
     if enrich_type == 'GO':
@@ -63,6 +60,7 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, p_adjust=0.05,
         pic_type (str): 图表类型.有两种选择：'bubble'和'bar'
         color (str): 颜色. 
 
+    Returns: 输出图表、html文件的路径.
     """
     # 读取数据
     kegg_result = pd.read_csv(kegg_result, sep='\t')
@@ -152,7 +150,7 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, fon
         color (str): 颜色. Defaults to 'Geyser'.
         funciton_type (str): GO类型，可选BP, CC, MF, All. 
 
-    Returns:
+    Returns: 输出图表、html文件的路径.
     """
     # 读取数据
     go_relust = pd.read_csv(go_relust, sep='\t')

@@ -8,10 +8,11 @@ def run_pca(workdir, input_count_path, input_sample_path, output_png_path,output
     根据输入的表达量矩阵和样本信息表，运行R脚本，生成PCA分析的结果
 
     Args:
+        workdir: 工作目录
         input_count_path: 输入的表达量矩阵路径
         input_sample_path: 输入的样本信息表路径
         output_png_path: 输出的PCA分析结果图路径
-        output_json_path: 输出的PCA分析结果json路径
+        output_hmtl_path: 输出的PCA分析结果html路径
     """
 
     # R脚本的路径，需要师哥你改路径

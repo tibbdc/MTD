@@ -55,6 +55,8 @@ def plot_volcano(workdir, deseq2_relust, genelist=None, width=1200, height=900, 
         up_donw_info (bool): 是否显示上调和下调基因的数量. Defaults to True.
         x_fix (bool): 是否固定x轴范围. Defaults to False.
         y_fix (bool): 是否固定y轴范围. Defaults to False.
+
+    Returns: 上下调基因列表的路径，火山图图片的路径，火山图html的路径
     """
 
     # 读取数据
