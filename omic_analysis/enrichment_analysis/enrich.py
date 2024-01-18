@@ -31,6 +31,7 @@ def run_enrich(workdir, input_path, output_path, species, p_adjust, enrich_type)
 
     cmd = [
         'Rscript', script_path,
+        '--workdir', workdir,
         '--input', input_path,
         '--output', output_path,
         '--species', species,

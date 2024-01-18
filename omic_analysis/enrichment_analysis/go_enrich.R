@@ -3,12 +3,13 @@ library(optparse)
 library(clusterProfiler)
 library(dplyr)
 
-
 ## 测试
-#  Rscript go_enrich.R -s 'Myceliophthora thermophila' -p 0.05 -i 'input_file/gene_list.txt' -o 'output_file/enrich_kegg.tsv'
+#  Rscript go_enrich.R -w /Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis -s 'Myceliophthora thermophila' -p 0.05 -i 'input_file/gene_list.txt' -o 'output_file/go.tsv'
 
 # 设置命令行选项
 option_list <- list(
+  # 文件路径
+  make_option(c("-w", "--workdir"), type = "character", default = NULL, help = "工作目录路径", metavar = "workdir"),
   make_option(c("-s", "--species"), type = "character", default = "", help = "菌种名称", metavar = "species"),
   make_option(c("-p", "--pvalue"), type = "numeric", default = 0.05, help = "pvalue阈值", metavar = "pvalue"),
   make_option(c("-i", "--input"), type = "character", default = NULL, help = "输入文件路径", metavar = "file"),
@@ -19,22 +20,35 @@ option_list <- list(
 opt_parser = OptionParser(option_list=option_list)
 opt = parse_args(opt_parser)
 
-# 检查输入文件是否存在
-if (!file.exists(opt$input)) {
-  stop("输入文件不存在: ", opt$input)
+# 设置工作目录
+if (!is.null(opt$workdir)) {
+  setwd(opt$workdir)
 }
 
-# 背景文件，需要师哥你修改一下路径
-go2name <- read.delim('/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/go2name.txt', stringsAsFactors=FALSE)
-if (opt$species == "Aspergillus niger") {
-  go2gene <- read.delim('/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/go_gene_an.txt', stringsAsFactors=FALSE)
-} else if (opt$species == "Myceliophthora thermophila") {
-  go2gene <- read.delim('/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/go_gene_mt.txt', stringsAsFactors=FALSE)
-} else if (opt$species == "Trichoderma reesei") {
-  go2gene <- read.delim('/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/go_gene_tr.txt', stringsAsFactors=FALSE)
-} else if (opt$species == "Neurospora crassa") {
-  go2gene <- read.delim('/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/go_gene_nc.txt', stringsAsFactors=FALSE)
+# 构建背景文件路径
+background_dir <- "background_file"
+go2name_path <- file.path(background_dir, "go2name.txt")
+
+# 确保文件存在
+if (!file.exists(go2name_path)) {
+  stop("文件不存在: ", go2name_path)
 }
+go2name <- read.delim(go2name_path, stringsAsFactors=FALSE)
+
+# 根据不同的物种读取不同的文件
+if (opt$species == "Aspergillus niger") {
+  go2gene_path <- file.path(background_dir, "go_gene_an.txt")
+} else if (opt$species == "Myceliophthora thermophila") {
+  go2gene_path <- file.path(background_dir, "go_gene_mt.txt")
+} else if (opt$species == "Trichoderma reesei") {
+  go2gene_path <- file.path(background_dir, "go_gene_tr.txt")
+} else if (opt$species == "Neurospora crassa") {
+  go2gene_path <- file.path(background_dir, "go_gene_nc.txt")
+}
+go2gene <- read.delim(go2gene_path, stringsAsFactors=FALSE)
+
+
+
 
 # 读取gene list
 genelist <- read.csv(file = opt$input, row.names = 1)
@@ -73,6 +87,9 @@ enrich_all <- bind_rows(
   mutate(enrich_BP, category = "BP"),
   mutate(enrich_CC, category = "CC")
 )
+
+# 重命名列名
+colnames(enrich_all) <- c("GO", "Description", "GeneRatio", "BgRatio", "pvalue", "padjust", "qvalue", "geneID", "Count", "category")
 
 # 保存结果到指定的输出文件
 write.table(enrich_all, file = opt$output, sep = "\t", quote = FALSE, row.names = FALSE)
