@@ -234,30 +234,30 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, fon
 
 if __name__ == "__main__":
     
-    # 运行GO富集分析
-    run_enrich(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/input_file/gene_list.txt",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
-        "Myceliophthora thermophila",
-        0.05,
-        "GO"
-    )
+    # # 运行GO富集分析
+    # run_enrich(
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/input_file/gene_list.txt",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
+    #     "Myceliophthora thermophila",
+    #     0.05,
+    #     "GO"
+    # )
 
-    # 绘制GO富集分析气泡图
-    plot_go_chart(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
-        width=1000,
-        height=800,
-        p_adjust=0.05,
-        font_size=15,
-        chart_num=30,
-        chart_size=30,
-        pic_type='bubble',
-        color='rdbu_r',
-        funciton_type='All'
-    )
+    # # 绘制GO富集分析气泡图
+    # plot_go_chart(
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
+    #     width=1000,
+    #     height=800,
+    #     p_adjust=0.05,
+    #     font_size=15,
+    #     chart_num=30,
+    #     chart_size=30,
+    #     pic_type='bubble',
+    #     color='rdbu_r',
+    #     funciton_type='All'
+    # )
 
     # 运行KEGG富集分析
     run_enrich(
