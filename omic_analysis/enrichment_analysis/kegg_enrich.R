@@ -31,7 +31,7 @@ if (opt$species == "Aspergillus niger") {
   ko2gene <- read.delim("/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/kegg_gene_an.txt", stringsAsFactors = FALSE)
 } else if (opt$species == "Myceliophthora thermophila") {
   ko2name <- read.delim("/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/kegg_name_mt.txt", stringsAsFactors = FALSE)
-  ko2gene <- read.delim("//Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/kegg_gene_mt.txt", stringsAsFactors = FALSE)
+  ko2gene <- read.delim("/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/kegg_gene_mt.txt", stringsAsFactors = FALSE)
 } else if (opt$species == "Trichoderma reesei") {
   ko2name <- read.delim("/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/kegg_name_tr.txt", stringsAsFactors = FALSE)
   ko2gene <- read.delim("/Users/dongjiacheng/Desktop/coder/mtd/code/omic_analysis/enrichment_analysis/background_file/kegg_gene_tr.txt", stringsAsFactors = FALSE)
