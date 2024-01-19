@@ -1,3 +1,0 @@
-sequence_ID	prediction	score
-XP_003660100.1	True	0.8959
-P0CY08|MTAL2_YEAST_PDB_1AKH	True	0.9967
