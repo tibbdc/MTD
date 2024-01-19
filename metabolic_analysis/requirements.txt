@@ -4,5 +4,4 @@ biopython==1.81
 matplotlib==3.8.0
 symengine==0.10.0
 scipy==1.11.3
-plotly==5.17.0
 escher==1.7.3
