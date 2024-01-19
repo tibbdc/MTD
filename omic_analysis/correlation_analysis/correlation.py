@@ -77,11 +77,11 @@ def plot_corr_sample(workdir, gene_exp_input_path, width=900, height=600, color=
         align="left"
     )
     # 保存为高清图片
-    output_image_path = os.path.join(workdir, "output_file", "corr_sample.png")
+    output_image_path = os.path.join(workdir, "corr_sample.png")
     fig.write_image(output_image_path, scale=4)
 
     # 保存为html文件
-    output_html_path = os.path.join(workdir, "output_file", "corr_sample.html")
+    output_html_path = os.path.join(workdir, "corr_sample.html")
     fig.write_html(output_html_path)
 
     # 返回路径
@@ -159,11 +159,11 @@ def plot_corr_gene(workdir, gene_exp_input_path, width=900, height=600, color='g
         align="left"
     )
     # 保存为高清图片
-    output_image_path = os.path.join(workdir, "output_file", "corr_gene.png")
+    output_image_path = os.path.join(workdir, "corr_gene.png")
     fig.write_image(output_image_path, scale=4)
 
     # 保存为html文件
-    output_html_path = os.path.join(workdir, "output_file", "corr_gene.html")
+    output_html_path = os.path.join(workdir, "corr_gene.html")
     fig.write_html(output_html_path)
 
     # 返回路径
@@ -338,11 +338,11 @@ def plot_gene_network(workdir, gene_exp_input_path, width=1200, height=900, bubb
         template="plotly_white"
     )
     # 保存为高清图片
-    output_image_path = os.path.join(workdir, "output_file", "corr_gene_network.png")
+    output_image_path = os.path.join(workdir, "corr_gene_network.png")
     fig.write_image(output_image_path, scale=4)
 
     # 保存为html文件
-    output_html_path = os.path.join(workdir, "output_file", "corr_gene_network.html")
+    output_html_path = os.path.join(workdir, "corr_gene_network.html")
     fig.write_html(output_html_path)
 
     # 返回路径
@@ -354,7 +354,7 @@ if __name__ == "__main__":
 
     # 样本相关性热图
     plot_corr_sample(
-                '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis',
+                '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis/output_file',
                 '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis/input_file/expression_matrix_corr.csv',
                 width=900,
                 height=600,
@@ -363,7 +363,7 @@ if __name__ == "__main__":
     
     # 基因相关性热图
     plot_corr_gene(
-                '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis',
+                '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis/output_file',
                 '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis/input_file/expression_matrix_corr.csv',
                 width=900,
                 height=600,
@@ -372,7 +372,7 @@ if __name__ == "__main__":
     
     # 基因相关性网络图
     plot_gene_network(
-                '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis',
+                '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis/output_file',
                 '/Users/dongjiacheng/Desktop/Github/omic_analysis/correlation_analysis/input_file/expression_matrix_corr.csv',
                 width=900,
                 height=600,

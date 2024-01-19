@@ -7,7 +7,7 @@ import plotly.express as px
 import os
 
 
-def run_enrich(workdir, input_path, output_path, species, pvalue, enrich_type):
+def run_enrich(workdir, input_path, output_path, species, p_adjust, enrich_type):
     """
     运行GO或KEGG富集分析R脚本。
 
@@ -16,7 +16,7 @@ def run_enrich(workdir, input_path, output_path, species, pvalue, enrich_type):
         input_path (str): 输入文件的路径。
         output_path (str): 输出文件的路径。
         species (str): 菌种名称。
-        pvalue (float): P值阈值。
+        p_adjust (float): P值阈值。
         enrich_type (str): 分析类型，"GO" 或 "KEGG"。
     """
     # 根据enrich_type确定脚本路径
@@ -35,7 +35,7 @@ def run_enrich(workdir, input_path, output_path, species, pvalue, enrich_type):
         '--input', input_path,
         '--output', output_path,
         '--species', species,
-        '--pvalue', str(pvalue),
+        '--p_adjust', str(p_adjust),
     ]
 
     # 执行R脚本并捕获输出
@@ -46,7 +46,7 @@ def run_enrich(workdir, input_path, output_path, species, pvalue, enrich_type):
         return e.stderr
 
 
-def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, pvalue=0.05, font_size=15, chart_num=30, chart_size=30, color='rdbu_r',pic_type='bubble', funciton_type='All'):
+def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, p_adjust=0.05, font_size=15, chart_num=30, chart_size=30, color='rdbu_r',pic_type='bubble', funciton_type='All'):
     """根据输入的kegg富集结果，绘制气泡图
 
     Args:
@@ -54,7 +54,7 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, pvalue=0.05, f
         kegg_result (pd.DataFrame): kegg富集结果
         width (int): 图表宽度. 
         height (int): 图表高度. 
-        pvalue (float): P值阈值. 
+        p_adjust (float): P值阈值. 
         font_size (int): 字体大小. 
         chart_num (int): 最多显示的富集通路数量.
         chart_size (int): 气泡大小. 
@@ -74,7 +74,7 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, pvalue=0.05, f
     kegg_result['P.adjust'] = kegg_result['P.adjust'].apply(lambda x: round(x, 6))  # 控制P.adjust列的小数位数
 
     # 数据筛选
-    kegg_result = kegg_result[kegg_result['P.adjust'] < pvalue]  # 过滤P.adjust值
+    kegg_result = kegg_result[kegg_result['P.adjust'] < p_adjust]  # 过滤P.adjust值
     kegg_result = kegg_result.sort_values(by='Count', ascending=False)  # 按照Count列降序排列
     kegg_result = kegg_result.iloc[:chart_num]  # 取前chart_num个数据
 
@@ -126,17 +126,17 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, pvalue=0.05, f
     fig.update_coloraxes(**color_axis_args)
 
     # 保存为png，scale设置为4
-    output_image_path = os.path.join(workdir, "output_file", "kegg.png")
+    output_image_path = os.path.join(workdir, "kegg.png")
     fig.write_image(output_image_path, scale=4)
     # 保存为html
-    output_html_path = os.path.join(workdir, "output_file", "kegg.html")
+    output_html_path = os.path.join(workdir, "kegg.html")
     fig.write_html(output_html_path)
     
     # 测试用
     return output_image_path, output_html_path
 
 
-def plot_go_chart(workdir, go_relust, width=1280, height=720, pvalue=0.05, font_size=15, chart_num=30, chart_size=30, pic_type='bubble', color='rdbu_r', funciton_type='All'):
+def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, font_size=15, chart_num=30, chart_size=30, pic_type='bubble', color='rdbu_r', funciton_type='All'):
     """根据输入的GO富集分析结果，根据用户选择绘制气泡图或柱状图。
 
     Args:
@@ -144,7 +144,7 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, pvalue=0.05, font_
         go_relust (DataFrame): GO富集分析结果。
         width (int): 图表宽度. 
         height (int): 图表高度. 
-        pvalue (float): P值阈值. 
+        p_adjust (float): P值阈值. 
         chart_num (int): 最多显示富集功能数量. 
         chart_size (int): 图表大小. 
         pic_type (str): 图表类型，可选bubble或bar. 
@@ -165,7 +165,7 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, pvalue=0.05, font_
     go_relust["GeneRatio"] = go_relust["GeneRatio"].apply(lambda x: round(eval(x), 3))
     go_relust['P.adjust'] = go_relust['P.adjust'].apply(lambda x: round(x, 6))
     go_relust = go_relust.sort_values(by='Count', ascending=False)
-    go_relust = go_relust[go_relust["P.adjust"] < pvalue]
+    go_relust = go_relust[go_relust["P.adjust"] < p_adjust]
     go_relust = go_relust.iloc[:chart_num]
 
     # 过滤GO类型
@@ -223,10 +223,10 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, pvalue=0.05, font_
     fig.update_coloraxes(**color_axis_args)
 
     # 保存为png，scale设置为4
-    output_image_path = os.path.join(workdir, "output_file", "go.png")
+    output_image_path = os.path.join(workdir, "go.png")
     fig.write_image(output_image_path, scale=4)
     # 保存为html
-    output_html_path = os.path.join(workdir, "output_file", "go.html")
+    output_html_path = os.path.join(workdir, "go.html")
     fig.write_html(output_html_path)
 
     return output_image_path, output_html_path
@@ -246,11 +246,11 @@ if __name__ == "__main__":
 
     # 绘制GO富集分析气泡图
     plot_go_chart(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
+        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file",
         "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
         width=1000,
         height=800,
-        pvalue=0.05,
+        p_adjust=0.05,
         font_size=15,
         chart_num=30,
         chart_size=30,
@@ -271,11 +271,11 @@ if __name__ == "__main__":
 
     # 绘制KEGG富集分析气泡图
     plot_kegg_chart(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
+        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file",
         "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/kegg.tsv",
         width=1000,
         height=800,
-        pvalue=0.05,
+        p_adjust=0.05,
         font_size=15,
         chart_num=30,
         chart_size=30,

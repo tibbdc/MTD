@@ -176,16 +176,16 @@ def plot_volcano(workdir, deseq2_relust, genelist=None, width=1200, height=900, 
         fig.update_layout(yaxis_range=[0, 110])
 
     # 保存上调和下调基因列表
-    upregulated_genes_path = os.path.join(workdir, 'output_file', 'upregulated_genes.txt')
-    downregulated_genes_path = os.path.join(workdir, 'output_file', 'downregulated_genes.txt')
+    upregulated_genes_path = os.path.join(workdir, 'upregulated_genes.txt')
+    downregulated_genes_path = os.path.join(workdir, 'downregulated_genes.txt')
     deseq2_relust[upregulated]['Symbol'].to_csv(upregulated_genes_path, index=False, header=False)
     deseq2_relust[downregulated]['Symbol'].to_csv(downregulated_genes_path, index=False, header=False)
 
     # 保存为png，scale设置为4
-    output_image_path = os.path.join(workdir, "output_file", "volcano.png")
+    output_image_path = os.path.join(workdir, "volcano.png")
     fig.write_image(output_image_path, scale=4)
     # 保存为html
-    output_html_path = os.path.join(workdir, "output_file", "volcano.html")
+    output_html_path = os.path.join(workdir, "volcano.html")
     fig.write_html(output_html_path)
 
     # 返回路径
@@ -196,16 +196,16 @@ def plot_volcano(workdir, deseq2_relust, genelist=None, width=1200, height=900, 
 if __name__ == "__main__":
 
     # 运行差异分析
-    run_deseq(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/input_file/expression_matrix_deseq2.csv",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file/deseq2.tsv",
-        3,
-        )
+    # run_deseq(
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/input_file/expression_matrix_deseq2.csv",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file/deseq2.tsv",
+    #     3,
+    #     )
     
-    # 绘制火山图
+    # # 绘制火山图
     plot_volcano(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/",
+        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file",
         "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file/deseq2.tsv",
         genelist=['MYCTH_98562', 'MYCTH_2121938'],
         width=1200,

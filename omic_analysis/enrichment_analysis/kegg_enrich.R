@@ -11,8 +11,8 @@ library(dplyr)
 # 设置命令行选项
 option_list <- list(
   make_option(c("-w", "--workdir"), type = "character", default = NULL, help = "工作目录路径", metavar = "workdir"),
-  make_option(c("-s", "--species"), type = "character", default = "", help = "菌种名称", metavar = "species"),
-  make_option(c("-p", "--pvalue"), type = "numeric", default = 0.05, help = "pvalue阈值", metavar = "pvalue"),
+  make_option(c("-s", "--species"), type = "character", default = "Myceliophthora thermophila", help = "菌种名称", metavar = "species"),
+  make_option(c("-p", "--p_adjust"), type = "numeric", default = 0.05, help = "pvalue阈值", metavar = "pvalue"),
   make_option(c("-i", "--input"), type = "character", default = NULL, help = "输入文件路径", metavar = "file"),
   make_option(c("-o", "--output"), type = "character", default = NULL, help = "输出文件路径", metavar = "file")
 )
@@ -58,7 +58,7 @@ enrich_kegg <- enricher(genelist,
   TERM2GENE = ko2gene,
   TERM2NAME = ko2name,
   pAdjustMethod = "BH", # 使用FDR进行校正
-  pvalueCutoff = opt$pvalue,
+  pvalueCutoff = opt$p_adjust,
   qvalueCutoff = 1
 )
 
