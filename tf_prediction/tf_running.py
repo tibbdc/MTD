@@ -21,8 +21,8 @@ pip install numpy
 pip install scikit-learn
 pip install matplotlib
 
-python tf_running.py -i ./Dataset/example_tf.fasta -o ./result -g cpu
-python tf_running.py -i ./Dataset/example_tf.fasta -o ./result -g cuda:1
+python tf_running.py -i ./Dataset/tf.fasta -o ./result -g cpu
+python tf_running.py -i ./Dataset/tf.fasta -o ./result -g cuda:1
 """
 
 if __name__ == '__main__':
