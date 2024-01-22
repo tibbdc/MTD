@@ -24,7 +24,7 @@ def deepfactor_predict(workdir, input_fasta_path, output_predict_result_path, gp
     Args:
         workdir (str): deepfactor工作目录
         input_fasta_path (str): 输入fasta文件路径
-        output_predict_result_path (str): 输出预测结果文件路径
+        output_predict_result_path (str): 输出预测结果文件目录
         gpu (bool, optional): 是否使用gpu. Defaults to False.
 
     Returns:
