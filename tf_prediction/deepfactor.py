@@ -13,6 +13,8 @@ python tf_running.py -i ./Dataset/tf.fasta -o ./result -g cuda:1
 CPU运行: M1芯片
 - 运行2个蛋白序列, 用时约2秒
 - 运行20个蛋白序列, 用时约16秒
+
+GPU运行不成功
 """
 
 
@@ -51,7 +53,7 @@ def deepfactor_predict(workdir, input_fasta_path, output_predict_result_path, gp
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     except subprocess.CalledProcessError as e:
-        return e.stderr  # 正确使用 stderr 而不是 stderrs
+        return e.stderr  
     
     # 读取结果文件, 生成dataframe, 并重命名列名
     output_predict_result = os.path.join(output_predict_result_path, 'prediction_result.txt')
@@ -72,5 +74,5 @@ def deepfactor_predict(workdir, input_fasta_path, output_predict_result_path, gp
 if __name__ == '__main__':
 
     deepfactor_predict('/Users/dongjiacheng/Desktop/Github/tf_prediction/',
-                        '/Users/dongjiacheng/Desktop/Github/tf_prediction/Dataset/tf_20.fasta',
+                        '/Users/dongjiacheng/Desktop/Github/tf_prediction/Dataset/tf.fasta',
                         '/Users/dongjiacheng/Desktop/Github/tf_prediction/result')

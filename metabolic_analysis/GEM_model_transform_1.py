@@ -15,29 +15,30 @@ import argparse
 
 
 """
-python tranfromdata_and_model.py --input input_file/model_input.tsv --output output_file/model_output.tsv
+python GEM_model_transform_1.py --workdir /Users/dongjiacheng/Desktop/Github/metabolic_analysis --input input_file/model_input.tsv --output output_file/model_output.tsv
 """
 
 
 def read_config():
     parser = argparse.ArgumentParser(description='This code is used to integrate transcriptome data')
+    parser.add_argument('--workdir', '-w', required=True, help='workdir')
     parser.add_argument('--input', '-i', required=True, help='')
-    parser.add_argument('--output', '-o', required=False, default='output/output.csv ', help='tre file')
+    parser.add_argument('--output', '-o', required=False, default='model_output.tsv ', help='tre file')
     arg = parser.parse_args()
+    workdir = arg.workdir
     input_fasta_path = arg.input
     fasttree_prot_output = arg.output
     
-    return input_fasta_path,fasttree_prot_output   
+    return workdir,input_fasta_path,fasttree_prot_output
 
-def bing_transcriptome(inputfile):
+def bing_transcriptome(workdir,input_file):
 
-    # 模型背景文件路径,需要修改
-    model_path="model/ecMTM_TurNup_C13.json"
+    # 模型背景文件路径
+    model_path= os.path.join(workdir,'ecMTM_TurNup_C13.json')
 
-    # data.to_csv(inputfile, index=False, sep='\t', encoding='utf-8')
+    # data.to_csv(input_file, index=False, sep='\t', encoding='utf-8')
     my_model=get_enzyme_constraint_model(model_path)
 
-    
     my_model.reactions.get_by_id('R2399').bounds = (-1000, 0.0)#葡萄糖打开
     my_model.reactions.get_by_id('R2402').bounds = (-1000, 0.0)#果糖打开
     my_model.reactions.get_by_id('R2412').bounds = (-1000, 0.0)#蔗糖打开
@@ -46,7 +47,7 @@ def bing_transcriptome(inputfile):
     my_model.reactions.get_by_id('R2401').bounds = (-1000, 0.0)#半乳糖打开
     my_model.reactions.get_by_id('R2408').bounds = (-1000, 0.0)#木糖糖打开
     my_model.reactions.get_by_id('R2405').bounds = (-1000, 0.0)#阿拉伯糖打开
-    transcript_abundances_1 = riptide.read_transcription_file(inputfile)#读取转录组数据
+    transcript_abundances_1 = riptide.read_transcription_file(input_file)#读取转录组数据
     riptide_object_1_a = riptide.contextualize(model=my_model, transcriptome=transcript_abundances_1)#整合数据
     model=riptide_object_1_a.model#得到模型
     solution = model.optimize()#求解
@@ -76,10 +77,9 @@ def bing_transcriptome(inputfile):
    
     
 def main():
-
     
-    inputfile,outputdir=read_config()
-    df=bing_transcriptome(inputfile)
+    workdir,input_file,outputdir=read_config()
+    df=bing_transcriptome(workdir,input_file)
     df.to_csv(outputdir,index=0, sep='\t')
 
 
