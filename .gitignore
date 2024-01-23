@@ -7,4 +7,6 @@ metabolic_analysis/script/__pycache__
 
 tf_prediction/data/
 tf_prediction/seq/
+tf_prediction/deeptfactor/__pycache__
+tf_prediction/__pycache__
 

@@ -13,9 +13,14 @@ python GEM_model_transform_2.py --workdir /Users/dongjiacheng/Desktop/Github/met
 
 """
 
+"""模型运行时间
+- 提交单个数据，运行45秒左右
+- 提交两个数据，运行80秒左右
+"""
+
 
 def run_mt_model_1(workdir, model_input_path, model_output_path):
-    """根据用户提交的转录组数据tsv文件, 运行模型, 预测通量，生成结果tsv文件
+    """根据用户提交的转录组数据csv文件, 运行模型, 预测通量，生成结果tsv文件
 
     Args:
         workdir (str): 工作目录
@@ -34,6 +39,13 @@ def run_mt_model_1(workdir, model_input_path, model_output_path):
     # 脚本文件路径
     script_path = os.path.join(workdir, 'GEM_model_transform_1.py')
 
+    # 将输入的csv文件转换为tsv文件
+    df = pd.read_csv(model_input_path, header=0)
+    model_input_dir = os.path.join(workdir, 'input_file')
+    os.makedirs(model_input_dir, exist_ok=True)
+    model_input_path = os.path.join(model_input_dir, 'model_input.tsv')
+    df.to_csv(model_input_path, sep='\t', header=False, index=False)
+
     # 运行脚本
     cmd = [
         'python', script_path,
@@ -50,16 +62,19 @@ def run_mt_model_1(workdir, model_input_path, model_output_path):
     # 读取模型的输出文件
     df_reaction = pd.read_csv(model_output_path,sep='\t')
     df_reaction['flux'] = df_reaction['flux'].round(6)
-    df_reaction = df_reaction.iloc[:, [0, 2]]
 
+    # 保存为tsv文件
+    df_reaction.to_csv(model_output_path,sep='\t',index=False)
+
+    df_reaction = df_reaction.iloc[:, [0, 2]]
     data = df_reaction.set_index('reactionid')['flux'].to_dict()
     # print(data)
-
     return data
     
 
+
 def run_mt_model_2(workdir, model_input_path1, model_input_path2, model_output_path):
-    """根据用户提交的两个转录组数据tsv文件, 运行模型, 预测通量，生成结果tsv文件，展示两个结果的差异
+    """根据用户提交的两个转录组数据csv文件, 运行模型, 预测通量，生成结果tsv文件，展示两个结果的差异
 
     Args:
         workdir (str): 工作目录
@@ -79,6 +94,17 @@ def run_mt_model_2(workdir, model_input_path1, model_input_path2, model_output_p
     """    
     # 脚本文件路径
     script_path = os.path.join(workdir, 'GEM_model_transform_2.py')
+
+    # 将输入的csv文件转换为tsv文件
+    df1 = pd.read_csv(model_input_path1, header=0)
+    model_input_dir = os.path.join(workdir, 'input_file')
+    os.makedirs(model_input_dir, exist_ok=True)
+    model_input_path1 = os.path.join(model_input_dir, 'model_input_control.tsv')
+    df1.to_csv(model_input_path1, sep='\t', header=False, index=False)
+
+    df2 = pd.read_csv(model_input_path2, header=0)
+    model_input_path2 = os.path.join(model_input_dir, 'model_input_treatment.tsv')
+    df2.to_csv(model_input_path2, sep='\t', header=False, index=False)
 
     # 运行脚本
     cmd = [
@@ -116,24 +142,27 @@ def run_mt_model_2(workdir, model_input_path1, model_input_path2, model_output_p
 
 
 
+
 if __name__ == '__main__':
 
     import time
     # 记录运算开始时间
     start_time = time.time()
-    # run_mt_model_1('/Users/dongjiacheng/Desktop/Github/metabolic_analysis', 
-    #                '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input.tsv', 
-    #                '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/output_file/model_output.tsv')
+    run_mt_model_1('/Users/dongjiacheng/Desktop/Github/metabolic_analysis', 
+                   '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input.csv', 
+                   '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/output_file/model_output.tsv')
+    
     # 记录运算结束时间
     end_time1 = time.time()
     # 计算运算时间
     total_time = end_time1 - start_time
     print(f"模型1运行耗时: {total_time:.2f} 秒")
 
-    run_mt_model_2('/Users/dongjiacheng/Desktop/Github/metabolic_analysis',
-                     '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_control.tsv',
-                     '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_treatment.tsv',
-                     '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/output_file/model_output_difference.tsv')
+    # run_mt_model_2('/Users/dongjiacheng/Desktop/Github/metabolic_analysis',
+    #                  '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_control.csv',
+    #                  '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_treatment.csv',
+    #                  '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/output_file/model_output_difference.tsv')
+    
     # 记录运算结束时间
     end_time2 = time.time()
     # 计算运算时间

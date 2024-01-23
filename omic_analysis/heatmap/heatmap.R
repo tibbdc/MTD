@@ -94,6 +94,7 @@ draw_heatmap_log <- function(args) {
           legend = TRUE,
           silent = TRUE
     )
+    return(p)
     }
     else {
       my_colors <- colorRampPalette(c(args$color_down, args$color_mid, args$color_up))(n = 256)

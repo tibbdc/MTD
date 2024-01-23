@@ -1,3 +1,0 @@
-sequence_ID	prediction	score
-XP_003658513.1	False	0.0236
-XP_003658514.1	False	0.4600

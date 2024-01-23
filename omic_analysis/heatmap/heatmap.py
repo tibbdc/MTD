@@ -4,7 +4,7 @@ import subprocess
 import os
 
 
-def run_heatmap(workdir, input_path, output_path, color_up="default", color_down="default", color_mid="default", show_border=False, scale='log2', cluster_rows=True, cluster_cols=False, cellwidth="20", cellheight="20", fontsize="10"):
+def run_heatmap(workdir, input_path, output_path, color_up="#F76809", color_down="#0766AD", color_mid="#FFFFF", show_border=False, scale='log2', cluster_rows=True, cluster_cols=False, cellwidth="20", cellheight="20", fontsize="10"):
     """根据输入的表达矩阵，生成热图
 
     Args:
@@ -62,7 +62,8 @@ if __name__ == "__main__":
         color_down="#0766AD",
         color_mid="#FFFFFF",
         show_border=True,
-        scale='log2',
+        # scale='log2',
+        scale='z-score',
         cluster_rows=True,
         cluster_cols=False,
         cellwidth="20",
