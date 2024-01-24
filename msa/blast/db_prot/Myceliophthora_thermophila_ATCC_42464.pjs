@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Myceliophthora_thermophila_ATCC_42464",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "protein-file/Myceliophthora_thermophila_ATCC_42464.faa",
+  "number-of-letters": 4305654,
+  "number-of-sequences": 9097,
+  "last-updated": "2023-12-08T09:55:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6016314,
+  "bytes-to-cache": 4387696,
+  "files": [
+    "Myceliophthora_thermophila_ATCC_42464.pdb",
+    "Myceliophthora_thermophila_ATCC_42464.phr",
+    "Myceliophthora_thermophila_ATCC_42464.pin",
+    "Myceliophthora_thermophila_ATCC_42464.pot",
+    "Myceliophthora_thermophila_ATCC_42464.psq",
+    "Myceliophthora_thermophila_ATCC_42464.ptf",
+    "Myceliophthora_thermophila_ATCC_42464.pto"
+  ]
+}

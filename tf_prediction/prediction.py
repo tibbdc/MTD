@@ -70,7 +70,7 @@ if __name__ == '__main__':
     start_time = time.time()
 
     deepfactor_predict('/Users/dongjiacheng/Desktop/Github/tf_prediction/',
-                        '/Users/dongjiacheng/Desktop/Github/tf_prediction/input_file/tf.fasta',
+                        '/Users/dongjiacheng/Desktop/Github/tf_prediction/input_file/tf_20.fasta',
                         '/Users/dongjiacheng/Desktop/Github/tf_prediction/output_file')
     
     # 记录运算结束时间  
