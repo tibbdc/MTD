@@ -8,12 +8,10 @@ tf_prediction/seq/
 tf_prediction/deeptfactor/__pycache__
 tf_prediction/__pycache__
 
-msa/backup_software
 msa/blast/bin
 msa/blast/doc
 msa/blast/protein_file
 msa/blast/db_prot_all
-
 msa/mafft-mac/mafftdir
 
 
