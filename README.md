@@ -14,3 +14,7 @@ https://dongjc.notion.site/dongjc/MTD-e39ef7b0e627460eab37b35ee6700590
 - 添加了msa（蛋白序列比对、多序列比对、进化树构建）的内容：代码、文档、界面
 
 
+### 2024.1.25
+- 优化了msa中的代码
+
+
