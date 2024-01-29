@@ -62,6 +62,7 @@ def run_mt_model_1(workdir, model_input_path, model_output_path):
     # 读取模型的输出文件
     df_reaction = pd.read_csv(model_output_path,sep='\t')
     df_reaction['flux'] = df_reaction['flux'].round(6)
+    df_reaction['flux'] = df_reaction['flux'].apply(lambda x: '{:.6f}'.format(x)) # 将flux列转换为不使用科学记数法的字符串
 
     # 保存为tsv文件
     df_reaction.to_csv(model_output_path,sep='\t',index=False)
@@ -126,6 +127,7 @@ def run_mt_model_2(workdir, model_input_path1, model_input_path2, model_output_p
     # 计算两种条件下通量的差异
     df_reaction['flux_difference'] = df_reaction['flux_df2'] - df_reaction['flux_df1']
     df_reaction['flux_difference'] = df_reaction['flux_difference'].round(6)
+    df_reaction['flux_difference'] = df_reaction['flux_difference'].apply(lambda x: '{:.6f}'.format(x)) # 将flux列转换为不使用科学记数法的字符串
 
     # 构造字典
     data = df_reaction.set_index('reactionid')['flux_difference'].to_dict()
@@ -158,10 +160,10 @@ if __name__ == '__main__':
     total_time = end_time1 - start_time
     print(f"模型1运行耗时: {total_time:.2f} 秒")
 
-    # run_mt_model_2('/Users/dongjiacheng/Desktop/Github/metabolic_analysis',
-    #                  '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_control.csv',
-    #                  '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_treatment.csv',
-    #                  '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/output_file/model_output_difference.tsv')
+    run_mt_model_2('/Users/dongjiacheng/Desktop/Github/metabolic_analysis',
+                     '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_control.csv',
+                     '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/input_file/model_input_treatment.csv',
+                     '/Users/dongjiacheng/Desktop/Github/metabolic_analysis/output_file/model_output_difference.tsv')
     
     # 记录运算结束时间
     end_time2 = time.time()

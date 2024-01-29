@@ -1,6 +1,6 @@
 reactionid	equation	flux
 R2	R2: glc__D_c --> 0.67 BDGLC_c + 0.33 Glc_aD_c	6.855547
-R3	R3: Glc_aD_c --> BDGLC_c	2.26233
+R3	R3: Glc_aD_c --> BDGLC_c	2.262330
 R6	R6_num1: BDGLC_c + atp_c --> adp_c + g6p_B_c + h_c	6.855547
 R7	R7: g6p_B_c --> f6p_c	6.855547
 R9	R9: h_c + pyr_c --> acald_c + co2_c	21.685582
@@ -11,8 +11,8 @@ R25	R25: 0.2619 atp_c + 0.0187 damp_c + 0.01982 dcmp_c + 0.01982 dgmp_c + 0.0187
 R40	R40: 2pg_c --> h2o_c + pep_c	25.036185
 R42	R42_num1: 3pg_c --> 2pg_c	25.036185
 R46	R46: coa_m + nad_m + pyr_m --> accoa_m + co2_m + h_m + nadh_m	1.762475
-R50	R50: g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c	25.26847
-R51	R51: 13dpg_c + adp_c --> 3pg_c + atp_c	25.26847
+R50	R50: g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c	25.268470
+R51	R51: 13dpg_c + adp_c --> 3pg_c + atp_c	25.268470
 R53	R53_num1: R5P_c + atp_c --> amp_c + h_c + prpp_c	0.095433
 R54	R54: ru5p__D_c --> xu5p__D_c	0.187326
 R55	R55: g6p_c + nadp_c --> 6pgl_c + h_c + nadph_c	0.422374
@@ -29,15 +29,15 @@ R115	R115: atp_c + cit_c + coa_c --> accoa_c + adp_c + oaa_c + pi_c	0.712369
 R117	R117_num1: icit_m + nad_m --> akg_m + co2_m + nadh_m	0.303082
 R128	R128: ala__L_c + glx_c --> gly_c + pyr_c	0.194376
 R134	R134_num1: f6p_c + gln__L_c --> gam6p_c + glu__L_c	0.132972
-R144	R144: asp__L_c + atp_c + nh4_c --> amp_c + asn__L_c + h_c + ppi_c	0.07538
+R144	R144: asp__L_c + atp_c + nh4_c --> amp_c + asn__L_c + h_c + ppi_c	0.075380
 R145	R145: akg_c + gln__L_c + h_c + nadh_c --> 2.0 glu__L_c + nad_c	1.756136
 R151	R151: acgam1p_c + h_c + utp_c --> ppi_c + uacgam_c	0.132972
 R159	R159: acgam6p_c --> acgam1p_c	0.132972
 R165	R165_num1: TRNA_c + ala__L_c + atp_c --> TRNAALA_c + amp_c + ppi_c	0.146155
-R169	R169_num1: TRNA_c + asn__L_c + atp_c --> TRNAASN_c + amp_c + ppi_c	0.07538
-R171	R171: TRNA_c + arg__L_c + atp_c --> TRNAARG_c + amp_c + ppi_c	0.09521
+R169	R169_num1: TRNA_c + asn__L_c + atp_c --> TRNAASN_c + amp_c + ppi_c	0.075380
+R171	R171: TRNA_c + arg__L_c + atp_c --> TRNAARG_c + amp_c + ppi_c	0.095210
 R173	R173: TRNA_c + atp_c + cys__L_c --> TRNACYS_c + amp_c + ppi_c	0.001863
-R177	R177_num1: TRNA_c + atp_c + ser__L_c --> TRNASER_c + amp_c + ppi_c	0.09528
+R177	R177_num1: TRNA_c + atp_c + ser__L_c --> TRNASER_c + amp_c + ppi_c	0.095280
 R178	R178: TRNA_c + atp_c + gly_c --> TRNAGLY_c + amp_c + ppi_c	0.112051
 R181	R181: TRNA_c + atp_c + his__L_c --> TRNAHIS_c + amp_c + ppi_c	0.025877
 R182	R182_num1: TRNA_c + atp_c + ile__L_c --> TRNAILE_c + amp_c + ppi_c	0.070704
@@ -46,13 +46,13 @@ R192	R192: TRNA_c + atp_c + phe__L_c --> TRNAPHE_c + amp_c + ppi_c	0.060895
 R210	R210: akg_c + orn__L_c --> glu5sa_c + glu__L_c	0.081674
 R214	R214: glu5sa_c --> 1pyr5c_c + h2o_c + h_c	0.081674
 R215	R215_num1: 1pyr5c_c + 2.0 h_c + nadph_c --> nadp_c + pro__L_c	0.081674
-R235	R235: cbp_m + orn_m --> citr__L_m + h_m + pi_m	0.09521
+R235	R235: cbp_m + orn_m --> citr__L_m + h_m + pi_m	0.095210
 R238	R238_num1: acg5p_m + h_m + nadph_m --> acg5sa_m + nadp_m + pi_m	0.176884
-R244	R244: argsuc_c --> arg__L_c + fum_c	0.09521
+R244	R244: argsuc_c --> arg__L_c + fum_c	0.095210
 R255	R255_num1: 2.0 atp_m + hco3_m + nh4_m --> 2.0 adp_m + cbp_m + 2.0 h_m + pi_m	0.118737
 R302	R302: C180ACP_c + h_c + nadph_c + o2_c --> C181ACP_c + 2.0 h2o_c + nadp_c	0.025615
 R303	R303: C181ACP_c + h_c + nadph_c + o2_c --> C182ACP_c + 2.0 h2o_c + nadp_c	0.013115
-R351	R351: e4p_c + xu5p__D_c --> f6p_c + g3p_c	0.04771
+R351	R351: e4p_c + xu5p__D_c --> f6p_c + g3p_c	0.047710
 R395	R395_num1: accoa_c + hom__L_c --> achms_c + coa_c	0.003235
 R398	R398: achms_c + h2s_c --> ac_c + h_c + hcys__L_c	0.003235
 R401	R401: ahcys_c + h2o_c --> adn_c + hcys__L_c	0.022084
@@ -61,21 +61,21 @@ R431	R431: 5mthf_c + hcys__L_c --> met__L_c + thf_c	0.025318
 R441	R441: h_c + pphn_c --> co2_c + h2o_c + phpyr_c	0.060895
 R504	R504_num1: C18HACP_c --> C18DACP_c + h2o_c	0.028554
 R505	R505_num1: C18DACP_c + h_c + nadph_c --> C180ACP_c + nadp_c	0.028554
-R512	R512_num1: ACP_c + ppcoa_c --> PROPACP_c + coa_c	0.00017
-R517	R517: PROPACP_c + 2.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C50ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.00017
-R522	R522: C50ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C70ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.00017
-R527	R527: C70ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C90ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.00017
-R532	R532: C90ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C110ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.00017
-R537	R537: C110ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C130ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.00017
-R542	R542: C130ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C150ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.00017
-R547	R547: C150ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C170ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.00017
-R583	R583_num1: C171ACP_c + coa_c --> ACP_c + C171COA_c	0.00017
+R512	R512_num1: ACP_c + ppcoa_c --> PROPACP_c + coa_c	0.000170
+R517	R517: PROPACP_c + 2.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C50ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.000170
+R522	R522: C50ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C70ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.000170
+R527	R527: C70ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C90ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.000170
+R532	R532: C90ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C110ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.000170
+R537	R537: C110ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C130ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.000170
+R542	R542: C130ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C150ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.000170
+R547	R547: C150ACP_c + 3.0 h_c + malACP_c + 2.0 nadph_c --> ACP_c + C170ACP_c + co2_c + h2o_c + 2.0 nadp_c	0.000170
+R583	R583_num1: C171ACP_c + coa_c --> ACP_c + C171COA_c	0.000170
 R584	R584_num1: C180ACP_c + coa_c --> ACP_c + stcoa_c	0.000345
-R585	R585_num1: C181ACP_c + coa_c --> ACP_c + ocdce9coa_c	9.3e-05
+R585	R585_num1: C181ACP_c + coa_c --> ACP_c + ocdce9coa_c	0.000093
 R614	R614: PE_c + amet_c --> C01241_c + ahcys_c + h_c	0.003262
 R615	R615: C01241_c + amet_c --> C04308_c + ahcys_c + h_c	0.003262
 R616	R616: C04308_c + amet_c --> ahcys_c + h_c + pcholho_c	0.003262
-R617	R617: MIPC_c + gdpmann_c --> DMIPC_c + gdp_c + h_c	3.5e-05
+R617	R617: MIPC_c + gdpmann_c --> DMIPC_c + gdp_c + h_c	0.000035
 R619	R619_num1: accoa_c + carP_c --> BCCP_c + malcoa_c	0.316988
 R731	R731: f6p_c + h_c + nadh_c --> mnl1p_c + nad_c	0.295875
 R784	R784: udpgal_c --> udpgalfur_c	0.004131
@@ -92,7 +92,7 @@ R904	R904: aspsa_c + h_c + nadh_c --> hom__L_c + nad_c	0.003235
 R905	R905_num1: 3pg_c + nad_c --> 3php_c + h_c + nadh_c	0.232286
 R906	R906: 3php_c + glu__L_c --> akg_c + pser__L_c	0.232286
 R915	R915: asp__L_c + atp_c --> 4pasp_c + adp_c	0.003235
-R922	R922: CERB2_c + pailho_c --> IPC_c + h2o_c	3.5e-05
+R922	R922: CERB2_c + pailho_c --> IPC_c + h2o_c	0.000035
 R923	R923_num1: icit_x --> glx_x + succ_x	0.194376
 R936	R936: for_c + h_c + o2_c --> co2_c + h2o2_c	0.012299
 R939	R939: atp_c + prpp_c --> ppi_c + prbatp_c	0.025877
@@ -103,9 +103,9 @@ R943	R943: gln__L_c + prlp_c --> aicar_c + eig3p_c + glu__L_c + h_c	0.025877
 R944	R944: eig3p_c --> h2o_c + imacp_c	0.025877
 R946	R946: h2o_c + hisp_c --> histd_c + pi_c	0.025877
 R947	R947_num1: h2o_c + histd_c + 2.0 nad_c --> 3.0 h_c + his__L_c + 2.0 nadh_c	0.025877
-R977	R977: CDPDG_c + inost_c --> cmp_c + pailho_c	0.00049
+R977	R977: CDPDG_c + inost_c --> cmp_c + pailho_c	0.000490
 R989	R989: 2ahbut_m + h_m + nadph_m --> 23dhmp_m + nadp_m	0.070704
-R1001	R1001: 2obut_m + coa_m + nad_m --> co2_m + nadh_m + ppcoa_m	0.00017
+R1001	R1001: 2obut_m + coa_m + nad_m --> co2_m + nadh_m + ppcoa_m	0.000170
 R1004	R1004_num1: b124tc_m + h2o_m --> hicit_m	0.113809
 R1005	R1005: hicit_m + nad_m --> h_m + nadh_m + oxag_m	0.113809
 R1006	R1006: h_m + oxag_m --> 2oxoadp_m + co2_m	0.113809
@@ -119,7 +119,7 @@ R1106	R1106: mlthf_c + nad_c --> methf_c + nadh_c	0.072441
 R1107	R1107_num1: h_c + mlthf_c + nadph_c --> 5mthf_c + nadp_c	0.025318
 R1114	R1114_num1: h2o_c + methf_c --> 10fthf_c + h_c	0.072441
 R1122	R1122_num1: h2o_c + ppi_c --> h_c + 2.0 pi_c	2.592645
-R1171	R1171: C170ACP_c + h_c + nadh_c + o2_c --> C171ACP_c + 2.0 h2o_c + nad_c	0.00017
+R1171	R1171: C170ACP_c + h_c + nadh_c + o2_c --> C171ACP_c + 2.0 h2o_c + nad_c	0.000170
 R1188	R1188: glu__L_c + phpyr_c --> akg_c + phe__L_c	0.060895
 R1194	R1194_num1: 2dda7p_c --> 3dhq_c + pi_c	0.091905
 R1195	R1195_num1: 3dhq_c --> 3dhsk_c + h2o_c	0.091905
@@ -169,28 +169,28 @@ R1455	R1455_num1: ac_c + atp_c + coa_c --> accoa_c + amp_c + ppi_c	0.003235
 R1461	R1461: dhf_c + h_c + nadph_c --> nadp_c + thf_c	0.006575
 R1505	R1505: h_c + nadph_c + trdox_c --> nadp_c + trdrd_c	0.032184
 R1518	R1518: h_c + pmtcoa_c + ser__L_c --> 3dsphgn_c + co2_c + coa_c	0.000202
-R1520	R1520: h_c + nadph_c + o2_c + sphgn_c --> h2o_c + nadp_c + psphings_c	5.2e-05
+R1520	R1520: h_c + nadph_c + o2_c + sphgn_c --> h2o_c + nadp_c + psphings_c	0.000052
 R1521	R1521: ser__L_c + stcoa_c --> C20DHSPH_c + co2_c + coa_c	0.000124
-R1523	R1523: C20SPH_c + h_c + nadph_c + o2_c --> C20PSPH_c + h2o_c + nadp_c	5.2e-05
-R1524	R1524: C171COA_c + 4.0 h_c + ser__L_c --> C191DHSPH_c + co2_c + coa_c	0.00017
-R1526	R1526_num1: psphings_c + stcoa_c --> CERB1A_c + coa_c	2.6e-05
-R1527	R1527_num1: ocdce9coa_c + psphings_c --> CERB1B_c + coa_c	2.6e-05
-R1528	R1528_num1: C20PSPH_c + stcoa_c --> CERB1C_c + coa_c + 3.0 h_c	2.6e-05
-R1529	R1529_num1: C20PSPH_c + ocdce9coa_c --> CERB1D_c + coa_c + 3.0 h_c	2.6e-05
-R1530	R1530_num1: sphgn_c + stcoa_c --> CERB2A_c + coa_c	7.5e-05
-R1531	R1531_num1: ocdce9coa_c + sphgn_c --> CERB2B_c + coa_c	7.5e-05
-R1532	R1532_num1: C20SPH_c + stcoa_c --> CERB2C_c + coa_c + 3.0 h_c	3.6e-05
-R1533	R1533_num1: C20SPH_c + ocdce9coa_c --> CERB2D_c + coa_c + 3.0 h_c	3.6e-05
-R1534	R1534: CERB2A_c + udpgal_c --> GALCERA_c + udp_c	3.9e-05
-R1535	R1535: CERB2B_c + udpgal_c --> GALCERB_c + udp_c	3.9e-05
-R1536	R1536_num1: C191SPH_c + stcoa_c --> CEREB1_c + coa_c + h_c	8.5e-05
-R1537	R1537: CEREB1_c + udpg_c --> GLUCER1_c + udp_c	8.5e-05
-R1538	R1538_num1: C191SPH_c + ocdce9coa_c --> CEREB2_c + coa_c + h_c	8.5e-05
-R1539	R1539: CEREB2_c + udpg_c --> glusideho_c + udp_c	8.5e-05
+R1523	R1523: C20SPH_c + h_c + nadph_c + o2_c --> C20PSPH_c + h2o_c + nadp_c	0.000052
+R1524	R1524: C171COA_c + 4.0 h_c + ser__L_c --> C191DHSPH_c + co2_c + coa_c	0.000170
+R1526	R1526_num1: psphings_c + stcoa_c --> CERB1A_c + coa_c	0.000026
+R1527	R1527_num1: ocdce9coa_c + psphings_c --> CERB1B_c + coa_c	0.000026
+R1528	R1528_num1: C20PSPH_c + stcoa_c --> CERB1C_c + coa_c + 3.0 h_c	0.000026
+R1529	R1529_num1: C20PSPH_c + ocdce9coa_c --> CERB1D_c + coa_c + 3.0 h_c	0.000026
+R1530	R1530_num1: sphgn_c + stcoa_c --> CERB2A_c + coa_c	0.000075
+R1531	R1531_num1: ocdce9coa_c + sphgn_c --> CERB2B_c + coa_c	0.000075
+R1532	R1532_num1: C20SPH_c + stcoa_c --> CERB2C_c + coa_c + 3.0 h_c	0.000036
+R1533	R1533_num1: C20SPH_c + ocdce9coa_c --> CERB2D_c + coa_c + 3.0 h_c	0.000036
+R1534	R1534: CERB2A_c + udpgal_c --> GALCERA_c + udp_c	0.000039
+R1535	R1535: CERB2B_c + udpgal_c --> GALCERB_c + udp_c	0.000039
+R1536	R1536_num1: C191SPH_c + stcoa_c --> CEREB1_c + coa_c + h_c	0.000085
+R1537	R1537: CEREB1_c + udpg_c --> GLUCER1_c + udp_c	0.000085
+R1538	R1538_num1: C191SPH_c + ocdce9coa_c --> CEREB2_c + coa_c + h_c	0.000085
+R1539	R1539: CEREB2_c + udpg_c --> glusideho_c + udp_c	0.000085
 R1543	R1543: val__L_m --> val__L_c	0.075275
 R1566	R1566: g6p_c --> f6p_c	6.009048
-R1568	R1568: g6p_c + udpg_c --> h_c + tre6p_c + udp_c	0.07981
-R1569	R1569: h2o_c + tre6p_c --> pi_c + tre_c	0.07981
+R1568	R1568: g6p_c + udpg_c --> h_c + tre6p_c + udp_c	0.079810
+R1569	R1569: h2o_c + tre6p_c --> pi_c + tre_c	0.079810
 R1583	R1583: udpg_c --> 13GLUCAN_c + udp_c	0.222274
 R1584	R1584: udpg_c --> 14GLUCAN_c + udp_c	0.031717
 R1603	R1603: Ssq23epx_c --> lanost_c	0.012299
@@ -225,25 +225,25 @@ R1836	R1836: 3mob_m + accoa_m + h2o_m --> 3c3hmp_m + coa_m + h_m	0.140213
 R1864	R1864: 4mop_c + glu__L_c --> akg_c + leu__L_c	0.140213
 R1869	R1869: udpg_c --> PSNIG_c + udp_c	0.027477
 R1870	R1870: udpg_c --> NIG_c + udp_c	0.020709
-R1871	R1871: DMIPC_c + udpgal_c --> GDMIPC_c + h_c + udp_c	3.5e-05
-R1872	R1872: GDMIPC_c + udpgal_c --> DGDMIPC_c + h_c + udp_c	3.5e-05
-R1873	R1873: DGDMIPC_c + udpgal_c --> TGDMIPC_c + h_c + udp_c	3.5e-05
+R1871	R1871: DMIPC_c + udpgal_c --> GDMIPC_c + h_c + udp_c	0.000035
+R1872	R1872: GDMIPC_c + udpgal_c --> DGDMIPC_c + h_c + udp_c	0.000035
+R1873	R1873: DGDMIPC_c + udpgal_c --> TGDMIPC_c + h_c + udp_c	0.000035
 R1960	R1960: 0.181 udpacgal_c + 0.065 udpg_c + 0.754 udpgal_c --> GAG_c + udp_c	0.003506
 R1961	R1961: 0.435 gdpmann_c + 0.1 udpg_c + 0.332 udpgal_c + 0.133 udpgalfur_c --> GGM_c + 0.435 gdp_c + 0.565 udp_c	0.031063
 R1962	R1962: 0.5 o2_m + qh2_m --> h2o_m + q_m	3.917314
-R1967	R1967: IPC_c + gdpmann_c --> MIPC_c + gdp_c	3.5e-05
+R1967	R1967: IPC_c + gdpmann_c --> MIPC_c + gdp_c	0.000035
 R1968	R1968: h_c + nadph_c + o2_c + sql_c --> Ssq23epx_c + h2o_c + nadp_c	0.012299
 R1970	R1970: CDOL_c + h_c + nadph_c --> 4mzym_c + nadp_c	0.012299
 R1971	R1971: 4mzym_c + o2_c --> co2_c + 2.0 h_c + zymst_c	0.012299
 R1974	R1974: 0.0097602 amp_c + 0.13641 atp_c + 0.016694 cmp_c + 0.01794 gmp_c + 0.080349 h2o_c + 0.011701 ump_c --> RNA_c + 0.13641 adp_c + 0.13641 pi_c	0.351588
-R1975	R1975_num1: atp_c + h2o_c --> adp_c + h_c + pi_c	2.8
+R1975	R1975_num1: atp_c + h2o_c --> adp_c + h_c + pi_c	2.800000
 R2042	R2042: datp_c + h2o_c --> damp_c + h_c + ppi_c	0.006575
 R2157	R2157: 4.0 He_m + h_m + nadh_m + q_m --> 4.0 He_i + nad_m + qh2_m	3.706882
-R2158	R2158: 4.0 He_m + 2.0 ficytC_m + qh2_m --> 2.0 FERO_m + 4.0 He_i + 2.0 h_m + q_m	0.00747
-R2159	R2159: 2.0 FERO_m + 4.0 He_m + 2.0 h_m + 0.5 o2_m --> 4.0 He_i + 2.0 ficytC_m + h2o_m	0.00747
+R2158	R2158: 4.0 He_m + 2.0 ficytC_m + qh2_m --> 2.0 FERO_m + 4.0 He_i + 2.0 h_m + q_m	0.007470
+R2159	R2159: 2.0 FERO_m + 4.0 He_m + 2.0 h_m + 0.5 o2_m --> 4.0 He_i + 2.0 ficytC_m + h2o_m	0.007470
 R2160	R2160: 4.5454 He_i + adp_m + h_m + pi_m --> 4.5454 He_m + atp_m + h2o_m	3.275243
 R2165	R2165: adp_c + atp_m --> adp_m + atp_c	2.530237
-R2166	R2166: 0.25 CLCDPDG_c + 0.25 PCCDPDG_c + 0.25 PECDPDG_c + 0.25 PSCDPDG_c --> CDPDG_c	0.00049
+R2166	R2166: 0.25 CLCDPDG_c + 0.25 PCCDPDG_c + 0.25 PECDPDG_c + 0.25 PSCDPDG_c --> CDPDG_c	0.000490
 R2203	R2203: o2_e --> o2_c	2.112085
 R2237	R2237_num1: h_e + pi_e --> h_c + pi_c	0.063815
 R2238	R2238: nh4_e --> nh4_c	2.629693
@@ -256,20 +256,20 @@ R2316	R2316: fum_c --> fum_m	0.348752
 R2321	R2321: ile__L_m --> ile__L_c	0.070704
 R2322	R2322: h_c + orn_m --> h_m + orn__L_c	0.081674
 R2325	R2325: glu__L_c + h_c --> glu__L_m + h_m	0.727365
-R2326	R2326: akg_m + mal__L_c --> akg_c + mal__L_m	1.03838
+R2326	R2326: akg_m + mal__L_c --> akg_c + mal__L_m	1.038380
 R2329	R2329: o2_c --> o2_m	1.962392
 R2331	R2331: nh4_c --> nh4_m	0.047862
-R2334	R2334: coa_c --> coa_m	0.00017
+R2334	R2334: coa_c --> coa_m	0.000170
 R2387	R2387: dcdp_c --> dcdp_m	0.006968
 R2391	R2391: h2o_e --> 	2.048362
 R2392	R2392: co2_e --> 	24.325122
 R2422	R2422: etoh_e --> 	21.522204
-R2429	R2429: galt_e --> 	0.27826
+R2429	R2429: galt_e --> 	0.278260
 Biomass	Biomass: BIOMASS_c --> 	0.351588
-R2528	R2528: sbt__D_c --> sbt__D_m	0.27826
+R2528	R2528: sbt__D_c --> sbt__D_m	0.278260
 R2531	R2531: 0.25 CERB1A_c + 0.25 CERB1B_c + 0.25 CERB1C_c + 0.25 CERB1D_c --> CERB1_c	0.000105
 R2532	R2532: 0.25 CERB2A_c + 0.25 CERB2B_c + 0.25 CERB2C_c + 0.25 CERB2D_c --> CERB2_c	0.000143
-R2533	R2533: 0.5 GALCERA_c + 0.5 GALCERB_c --> GALCER_c	7.8e-05
+R2533	R2533: 0.5 GALCERA_c + 0.5 GALCERB_c --> GALCER_c	0.000078
 R2534	R2534: 0.4157 TRNAALA_c + 0.2708 TRNAARG_c + 0.2144 TRNAASN_c + 0.2144 TRNAASP_c + 0.0053 TRNACYS_c + 0.4423 TRNAGLN_c + 0.4423 TRNAGLU_c + 0.3187 TRNAGLY_c + 0.0736 TRNAHIS_c + 0.2011 TRNAILE_c + 0.3988 TRNALEU_c + 0.3237 TRNALYS_c + 0.0092 TRNAMET_c + 0.1732 TRNAPHE_c + 0.2323 TRNAPRO_c + 0.271 TRNASER_c + 0.2631 TRNATHR_c + 0.0647 TRNATRP_c + 0.0235 TRNATYR_c + 0.2141 TRNAVAL_c --> PROTEIN_c + 4.5722 TRNA_c	0.351588
 R2535	R2535: 0.6322 13GLUCAN_c + 0.09021 14GLUCAN_c + 0.009972 GAG_c + 0.08835 GGM_c + 0.0589 NIG_c + 0.07815 PSNIG_c + 0.3764 chtn_c --> CELLWALL_c	0.351588
 R2536	R2536: 0.0002986 CERB1_c + 0.000307 CERB2_c + 0.01738 CLPA_c + 0.0009668 DAGLY_c + 0.0002215 GALCER_c + 0.0002418 GLUCER1_c + 0.00249 LPE_c + 0.0008394 MAGLY_c + 0.008802 PE_c + 0.000945 PS_c + 9.886e-05 TGDMIPC_c + 0.0040406 clpnho_c + 0.03498 ergst_c + 0.0002424 glusideho_c + 0.0002932 hdca_c + 0.0003756 lnlc_c + 7.456e-05 ocdca_c + 0.0003216 ocdcea_c + 0.001295 pailho_c + 0.009277 pcholho_c + 0.00543 tagho_c --> LIPIDS_c	0.351588
@@ -280,9 +280,9 @@ R2602	R2602: succ_x --> succ_c	0.194376
 R2603	R2603: glx_x --> glx_c	0.194376
 R2605	R2605: cellb_c + pi_c --> g1p_c + glc__D_c	6.933213
 R58	R58_reverse: ru5p__D_c --> R5P_c	0.235049
-R105	R105_reverse: h_c + nadh_c + oaa_c --> mal__L_c + nad_c	1.03838
-R438	R438_reverse: CPD_13036_c + h_c + nadh_c --> galt_c + nad_c	0.27826
-R439	R439_reverse: nadp_m + sbt__D_m --> CPD_13036_m + h_m + nadph_m	0.27826
+R105	R105_reverse: h_c + nadh_c + oaa_c --> mal__L_c + nad_c	1.038380
+R438	R438_reverse: CPD_13036_c + h_c + nadh_c --> galt_c + nad_c	0.278260
+R439	R439_reverse: nadp_m + sbt__D_m --> CPD_13036_m + h_m + nadph_m	0.278260
 R586	R586_reverse_num1: ACP_c + lnlccoa_c --> C182ACP_c + coa_c	0.000141
 R753	R753_reverse: man6p_c --> man1p_c	0.013582
 R894	R894_reverse: cys__L_c + h2o_c --> h2s_c + ser__L_c	0.230422
@@ -293,36 +293,36 @@ R1382	R1382_reverse: atp_c + cmp_c --> adp_c + cdp_c	0.005026
 R1426	R1426_reverse: dudp_c + h_c + ump_c --> dutp_c + uri_c	0.006575
 R1541	R1541_reverse: thr__L_c --> thr__L_m	0.070875
 R1597	R1597_reverse: g1p_c --> g6p_c	6.530452
-R1698	R1698_reverse: citr__L_m --> citr__L_c	0.09521
+R1698	R1698_reverse: citr__L_m --> citr__L_c	0.095210
 R1719	R1719_reverse_num1: f6p_c --> man6p_c	0.013582
-R2146	R2146_reverse: ppcoa_m --> ppcoa_c	0.00017
+R2146	R2146_reverse: ppcoa_m --> ppcoa_c	0.000170
 R2182	R2182_reverse_num1: dctp_m --> dctp_c	0.006968
 R2201	R2201_reverse: co2_c --> co2_e	24.325122
 R2202	R2202_reverse: h2o_c --> h2o_e	2.048362
 R2204	R2204_reverse: etoh_c --> etoh_e	21.522204
-R2263	R2263_reverse: galt_c + h_c --> galt_e + h_e	0.27826
+R2263	R2263_reverse: galt_c + h_c --> galt_e + h_e	0.278260
 R2306	R2306_reverse_num1: h_c + pi_c --> h_m + pi_m	2.560732
 R2310	R2310_reverse: cit_m + h_m --> cit_c + h_c	0.712369
 R2317	R2317_reverse: icit_m --> icit_c	0.194376
 R2318	R2318_reverse: cbp_m --> cbp_c	0.023527
 R2323	R2323_reverse: lys__L_m --> lys__L_c	0.113809
 R2328	R2328_reverse: h2o_m --> h2o_c	5.165122
-R2330	R2330_reverse: co2_m --> co2_c	2.66451
+R2330	R2330_reverse: co2_m --> co2_c	2.664510
 R2393	R2393_reverse:  --> nh4_e	2.629693
 R2396	R2396_reverse:  --> o2_e	2.112085
 R2397	R2397_reverse:  --> pi_e	0.063815
 R2398	R2398_reverse:  --> so4_e	0.005098
 R2400	R2400_reverse:  --> h_e	19.140906
-R2527	R2527_reverse: CPD_13036_m --> CPD_13036_c	0.27826
+R2527	R2527_reverse: CPD_13036_m --> CPD_13036_c	0.278260
 R2561	R2561_reverse: co2_m + h2o_c --> h_m + hco3_m	0.118737
 R2601	R2601_reverse: icit_c --> icit_x	0.194376
-R36	R36_num2: adp_c + h_c + pep_c --> atp_c + pyr_c	24.78976
+R36	R36_num2: adp_c + h_c + pep_c --> atp_c + pyr_c	24.789760
 R43	R43_num2: dhap_c --> g3p_c	12.588521
 R56	R56_num3: 6pgc_c + nadp_c --> co2_c + nadph_c + ru5p__D_c	0.422374
 R114	R114_num2: accoa_m + h2o_m + oaa_m --> cit_m + coa_m + h_m	1.508453
 R152	R152_num7: uacgam_c --> chtn_c + udp_c	0.132338
 R158	R158_num2: uacgam_c --> udpacgal_c	0.000635
-R166	R166_num2: TRNA_c + asp__L_c + atp_c --> TRNAASP_c + amp_c + ppi_c	0.07538
+R166	R166_num2: TRNA_c + asp__L_c + atp_c --> TRNAASP_c + amp_c + ppi_c	0.075380
 R172	R172_num2: TRNA_c + atp_c + pro__L_c --> TRNAPRO_c + amp_c + ppi_c	0.081674
 R174	R174_num2: TRNA_c + atp_c + gln__L_c --> TRNAGLN_c + amp_c + ppi_c	0.155507
 R180	R180_num2: TRNA_c + atp_c + thr__L_c --> TRNATHR_c + amp_c + ppi_c	0.092503
@@ -334,7 +334,7 @@ R191	R191_num2: TRNA_c + atp_c + trp__L_c --> TRNATRP_c + amp_c + ppi_c	0.022748
 R237	R237_num2: acglu_m + atp_m --> acg5p_m + adp_m	0.176884
 R239	R239_num2: acg5sa_m + glu__L_m --> acorn_m + akg_m	0.176884
 R240	R240_num2: acorn_m + glu__L_m --> acglu_m + orn_m	0.176884
-R243	R243_num2: asp__L_c + atp_c + citr__L_c --> amp_c + argsuc_c + h_c + ppi_c	0.09521
+R243	R243_num2: asp__L_c + atp_c + citr__L_c --> amp_c + argsuc_c + h_c + ppi_c	0.095210
 R247	R247_num6: glu__L_c + oaa_c --> akg_c + asp__L_c	0.331897
 R254	R254_num2: atp_c + glu__L_c + nh4_c --> adp_c + gln__L_c + h_c + pi_c	2.139805
 R400	R400_num2: atp_c + h2o_c + met__L_c --> amet_c + pi_c + ppi_c	0.022084
@@ -370,13 +370,13 @@ R499	R499_num2: C16HACP_c --> C16DACP_c + h2o_c	0.041035
 R500	R500_num2: C16DACP_c + h_c + nadph_c --> C160ACP_c + nadp_c	0.041035
 R502	R502_num2: C160ACP_c + h_c + malACP_c --> ACP_c + C18OACP_c + co2_c	0.028554
 R503	R503_num4: C18OACP_c + h_c + nadph_c --> C18HACP_c + nadp_c	0.028554
-R579	R579_num4: C160ACP_c + coa_c --> ACP_c + pmtcoa_c	2.4e-05
-R604	R604_num5: atp_c + coa_c + ocdca_c --> amp_c + ppi_c + stcoa_c	2.7e-05
+R579	R579_num4: C160ACP_c + coa_c --> ACP_c + pmtcoa_c	0.000024
+R604	R604_num5: atp_c + coa_c + ocdca_c --> amp_c + ppi_c + stcoa_c	0.000027
 R605	R605_num5: atp_c + coa_c + ocdcea_c --> amp_c + ocdce9coa_c + ppi_c	0.000155
 R606	R606_num5: atp_c + coa_c + lnlc_c --> amp_c + lnlccoa_c + ppi_c	0.000141
 R621	R621_num5: atp_c + coa_c + hdca_c --> amp_c + pmtcoa_c + ppi_c	0.000178
 R642	R642_num3: 2.0 accoa_c --> aacoa_c + coa_c	0.073791
-R732	R732_num4: mnl_c + nadp_c --> fru_c + h_c + nadph_c	0.27826
+R732	R732_num4: mnl_c + nadp_c --> fru_c + h_c + nadph_c	0.278260
 R754	R754_num2: gtp_c + h_c + man1p_c --> gdpmann_c + ppi_c	0.013582
 R760	R760_num2: arab__D_c + h_c + nadph_c --> abt__D_c + nadp_c	0.010818
 R811	R811_num2: 0.2291 C160ACP_c + 0.0795 C180ACP_c + 0.2979 C181ACP_c + 0.3935 C182ACP_c + DAGLY_c --> ACP_c + tagho_c	0.001909
@@ -417,7 +417,7 @@ R1410	R1410_num2: atp_m + dcdp_m --> adp_m + dctp_m	0.006968
 R1442	R1442_num3: asp__L_c + cbp_c --> cbasp_c + h_c + pi_c	0.023527
 R1519	R1519_num2: 3dsphgn_c + h_c + nadph_c --> nadp_c + sphgn_c	0.000202
 R1522	R1522_num2: C20DHSPH_c + h_c + nadph_c --> C20SPH_c + nadp_c	0.000124
-R1525	R1525_num2: C191DHSPH_c + nadph_c --> C191SPH_c + h_c + nadp_c	0.00017
+R1525	R1525_num2: C191DHSPH_c + nadph_c --> C191SPH_c + h_c + nadp_c	0.000170
 R1659	R1659_num2: h2o_c + mi3p__D_c --> inost_c + pi_c	0.019219
 R1695	R1695_num2: dmpp_c + ipdp_c --> grdp_c + ppi_c	0.024597
 R1696	R1696_num2: grdp_c + ipdp_c --> frdp_c + ppi_c	0.024597
@@ -430,5 +430,5 @@ R2074	R2074_num3: h2o2_c + meoh_c --> fald_c + 2.0 h2o_c	0.012299
 R2161	R2161_num5: atp_m + h2o_m + 2.88 h_m --> adp_m + 3.88 h_c + pi_m	0.202359
 R2604	R2604_num2: cellb_e --> cellb_c	6.933213
 R10	R10_reverse_num9: acald_c + h_c + nadh_c --> etoh_c + nad_c	21.522204
-R736	R736_reverse_num3: fru_c + h_c + nadh_c --> nad_c + sbt__D_c	0.27826
-R782	R782_reverse_num2: udpg_c --> udpgal_c	0.01727
+R736	R736_reverse_num3: fru_c + h_c + nadh_c --> nad_c + sbt__D_c	0.278260
+R782	R782_reverse_num2: udpg_c --> udpgal_c	0.017270
