@@ -15,3 +15,6 @@ msa/blast/db_prot_all
 msa/mafft-mac/mafftdir
 
 
+omic_analysis/pca_analysis/output_file/pca_2d_files
+omic_analysis/pca_analysis/output_file/pca_3d_files
+

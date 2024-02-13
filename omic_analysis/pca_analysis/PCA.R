@@ -6,7 +6,7 @@ library(optparse)
 library(htmlwidgets)
 
 ## 测试
-# Rscript PCA.R -c 'input_file/expression_matrix.csv' -s 'input_file/sample_info.csv' -o 'output_file/pca.png' -t 'output_file/pca.html'
+# Rscript PCA.R -c 'input_file/expression_matrix.csv' -s 'input_file/sample_info.csv' -d 'output_file/pca_2d.html' -t 'output_file/pca_3d.html'
 
 
 pdf(file = NULL)
@@ -14,8 +14,9 @@ pdf(file = NULL)
 option_list <- list(
   make_option(c("-c", "--input_count"), type = "character", default = "", help = "基因表达谱(Count)"), 
   make_option(c("-s", "--input_sample"), type = "character", default = "", help = "样本分组信息"),
-  make_option(c("-o", "--output_png"), type = "character", default = "", help = "输出的PCA静态图"),
-  make_option(c("-t", "--output_html"), type = "character", default = "", help = "输出的PCA交互式图的html文件")
+  # make_option(c("-o", "--output_png"), type = "character", default = "", help = "输出的PCA静态图"),
+  make_option(c("-d", "--output_html_2d"), type = "character", default = "", help = "输出的PCA-2d交互式图的html文件"),
+  make_option(c("-t", "--output_html_3d"), type = "character", default = "", help = "输出的PCA-3d交互式图的html文件")
 )
 
 # 解析命令行参数
@@ -72,11 +73,39 @@ ggplot(pcaData, aes(x=PC1, y=PC2, color=Group)) +
   )
 
 # 保存图片
-ggsave(opt$output_png, width=6, height=4, dpi=300)
+# ggsave(opt$output_png, width=6, height=4, dpi=300)
 
-##  3D PCA
+##  2D 及 3D PCA
 pca_data <- prcomp(t(assay(rld)))
 plot_df <- as.data.frame(pca_data$x)
+
+# 2D
+fig_2d <- plot_ly(
+  data = plot_df, x = ~PC1, y = ~PC2,
+  text = rownames(plot_df),
+  color = sample_df$Group,
+  width = 900, # 设置图的宽度为800像素
+  height = 600 # 设置图的高度为600像素
+) %>%
+  add_markers(
+    marker = list(size = 24, line = list(width = 1, color = "DarkSlateGray"))
+  ) %>%
+  layout(
+    title = "PCA Analysis",
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2")
+  )
+
+# 计算方差百分比
+pca_var <- (pca_data$sdev^2 / sum(pca_data$sdev^2))[1:2] * 100
+
+# 更新layout中的标题来显示方差百分比
+fig_2d <- fig_2d %>% layout(xaxis = list(title = paste0("PC1: ", round(pca_var[1], 2), "%")))
+fig_2d <- fig_2d %>% layout(yaxis = list(title = paste0("PC2: ", round(pca_var[2], 2), "%")))
+
+# 保存为html文件
+saveWidget(fig_2d, file = opt$output_html_2d, selfcontained = TRUE)
+
 
 # 计算方差百分比
 pca_var <- (pca_data$sdev^2 / sum(pca_data$sdev^2))[1:3] * 100
@@ -85,7 +114,7 @@ fig_3d <- plot_ly(
   data = plot_df, x = ~PC1, y = ~PC2, z = ~PC3, text = rownames(plot_df), 
   color = sample_df$Group,
   width = 900, height = 600,
-  marker = list(size = 6, line = list(width = 1, color = 'DarkSlateGray'))
+  marker = list(size = 12, line = list(width = 1, color = 'DarkSlateGray'))
 ) %>%
   add_markers() %>%
   layout(
@@ -101,4 +130,4 @@ fig_3d <- plot_ly(
 
 # selfcontained = TRUE：当设置为 TRUE 时，所有必要的资源（如 JavaScript 和 CSS 文件）都会被嵌入到单个 HTML 文件中。这意味着您可以将这个文件移动到任何地方，或者独立地发送给其他人，而不用担心丢失任何功能。文件可能会变得相对较大，因为它包含了所有必要的资源。
 # selfcontained = FALSE：当设置为 FALSE 时，生成的 HTML 文件将不会包含所有的资源。相反，它将链接到这些资源。这使得文件体积更小，但是为了保证图表能够正确显示，您需要确保这些外部资源可用。如果您将这个 HTML 文件移动到没有相应资源的新位置，或者在没有网络连接的情况下尝试查看它，图表可能无法正确显示。
-saveWidget(fig_3d, file = opt$output_html, selfcontained = TRUE)
+saveWidget(fig_3d, file = opt$output_html_3d, selfcontained = TRUE)
