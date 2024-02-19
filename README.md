@@ -22,3 +22,9 @@ https://dongjc.notion.site/dongjc/MTD-e39ef7b0e627460eab37b35ee6700590
 - 更新了metabolic_analysis/escher.py的代码
     1. 代码生成的文件中存在科学记数法的数字，不利于前端展示，已修改，并更新了生成的表格
     2. 添加了Python调用Escher的代码，供参考（实际环境后端只需要返回具体的值，由前端展示）
+
+
+### 2024.2.4
+- 更新了omic_analysis/pca_analysis/pca.py与PCA.R的代码
+    1. 添加了2D PCA图的显示
+    2. 删除了静态PCA图的生成
