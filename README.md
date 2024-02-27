@@ -28,3 +28,9 @@ https://dongjc.notion.site/dongjc/MTD-e39ef7b0e627460eab37b35ee6700590
 - 更新了omic_analysis/pca_analysis/pca.py与PCA.R的代码
     1. 添加了2D PCA图的显示
     2. 删除了静态PCA图的生成
+
+
+### 2024.2.27
+- 更新了msa/blast_msa_tree.py的代码，在linux环境进行了测试
+    1. 运行Blastp
+    2. 运行mafft与fasttree，即多序列比对与蛋白进化树构建

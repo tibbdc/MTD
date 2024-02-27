@@ -14,7 +14,7 @@ def format_sequence(sequence, line_length=80):
 
 def run_blastp(workdir, blast_input_path, blast_output_path, blast_seq_path, db_prot_path, evalue=1e-6):
     """
-    根据输入序列信息，使用blastp进行比对，得到比对结果，并将比对结果中匹配到的蛋白序列信息保存到fasta文件中。
+    根据输入序列信息，使用blastp进行比对，得到比对结果，并将比对结果中匹配到的蛋白序列信息保存到文件中。
     
     Args:   
         workdir: 工作目录
@@ -73,8 +73,8 @@ def run_blastp(workdir, blast_input_path, blast_output_path, blast_seq_path, db_
 
 
 
-def run_mafft_mac(workdir, blast_seq_path, mafft_result_path):
-    """使用mafft进行多序列比对: MAC版
+def run_mafft(workdir, blast_seq_path, mafft_result_path):
+    """使用mafft进行多序列比对: MACOS环境下运行
     
     Args:
         workdir: 工作目录
@@ -86,11 +86,10 @@ def run_mafft_mac(workdir, blast_seq_path, mafft_result_path):
 
 
 
-def run_mafft(mafft_path ,blast_seq_path, mafft_result_path):
+def run_mafft_linux(mafft_path ,blast_seq_path, mafft_result_path):
     """使用mafft进行多序列比对: linux版
 
     Args:
-        mafft_path: mafft路径
         blast_output_path: 输入文件路径
         mafft_result_path: 输出文件路径
     """
@@ -98,9 +97,9 @@ def run_mafft(mafft_path ,blast_seq_path, mafft_result_path):
     
 
 
-def run_fasttree_mac(workdir, mafft_result_path, fasttree_result_path, model='jtt'):
+def run_fasttree(workdir, mafft_result_path, fasttree_result_path, model='jtt'):
     """
-    根据多序列比对结果，使用fasttree进行进化树构建。: MAC版
+    根据多序列比对结果，使用fasttree进行进化树构建: MACOS环境下运行
 
     Args:
         mafft_result_path: 输入文件路径
@@ -111,24 +110,26 @@ def run_fasttree_mac(workdir, mafft_result_path, fasttree_result_path, model='jt
 
     if model not in ['lg','wag']:
         cmd = fasttree_path+' '+mafft_result_path+" > "+fasttree_result_path
-        # os.system(fasttree_path+' '+mafft_result_path+" > "+fasttree_result_path)
     else:
         cmd = fasttree_path+' -'+model+' '+mafft_result_path+" > "+fasttree_result_path
-        # os.system(fasttree_path+' -'+model+' '+mafft_result_path+" > "+fasttree_result_path)
     os.system(cmd)
         
 
 
-def run_fasttree(fasttree_path, mafft_result_path, fasttree_result_path):
+def run_fasttree_linux(fasttree_path, mafft_result_path, fasttree_result_path, model='jtt'):
     """
     根据多序列比对结果，使用fasttree进行进化树构建。: linux版
 
     Args:
-        fasttree_path: fasttree路径
         mafft_result_path: 输入文件路径
         fasttree_result_path: 输出文件路径
+        model: 模型，有三种选择：lg, jtt, wag
     """
-    os.system(fasttree_path+' '+mafft_result_path+" > "+fasttree_result_path)
+    if model not in ['lg','wag']:
+        cmd = fasttree_path+' '+mafft_result_path+" > "+fasttree_result_path
+    else:
+        cmd = fasttree_path+' -'+model+' '+mafft_result_path+" > "+fasttree_result_path
+    os.system(cmd)
     
 
 
@@ -194,31 +195,38 @@ def run_fasttree(fasttree_path, mafft_result_path, fasttree_result_path):
 #     print("Evolutionary tree construction completed")
 
 
-def msa_tree(mafft_result, fasttee_path, mafft_result_path, fasttree_result_path):
+
+def msa_tree(blast_seq_path, mafft_path, fasttree_path, mafft_result_path, fasstree_result_path, model='jtt'):
     """运行mafft、fasttree，将输入蛋白序列信息进行分析，得到蛋白序列文件、多序列比对结果、进化树结果。
 
     Args:
-        mafft_result (str): mafft路径
-        fasttee_path (str): fasttree路径
-        mafft_result (str): 输出多序列比对结果的路径
+        workdir (str): 工作目录
+        blast_seq_path (str): 上传的蛋白序列文件路径
+        mafft_result_path (str): 输出多序列比对结果的路径
         fasstree_result_path (str): 输出进化树结果的路径
     """
+
+    # # 调用mafft进行多序列比对
+    # run_mafft(workdir, blast_seq_path, mafft_result_path)
+    # print("Multiple sequence alignment completed!")
+
+    # # 调用fasttree进行进化树构建
+    # run_fasttree(workdir, mafft_result_path, fasstree_result_path)
+    # print("Evolutionary tree construction completed")
+
     # 调用mafft进行多序列比对
-    run_mafft(mafft_result, mafft_result_path)
+    run_mafft_linux(mafft_path, blast_seq_path, mafft_result_path)
     print("Multiple sequence alignment completed!")
 
     # 调用fasttree进行进化树构建
-    run_fasttree(fasttee_path, mafft_result_path, fasttree_result_path)
+    run_fasttree_linux(fasttree_path, mafft_result_path, fasstree_result_path, model)
     print("Evolutionary tree construction completed")
 
 
 
 if __name__ == '__main__':
 
-    # 假设conda安装了mafft
-    # mafft路径为：/home/dongjc/miniconda3/bin/mafft
-
-    # 运行blastp
+    # 本地测试blastp
     run_blastp("/Users/dongjiacheng/Desktop/Github/msa/",
                 "/Users/dongjiacheng/Desktop/Github/msa/input_file/blast_input.txt",
                 "/Users/dongjiacheng/Desktop/Github/msa/output_file/blast_output.txt",
@@ -226,19 +234,25 @@ if __name__ == '__main__':
                 "/Users/dongjiacheng/Desktop/Github/msa/blast/db_prot/Myceliophthora_thermophila_ATCC_42464",
                 1e-6)
 
-    # # # 运行mafft
-    # run_mafft("/home/dongjc/miniconda3/bin/mafft",
-    #             "/home/dongjc/mtd-main/msa/output_file/blast_seq.fasta",
-    #             "/home/dongjc/mtd-main/msa/output_file/mafft_result.fasta",)
+
+    # linux环境测试mafft
+    run_mafft_linux("/home/dongjiacheng/miniconda3/bin/mafft",
+                    "/home/dongjiacheng/mtd-main/msa/output_file/blast_seq.fasta",
+                    "/home/dongjiacheng/mtd-main/msa/output_file/mafft_result.fasta",
+                    )
+
+    ## linux环境测试fasttree
+    run_fasttree_linux("/home/dongjiacheng/miniconda3/bin/fasttree",
+                        "/home/dongjiacheng/mtd-main/msa/output_file/mafft_result.fasta",
+                        "/home/dongjiacheng/mtd-main/msa/output_file/fasttree_result.nwk")
     
-    # # 运行fasttree
-    # run_fasttree("/home/dongjc/miniconda3/bin/fasttree",
-    #                 "/home/dongjc/mtd-main/msa/output_file/mafft_result.fasta",
-    #                 "/home/dongjc/mtd-main/msa/output_file/fasttree_result.nwk",)
-    
-    # 运行mafft与fasttree
-    msa_tree("/home/dongjc/miniconda3/bin/mafft",
-                "/home/dongjc/miniconda3/bin/fasttree",
-                "/home/dongjc/mtd-main/msa/output_file/mafft_result.fasta",
-                "/home/dongjc/mtd-main/msa/output_file/fasttree_result.nwk",)
+                       
+
+    # linux环境测试mafft、fasttree
+    msa_tree("/home/dongjiacheng/mtd-main/msa/output_file/blast_seq.fasta",
+                "/home/dongjiacheng/miniconda3/bin/mafft",
+                "/home/dongjiacheng/miniconda3/bin/fasttree",
+                "/home/dongjiacheng/mtd-main/msa/output_file/mafft_result.fasta",
+                "/home/dongjiacheng/mtd-main/msa/output_file/fasttree_result.nwk",
+                "jtt")
 
