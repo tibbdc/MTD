@@ -11,7 +11,6 @@ python tf_running.py -i ./input_file/tf.fasta -o ./output_file -g cuda:1
 
 CPU运行: M1芯片
 - 运行2个蛋白序列, 用时约2秒
-- 运行20个蛋白序列, 用时约16秒
 
 GPU运行不成功
 """
@@ -38,7 +37,7 @@ def deepfactor_predict(workdir, input_fasta_path, output_predict_result_path, gp
     ]
 
     # 检查FASTA文件中的序列数量
-    max_sequences = 30
+    max_sequences = 100
     try:
         with open(input_fasta_path, 'r') as file:
             sequence_count = sum(1 for line in file if line.startswith('>'))
@@ -70,7 +69,7 @@ if __name__ == '__main__':
     start_time = time.time()
 
     deepfactor_predict('/Users/dongjiacheng/Desktop/Github/tf_prediction/',
-                        '/Users/dongjiacheng/Desktop/Github/tf_prediction/input_file/tf_20.fasta',
+                        '/Users/dongjiacheng/Desktop/Github/tf_prediction/input_file/tf.fasta',
                         '/Users/dongjiacheng/Desktop/Github/tf_prediction/output_file')
     
     # 记录运算结束时间  

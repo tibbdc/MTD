@@ -34,3 +34,7 @@ https://dongjc.notion.site/dongjc/MTD-e39ef7b0e627460eab37b35ee6700590
 - 更新了msa/blast_msa_tree.py的代码，在linux环境进行了测试
     1. 运行Blastp
     2. 运行mafft与fasttree，即多序列比对与蛋白进化树构建
+
+
+### 2024.3.11
+- 更新了tf_prediction/prediction.py的代码，删除了部分无意义内容
