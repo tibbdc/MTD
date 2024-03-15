@@ -91,7 +91,7 @@ fig_2d <- plot_ly(
     marker = list(size = 24, line = list(width = 1, color = "DarkSlateGray"))
   ) %>%
   layout(
-    title = "PCA Analysis",
+    title = "",
     xaxis = list(title = "PC1"),
     yaxis = list(title = "PC2")
   )
