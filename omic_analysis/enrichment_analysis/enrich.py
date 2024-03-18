@@ -7,7 +7,7 @@ import plotly.express as px
 import os
 
 
-def run_enrich(workdir, input_path, output_path, species, p_adjust, enrich_type):
+def run_enrich(workdir, input_path, output_path, species, padjust, enrich_type):
     """
     运行GO或KEGG富集分析R脚本。
 
@@ -16,7 +16,7 @@ def run_enrich(workdir, input_path, output_path, species, p_adjust, enrich_type)
         input_path (str): 输入文件的路径。
         output_path (str): 输出文件的路径。
         species (str): 菌种名称。
-        p_adjust (float): P值阈值。
+        padjust (float): P值阈值。
         enrich_type (str): 分析类型，"GO" 或 "KEGG"。
     """
     # 根据enrich_type确定脚本路径
@@ -35,7 +35,7 @@ def run_enrich(workdir, input_path, output_path, species, p_adjust, enrich_type)
         '--input', input_path,
         '--output', output_path,
         '--species', species,
-        '--p_adjust', str(p_adjust),
+        '--padjust', str(padjust),
     ]
 
     # 执行R脚本并捕获输出

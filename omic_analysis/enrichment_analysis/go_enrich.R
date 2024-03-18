@@ -11,7 +11,7 @@ option_list <- list(
   # 文件路径
   make_option(c("-w", "--workdir"), type = "character", default = NULL, help = "工作目录路径", metavar = "workdir"),
   make_option(c("-s", "--species"), type = "character", default = "", help = "菌种名称", metavar = "species"),
-  make_option(c("-p", "--p_adjust"), type = "numeric", default = 0.05, help = "pvalue阈值", metavar = "pvalue"),
+  make_option(c("-p", "--padjust"), type = "numeric", default = 0.05, help = "p阈值", metavar = "pvalue"),
   make_option(c("-i", "--input"), type = "character", default = NULL, help = "输入文件路径", metavar = "file"),
   make_option(c("-o", "--output"), type = "character", default = NULL, help = "输出文件路径", metavar = "file")
 )
@@ -63,19 +63,19 @@ go2gene = split(go2gene , with(go2gene , CLASS))
 enrich_MF = enricher(genelist,
                     TERM2GENE=go2gene [['MF']][c(1,2)],
                     TERM2NAME=go2name,
-                    pvalueCutoff = opt$p_adjust,
+                    pvalueCutoff = opt$padjust,
                     qvalueCutoff = 1)
 
 enrich_BP = enricher(genelist,
                     TERM2GENE=go2gene [['BP']][c(1,2)],
                     TERM2NAME=go2name,
-                    pvalueCutoff = opt$p_adjust,
+                    pvalueCutoff = opt$padjust,
                     qvalueCutoff = 1)
 
 enrich_CC = enricher(genelist,
                     TERM2GENE=go2gene [['CC']][c(1,2)],
                     TERM2NAME=go2name,
-                    pvalueCutoff = opt$p_adjust,
+                    pvalueCutoff = opt$padjust,
                     qvalueCutoff = 1)
 
 # 合并三个表

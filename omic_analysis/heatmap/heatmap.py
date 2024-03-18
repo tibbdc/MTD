@@ -62,10 +62,10 @@ if __name__ == "__main__":
         color_down="#0766AD",
         color_mid="#FFFFFF",
         show_border=True,
-        # scale='log2',
-        scale='z-score',
+        scale='log2',
+        # scale='z-score',
         cluster_rows=True,
-        cluster_cols=False,
+        cluster_cols=True,
         cellwidth="20",
         cellheight="20",
         fontsize="10"
