@@ -115,7 +115,7 @@ draw_heatmap_log <- function(args) {
 }
 
 # 如果标准化方式为z-score，则运行
-if(args$scale == "z-score")
+if(args$scale == "scale")
     p <- draw_heatmap(args)
 
 # 如果标准化方式为log2，则运行
