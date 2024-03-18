@@ -38,3 +38,10 @@ https://dongjc.notion.site/dongjc/MTD-e39ef7b0e627460eab37b35ee6700590
 
 ### 2024.3.11
 - 更新了tf_prediction/prediction.py的代码，删除了部分无意义内容
+
+
+### 2024.3.18
+- 排查了omic analysis模块的PCA分析、GO、Heatmap分析的代码错误，并更新了
+    1. omic_analysis/pca_analysis/pca.py文件
+    2. omic_analysis/enrichment_analysis/enrich.py文件
+    3. omic_analysis/enrichment_analysis/go_enrich.R文件

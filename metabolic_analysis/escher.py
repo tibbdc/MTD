@@ -14,8 +14,8 @@ python GEM_model_transform_2.py --workdir /Users/dongjiacheng/Desktop/Github/met
 """
 
 """模型运行时间
-- 提交单个数据，运行45秒左右
-- 提交两个数据，运行80秒左右
+- 提交单个转录组数据，运行45秒左右
+- 提交两个转录组数据，运行80秒左右
 """
 
 
@@ -39,18 +39,24 @@ def run_mt_model_1(workdir, model_input_path, model_output_path):
     # 脚本文件路径
     script_path = os.path.join(workdir, 'GEM_model_transform_1.py')
 
-    # 将输入的csv文件转换为tsv文件
+    # # 将输入的csv文件转换为tsv文件
+    # df = pd.read_csv(model_input_path, header=0)
+    # model_input_dir = os.path.join(workdir, 'input_file')
+    # os.makedirs(model_input_dir, exist_ok=True)
+    # model_input_path = os.path.join(model_input_dir, 'model_input.tsv')
+    # df.to_csv(model_input_path, sep='\t', header=False, index=False)
+
+    # PS:代谢模型运行需要tsv文件,但是用户一般不懂啥是tsv文件，所以需要将用户提交的csv文件转换为tsv文件
+    # 获取原始输入csv文件路径，更改扩展名为.tsv并保存
     df = pd.read_csv(model_input_path, header=0)
-    model_input_dir = os.path.join(workdir, 'input_file')
-    os.makedirs(model_input_dir, exist_ok=True)
-    model_input_path = os.path.join(model_input_dir, 'model_input.tsv')
-    df.to_csv(model_input_path, sep='\t', header=False, index=False)
+    model_input_tsv_path = os.path.splitext(model_input_path)[0] + '.tsv'
+    df.to_csv(model_input_tsv_path, sep='\t', header=False, index=False)
 
     # 运行脚本
     cmd = [
         'python', script_path,
         '--workdir', workdir,
-        '--input', model_input_path,
+        '--input', model_input_tsv_path,
         '--output', model_output_path,
     ]
     # 运行
@@ -70,6 +76,7 @@ def run_mt_model_1(workdir, model_input_path, model_output_path):
     df_reaction = df_reaction.iloc[:, [0, 2]]
     data = df_reaction.set_index('reactionid')['flux'].to_dict()
     # print(data)
+    
     return data
     
 
@@ -96,23 +103,33 @@ def run_mt_model_2(workdir, model_input_path1, model_input_path2, model_output_p
     # 脚本文件路径
     script_path = os.path.join(workdir, 'GEM_model_transform_2.py')
 
-    # 将输入的csv文件转换为tsv文件
+    # # 将输入的csv文件转换为tsv文件
+    # df1 = pd.read_csv(model_input_path1, header=0)
+    # model_input_dir = os.path.join(workdir, 'input_file')
+    # os.makedirs(model_input_dir, exist_ok=True)
+    # model_input_path1 = os.path.join(model_input_dir, 'model_input_control.tsv')
+    # df1.to_csv(model_input_path1, sep='\t', header=False, index=False)
+
+    # df2 = pd.read_csv(model_input_path2, header=0)
+    # model_input_path2 = os.path.join(model_input_dir, 'model_input_treatment.tsv')
+    # df2.to_csv(model_input_path2, sep='\t', header=False, index=False)
+
+    # PS:代谢模型运行需要tsv文件,但是用户一般不懂啥是tsv文件，所以需要将用户提交的csv文件转换为tsv文件
+    # 获取原始输入csv文件路径，更改扩展名为.tsv并保存
     df1 = pd.read_csv(model_input_path1, header=0)
-    model_input_dir = os.path.join(workdir, 'input_file')
-    os.makedirs(model_input_dir, exist_ok=True)
-    model_input_path1 = os.path.join(model_input_dir, 'model_input_control.tsv')
-    df1.to_csv(model_input_path1, sep='\t', header=False, index=False)
+    model_input_tsv_path1 = os.path.splitext(model_input_path1)[0] + '.tsv'
+    df1.to_csv(model_input_tsv_path1, sep='\t', header=False, index=False)
 
     df2 = pd.read_csv(model_input_path2, header=0)
-    model_input_path2 = os.path.join(model_input_dir, 'model_input_treatment.tsv')
-    df2.to_csv(model_input_path2, sep='\t', header=False, index=False)
+    model_input_tsv_path2 = os.path.splitext(model_input_path2)[0] + '.tsv'
+    df2.to_csv(model_input_tsv_path2, sep='\t', header=False, index=False)
 
     # 运行脚本
     cmd = [
         'python', script_path,
         '--workdir', workdir,
-        '--input_c', model_input_path1,
-        '--input_t', model_input_path2,
+        '--input_c', model_input_tsv_path1,
+        '--input_t', model_input_tsv_path2,
         '--output', model_output_path,
     ]
     # 运行
@@ -126,6 +143,7 @@ def run_mt_model_2(workdir, model_input_path1, model_input_path2, model_output_p
 
     # 计算两种条件下通量的差异
     df_reaction['flux_difference'] = df_reaction['flux_df2'] - df_reaction['flux_df1']
+    # df_reaction['flux_difference'] = df_reaction['flux_df2']/df_reaction['flux_df1']
     df_reaction['flux_difference'] = df_reaction['flux_difference'].round(6)
     df_reaction['flux_difference'] = df_reaction['flux_difference'].apply(lambda x: '{:.6f}'.format(x)) # 将flux列转换为不使用科学记数法的字符串
 
