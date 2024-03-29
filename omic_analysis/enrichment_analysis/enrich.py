@@ -91,12 +91,33 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, p_adjust=0.05,
         'width': width,
         'height': height
     }
-    # 颜色轴设置
+    # 自定义颜色轴设置
     color_axis_args = {
         'colorbar_title': "P.adjust",
         'colorbar_tickformat': ".3f",
-        'colorbar': dict(dtick=0.005)
+        'colorbar': dict(
+            dtick=0.005,
+            tickfont=dict(
+                size=12  # 在这里设置你想要的字体大小
+            )    
+        )
     }
+
+    # 确定颜色轴的tickvals和ticktext
+    unique_p_adjust_values = sorted(kegg_result['P.adjust'].unique())
+    if len(unique_p_adjust_values) == 1:
+        # 只有一个唯一的P值
+        color_axis_args['colorbar'].update({
+            'tickvals': unique_p_adjust_values,
+            'ticktext': [f'{unique_p_adjust_values[0]:.3f}']
+        })
+    elif len(unique_p_adjust_values) == 2:
+        # 有两个唯一的P值
+        color_axis_args['colorbar'].update({
+            'tickvals': [unique_p_adjust_values[0], unique_p_adjust_values[-1]],
+            'ticktext': [f'{unique_p_adjust_values[0]:.3f}', f'{unique_p_adjust_values[-1]:.3f}']
+        })
+
     # 根据pic_type绘制不同类型的图表
     if pic_type == 'bubble':
         fig = px.scatter(
@@ -123,7 +144,8 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, p_adjust=0.05,
 
     # 应用颜色轴设置
     fig.update_layout(**layout_args)
-    fig.update_coloraxes(**color_axis_args)
+    if 'tickvals' in color_axis_args['colorbar']:  # 只有在tickvals存在时才更新颜色轴
+        fig.update_coloraxes(**color_axis_args)
 
     # 保存为png，scale设置为4
     output_image_path = os.path.join(workdir, "kegg.png")
@@ -185,12 +207,32 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, fon
         'height': height
     }
 
-    # 颜色轴设置
+    # 自定义颜色轴设置
     color_axis_args = {
         'colorbar_title': "P.adjust",
         'colorbar_tickformat': ".3f",
-        'colorbar': dict(dtick=0.005)
+        'colorbar': dict(
+            dtick=0.005,
+            tickfont=dict(
+                size=12  # 在这里设置你想要的字体大小
+            )    
+        )
     }
+
+    # 确定颜色轴的tickvals和ticktext
+    unique_p_adjust_values = sorted(go_relust['P.adjust'].unique())
+    if len(unique_p_adjust_values) == 1:
+        # 只有一个唯一的P值
+        color_axis_args['colorbar'].update({
+            'tickvals': unique_p_adjust_values,
+            'ticktext': [f'{unique_p_adjust_values[0]:.3f}']
+        })
+    elif len(unique_p_adjust_values) == 2:
+        # 有两个唯一的P值
+        color_axis_args['colorbar'].update({
+            'tickvals': [unique_p_adjust_values[0], unique_p_adjust_values[-1]],
+            'ticktext': [f'{unique_p_adjust_values[0]:.3f}', f'{unique_p_adjust_values[-1]:.3f}']
+        })
 
     # 根据pic_type绘制不同类型的图表
     if pic_type == "bubble":
@@ -220,7 +262,8 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, fon
 
     # 应用颜色轴设置
     fig.update_layout(**layout_args)
-    fig.update_coloraxes(**color_axis_args)
+    if 'tickvals' in color_axis_args['colorbar']:  # 只有在tickvals存在时才更新颜色轴
+        fig.update_coloraxes(**color_axis_args)
 
     # 保存为png，scale设置为4
     output_image_path = os.path.join(workdir, "go.png")
@@ -234,52 +277,52 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, fon
 
 if __name__ == "__main__":
     
-    # 运行GO富集分析
-    run_enrich(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/input_file/gene_list.txt",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
-        "Myceliophthora thermophila",
-        0.05,
-        "GO"
-    )
+    # # 运行GO富集分析
+    # run_enrich(
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/input_file/gene_list.txt",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
+    #     "Myceliophthora thermophila",
+    #     0.05,
+    #     "GO"
+    # )
 
     # 绘制GO富集分析气泡图
     plot_go_chart(
         "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go.tsv",
+        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/go3.tsv",
         width=1000,
         height=800,
         p_adjust=0.05,
         font_size=15,
         chart_num=30,
         chart_size=30,
-        pic_type='bubble',
+        pic_type='bar',
         color='rdbu_r',
         funciton_type='All'
     )
 
-    # 运行KEGG富集分析
-    run_enrich(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/input_file/gene_list.txt",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/kegg.tsv",
-        "Myceliophthora thermophila",
-        0.05,
-        "KEGG"
-    )
+    # # 运行KEGG富集分析
+    # run_enrich(
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/input_file/gene_list.txt",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/kegg.tsv",
+    #     "Myceliophthora thermophila",
+    #     0.05,
+    #     "KEGG"
+    # )
 
-    # 绘制KEGG富集分析气泡图
-    plot_kegg_chart(
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file",
-        "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/kegg.tsv",
-        width=1000,
-        height=800,
-        p_adjust=0.05,
-        font_size=15,
-        chart_num=30,
-        chart_size=30,
-        color='rdbu_r',
-        pic_type='bubble',
-        funciton_type='All'
-    )
+    # # 绘制KEGG富集分析气泡图
+    # plot_kegg_chart(
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file",
+    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/enrichment_analysis/output_file/kegg4.tsv",
+    #     width=1000,
+    #     height=800,
+    #     p_adjust=0.05,
+    #     font_size=15,
+    #     chart_num=30,
+    #     chart_size=30,
+    #     color='rdbu_r',
+    #     pic_type='bubble',
+    #     funciton_type='All'
+    # )

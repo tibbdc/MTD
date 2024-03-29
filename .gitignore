@@ -1,4 +1,5 @@
 .DS_Store
+demo/
 
 metabolic_analysis/script/.ipynb_checkpoints/
 metabolic_analysis/script/__pycache__
