@@ -85,18 +85,6 @@ def run_mafft(workdir, blast_seq_path, mafft_result_path):
     os.system(mafft_path+" --auto "+blast_seq_path+" > "+mafft_result_path)
 
 
-
-def run_mafft_linux(mafft_path ,blast_seq_path, mafft_result_path):
-    """使用mafft进行多序列比对: linux版
-
-    Args:
-        blast_output_path: 输入文件路径
-        mafft_result_path: 输出文件路径
-    """
-    os.system(mafft_path+" --auto "+blast_seq_path+" > "+mafft_result_path)
-    
-
-
 def run_fasttree(workdir, mafft_result_path, fasttree_result_path, model='jtt'):
     """
     根据多序列比对结果，使用fasttree进行进化树构建: MACOS环境下运行
@@ -113,23 +101,7 @@ def run_fasttree(workdir, mafft_result_path, fasttree_result_path, model='jtt'):
     else:
         cmd = fasttree_path+' -'+model+' '+mafft_result_path+" > "+fasttree_result_path
     os.system(cmd)
-        
-
-
-def run_fasttree_linux(fasttree_path, mafft_result_path, fasttree_result_path, model='jtt'):
-    """
-    根据多序列比对结果，使用fasttree进行进化树构建。: linux版
-
-    Args:
-        mafft_result_path: 输入文件路径
-        fasttree_result_path: 输出文件路径
-        model: 模型，有三种选择：lg, jtt, wag
-    """
-    if model not in ['lg','wag']:
-        cmd = fasttree_path+' '+mafft_result_path+" > "+fasttree_result_path
-    else:
-        cmd = fasttree_path+' -'+model+' '+mafft_result_path+" > "+fasttree_result_path
-    os.system(cmd)
+    
     
 
 
@@ -195,31 +167,64 @@ def run_fasttree_linux(fasttree_path, mafft_result_path, fasttree_result_path, m
 #     print("Evolutionary tree construction completed")
 
 
+def run_mafft_linux(mafft_path ,blast_seq_path, mafft_result_path):
+    """使用mafft进行多序列比对: linux版
+
+    Args:
+        blast_output_path: 输入文件路径
+        mafft_result_path: 输出文件路径
+    """
+    os.system(mafft_path+" --auto "+blast_seq_path+" > "+mafft_result_path)
+
+
+def run_fasttree_linux(fasttree_path, mafft_result_path, fasttree_result_path, model='jtt'):
+    """
+    根据多序列比对结果，使用fasttree进行进化树构建。: linux版
+
+    Args:
+        mafft_result_path: 输入文件路径
+        fasttree_result_path: 输出文件路径
+        model: 模型，有三种选择：lg, jtt, wag
+    """
+    if model not in ['lg','wag']:
+        cmd = fasttree_path+' '+mafft_result_path+" > "+fasttree_result_path
+    else:
+        cmd = fasttree_path+' -'+model+' '+mafft_result_path+" > "+fasttree_result_path
+    os.system(cmd)
+
+
+def sanitize_path(path):
+    """清理文件路径，以确保命令行工具可以正确处理。
+    Args:
+        path (str): 原始文件路径
+    Returns:
+        str: 清理后的文件路径
+    """
+    # 使用引号包围路径，以保持文件名的完整性
+    return f'"{path}"'
 
 def msa_tree(blast_seq_path, mafft_path, fasttree_path, mafft_result_path, fasstree_result_path, model='jtt'):
     """运行mafft、fasttree，将输入蛋白序列信息进行分析，得到蛋白序列文件、多序列比对结果、进化树结果。
 
     Args:
-        workdir (str): 工作目录
         blast_seq_path (str): 上传的蛋白序列文件路径
         mafft_result_path (str): 输出多序列比对结果的路径
         fasstree_result_path (str): 输出进化树结果的路径
     """
+    # blast_seq_path传入的路径如果带有空格，会导致mafft无法识别，需要将路径中的空格替换为'_'. 此外，()也会导致问题，需要替换为''
+    # blast_seq_path = blast_seq_path.replace(' ', '_').replace('(', '').replace(')', '').replace('（', '').replace('）', '')
 
-    # # 调用mafft进行多序列比对
-    # run_mafft(workdir, blast_seq_path, mafft_result_path)
-    # print("Multiple sequence alignment completed!")
-
-    # # 调用fasttree进行进化树构建
-    # run_fasttree(workdir, mafft_result_path, fasstree_result_path)
-    # print("Evolutionary tree construction completed")
+    # 清理文件路径
+    blast_seq_path = sanitize_path(blast_seq_path)
+    mafft_result_path = sanitize_path(mafft_result_path)
+    fasttree_result_path = sanitize_path(fasstree_result_path)
 
     # 调用mafft进行多序列比对
     run_mafft_linux(mafft_path, blast_seq_path, mafft_result_path)
     print("Multiple sequence alignment completed!")
 
     # 调用fasttree进行进化树构建
-    run_fasttree_linux(fasttree_path, mafft_result_path, fasstree_result_path, model)
+    run_fasttree_linux(fasttree_path, mafft_result_path, fasttree_result_path, model)
     print("Evolutionary tree construction completed")
 
 
