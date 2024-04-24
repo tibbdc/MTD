@@ -38,19 +38,19 @@ def run_deseq(workdir, input_path, output_path, repetition):
         return e.stderrs
     
 
-def plot_volcano(workdir, deseq2_relust, genelist=None, width=1200, height=900, p_threshold=0.05, logFC_threshold=1, color_schemes=1, bubble_size=5, opacity=0.8, up_donw_info=True, x_fix=False, y_fix=False):
+def plot_volcano(workdir, deseq2_relust, genelist=None, width=1000, height=800, p_threshold=0.05, logFC_threshold=1, color_schemes=1, bubble_size=12, opacity=0.8, up_donw_info=True, x_fix=False, y_fix=False):
     """根据差异分析结果绘制火山图
 
     Args:
         workdir (str): 工作目录
         deseq2_relust (pd.DataFrame): 差异分析结果表格
         genelist (list): 需要标记的基因列表. Defaults to None.
-        width (int): 图像宽度. Defaults to 1200.
-        height (int): 图像高度. Defaults to 900.
+        width (int): 图像宽度.
+        height (int): 图像高度. 
         p_threshold (float): 显著性阈值. Defaults to 0.05.
         logFC_threshold (int): logFC阈值. Defaults to 1.
         color_schemes (int): 颜色方案. Defaults to 1.
-        bubble_size (int): 气泡大小. Defaults to 5.
+        bubble_size (int): 气泡大小. 
         opacity (float): 气泡透明度. Defaults to 0.8.
         up_donw_info (bool): 是否显示上调和下调基因的数量. Defaults to True.
         x_fix (bool): 是否固定x轴范围. Defaults to False.
