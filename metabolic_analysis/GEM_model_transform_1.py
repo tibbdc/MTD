@@ -66,7 +66,7 @@ def bing_transcriptome(workdir,input_file):
         # if ID=='R38_num':
         #     print(ID)
         #     print(reac[i])
-        reID= reID.split('_')[0]
+        # reID= reID.split('_')[0]
         reactionlist.append(reID)
         fluxlist.append(reac[i])
         reactionlist2.append(model.reactions.get_by_id(i))

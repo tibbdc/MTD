@@ -76,13 +76,25 @@ def plot_corr_sample(workdir, gene_exp_input_path, width=900, height=600, color=
         showarrow=False,
         align="left"
     )
+
+    # 设置交互式图表下载按钮导出高分辨率图片的配置
+    config = {
+    'toImageButtonOptions': {
+        'format': 'png',  # one of png, svg, jpeg, webp
+        'filename': 'Picture',
+        'height': height,
+        'width': width,
+        'scale': 4  # 缩放参数，增加这个参数可以提高图像的分辨率
+        }
+    }
+
     # 保存为高清图片
     output_image_path = os.path.join(workdir, "corr_sample.png")
     fig.write_image(output_image_path, scale=4)
 
     # 保存为html文件
     output_html_path = os.path.join(workdir, "corr_sample.html")
-    fig.write_html(output_html_path)
+    fig.write_html(output_html_path, config=config, include_plotlyjs='cdn')
 
     # 返回路径
     return output_image_path, output_html_path
@@ -158,13 +170,25 @@ def plot_corr_gene(workdir, gene_exp_input_path, width=900, height=600, color='g
         showarrow=False,
         align="left"
     )
+
+    # 设置交互式图表下载按钮导出高分辨率图片的配置
+    config = {
+    'toImageButtonOptions': {
+        'format': 'png',  # one of png, svg, jpeg, webp
+        'filename': 'Picture',
+        'height': height,
+        'width': width,
+        'scale': 4  # 缩放参数，增加这个参数可以提高图像的分辨率
+        }
+    }
+
     # 保存为高清图片
     output_image_path = os.path.join(workdir, "corr_gene.png")
     fig.write_image(output_image_path, scale=4)
 
     # 保存为html文件
     output_html_path = os.path.join(workdir, "corr_gene.html")
-    fig.write_html(output_html_path)
+    fig.write_html(output_html_path, config=config, include_plotlyjs='cdn')
 
     # 返回路径
     return output_image_path, output_html_path
@@ -337,13 +361,25 @@ def plot_gene_network(workdir, gene_exp_input_path, width=1200, height=900, bubb
         height=height,
         template="plotly_white"
     )
+
+    # 设置交互式图表下载按钮导出高分辨率图片的配置
+    config = {
+    'toImageButtonOptions': {
+        'format': 'png',  # one of png, svg, jpeg, webp
+        'filename': 'Picture',
+        'height': height,
+        'width': width,
+        'scale': 4  # 缩放参数，增加这个参数可以提高图像的分辨率
+        }
+    }
+    
     # 保存为高清图片
     output_image_path = os.path.join(workdir, "corr_gene_network.png")
     fig.write_image(output_image_path, scale=4)
 
     # 保存为html文件
     output_html_path = os.path.join(workdir, "corr_gene_network.html")
-    fig.write_html(output_html_path)
+    fig.write_html(output_html_path,config=config, include_plotlyjs='cdn')
 
     # 返回路径
     return output_image_path, output_html_path

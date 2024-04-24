@@ -181,12 +181,23 @@ def plot_volcano(workdir, deseq2_relust, genelist=None, width=1200, height=900, 
     deseq2_relust[upregulated]['Symbol'].to_csv(upregulated_genes_path, index=False, header=False)
     deseq2_relust[downregulated]['Symbol'].to_csv(downregulated_genes_path, index=False, header=False)
 
+    # 设置交互式图表下载按钮导出高分辨率图片的配置
+    config = {
+    'toImageButtonOptions': {
+        'format': 'png',  # one of png, svg, jpeg, webp
+        'filename': 'Picture',
+        'height': height,
+        'width': width,
+        'scale': 4  # 缩放参数，增加这个参数可以提高图像的分辨率
+        }
+    }
+
     # 保存为png，scale设置为4
     output_image_path = os.path.join(workdir, "volcano.png")
     fig.write_image(output_image_path, scale=4)
     # 保存为html
     output_html_path = os.path.join(workdir, "volcano.html")
-    fig.write_html(output_html_path)
+    fig.write_html(output_html_path, config=config, include_plotlyjs='cdn')
 
     # 返回路径
     return upregulated_genes_path, downregulated_genes_path, output_image_path, output_html_path

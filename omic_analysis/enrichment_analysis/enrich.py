@@ -147,12 +147,23 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, p_adjust=0.05,
     if 'tickvals' in color_axis_args['colorbar']:  # 只有在tickvals存在时才更新颜色轴
         fig.update_coloraxes(**color_axis_args)
 
+    # 设置交互式图表下载按钮导出高分辨率图片的配置
+    config = {
+    'toImageButtonOptions': {
+        'format': 'png',  # one of png, svg, jpeg, webp
+        'filename': 'Picture',
+        'height': height,
+        'width': width,
+        'scale': 4  # 缩放参数，增加这个参数可以提高图像的分辨率
+        }
+    }
+
     # 保存为png，scale设置为4
     output_image_path = os.path.join(workdir, "kegg.png")
     fig.write_image(output_image_path, scale=4)
     # 保存为html
     output_html_path = os.path.join(workdir, "kegg.html")
-    fig.write_html(output_html_path)
+    fig.write_html(output_html_path,config=config, include_plotlyjs='cdn')
     
     # 测试用
     return output_image_path, output_html_path
@@ -265,12 +276,23 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, fon
     if 'tickvals' in color_axis_args['colorbar']:  # 只有在tickvals存在时才更新颜色轴
         fig.update_coloraxes(**color_axis_args)
 
+    # 设置交互式图表下载按钮导出高分辨率图片的配置
+    config = {
+    'toImageButtonOptions': {
+        'format': 'png',  # one of png, svg, jpeg, webp
+        'filename': 'Picture',
+        'height': height,
+        'width': width,
+        'scale': 4  # 缩放参数，增加这个参数可以提高图像的分辨率
+        }
+    }
+
     # 保存为png，scale设置为4
     output_image_path = os.path.join(workdir, "go.png")
     fig.write_image(output_image_path, scale=4)
     # 保存为html
     output_html_path = os.path.join(workdir, "go.html")
-    fig.write_html(output_html_path)
+    fig.write_html(output_html_path,config=config, include_plotlyjs='cdn')
 
     return output_image_path, output_html_path
 
