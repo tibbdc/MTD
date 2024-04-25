@@ -94,7 +94,7 @@ def plot_corr_sample(workdir, gene_exp_input_path, width=900, height=600, color=
 
     # 保存为html文件
     output_html_path = os.path.join(workdir, "corr_sample.html")
-    fig.write_html(output_html_path, config=config, include_plotlyjs='cdn')
+    fig.write_html(output_html_path, config=config)
 
     # 返回路径
     return output_image_path, output_html_path
@@ -188,7 +188,7 @@ def plot_corr_gene(workdir, gene_exp_input_path, width=900, height=600, color='g
 
     # 保存为html文件
     output_html_path = os.path.join(workdir, "corr_gene.html")
-    fig.write_html(output_html_path, config=config, include_plotlyjs='cdn')
+    fig.write_html(output_html_path, config=config)
 
     # 返回路径
     return output_image_path, output_html_path
@@ -379,7 +379,7 @@ def plot_gene_network(workdir, gene_exp_input_path, width=1200, height=900, bubb
 
     # 保存为html文件
     output_html_path = os.path.join(workdir, "corr_gene_network.html")
-    fig.write_html(output_html_path,config=config, include_plotlyjs='cdn')
+    fig.write_html(output_html_path,config=config)
 
     # 返回路径
     return output_image_path, output_html_path

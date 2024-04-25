@@ -80,7 +80,7 @@ def run_mt_model_1(workdir, model_input_path, model_output_path):
     df_reaction = df_reaction.sort_values(by='Flux', ascending=False)
     df_reaction.to_csv(model_output_path,sep='\t',index=False)
 
-    return data
+    return data,model_output_path
     
 
 
@@ -174,7 +174,7 @@ def run_mt_model_2(workdir, model_input_treatment, model_input_control, model_ou
     df_reaction_save = df_reaction[['ReactionID', 'Equation', 'Flux_Treatment', 'Flux_Control','Flux_Difference']]
     df_reaction_save.to_csv(model_output_path,sep='\t',index=False)
 
-    return data
+    return data,model_output_path
 
 
 

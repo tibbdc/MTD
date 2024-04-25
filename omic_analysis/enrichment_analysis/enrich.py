@@ -163,7 +163,7 @@ def plot_kegg_chart(workdir, kegg_result, width=1280, height=720, p_adjust=0.05,
     fig.write_image(output_image_path, scale=4)
     # 保存为html
     output_html_path = os.path.join(workdir, "kegg.html")
-    fig.write_html(output_html_path,config=config, include_plotlyjs='cdn')
+    fig.write_html(output_html_path,config=config)
     
     # 测试用
     return output_image_path, output_html_path
@@ -292,7 +292,7 @@ def plot_go_chart(workdir, go_relust, width=1280, height=720, p_adjust=0.05, fon
     fig.write_image(output_image_path, scale=4)
     # 保存为html
     output_html_path = os.path.join(workdir, "go.html")
-    fig.write_html(output_html_path,config=config, include_plotlyjs='cdn')
+    fig.write_html(output_html_path,config=config)
 
     return output_image_path, output_html_path
 

@@ -197,7 +197,7 @@ def plot_volcano(workdir, deseq2_relust, genelist=None, width=1000, height=800, 
     fig.write_image(output_image_path, scale=4)
     # 保存为html
     output_html_path = os.path.join(workdir, "volcano.html")
-    fig.write_html(output_html_path, config=config, include_plotlyjs='cdn')
+    fig.write_html(output_html_path, config=config)
 
     # 返回路径
     return upregulated_genes_path, downregulated_genes_path, output_image_path, output_html_path
