@@ -35,7 +35,7 @@ def run_deseq(workdir, input_path, output_path, repetition):
         result = subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         return result.stdout
     except subprocess.CalledProcessError as e:
-        return e.stderrs
+        return e.stderr
     
 
 def plot_volcano(workdir, deseq2_relust, genelist=None, width=1000, height=800, p_threshold=0.05, logFC_threshold=1, color_schemes=1, bubble_size=12, opacity=0.8, up_donw_info=True, x_fix=False, y_fix=False):
@@ -207,14 +207,14 @@ def plot_volcano(workdir, deseq2_relust, genelist=None, width=1000, height=800, 
 if __name__ == "__main__":
 
     # 运行差异分析
-    # run_deseq(
-    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/",
-    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/input_file/expression_matrix_deseq2.csv",
-    #     "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file/deseq2.tsv",
-    #     3,
-    #     )
+    run_deseq(
+        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/",
+        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/input_file/expression_matrix_deseq2_1.csv",
+        "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file/deseq2.tsv",
+        2,
+        )
     
-    # # 绘制火山图
+    # 绘制火山图
     plot_volcano(
         "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file",
         "/Users/dongjiacheng/Desktop/Github/omic_analysis/differential_analysis/output_file/deseq2.tsv",
