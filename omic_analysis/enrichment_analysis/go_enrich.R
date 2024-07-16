@@ -57,6 +57,9 @@ genelist <- as.character(rownames(genelist))
 # 如果genelist中有重复的基因，只保留一个
 genelist <- unique(genelist)
 
+# 将基因名称转换为大写
+genelist <- toupper(genelist)
+
 # GO
 go2gene = split(go2gene , with(go2gene , CLASS))
 
@@ -64,19 +67,19 @@ enrich_MF = enricher(genelist,
                     TERM2GENE=go2gene [['MF']][c(1,2)],
                     TERM2NAME=go2name,
                     pvalueCutoff = opt$padjust,
-                    qvalueCutoff = 1)
+                    qvalueCutoff = 0.2)
 
 enrich_BP = enricher(genelist,
                     TERM2GENE=go2gene [['BP']][c(1,2)],
                     TERM2NAME=go2name,
                     pvalueCutoff = opt$padjust,
-                    qvalueCutoff = 1)
+                    qvalueCutoff = 0.2)
 
 enrich_CC = enricher(genelist,
                     TERM2GENE=go2gene [['CC']][c(1,2)],
                     TERM2NAME=go2name,
                     pvalueCutoff = opt$padjust,
-                    qvalueCutoff = 1)
+                    qvalueCutoff = 0.2)
 
 # 合并三个表
 enrich_MF = as.data.frame(enrich_MF)

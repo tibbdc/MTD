@@ -53,13 +53,16 @@ genelist <- as.character(rownames(genelist))
 # 如果genelist中有重复的基因，只保留一个
 genelist <- unique(genelist)
 
+# 将基因名称转换为大写
+genelist <- toupper(genelist)
+
 # kegg
 enrich_kegg <- enricher(genelist,
   TERM2GENE = ko2gene,
   TERM2NAME = ko2name,
   pAdjustMethod = "BH", # 使用FDR进行校正
   pvalueCutoff = opt$padjust,
-  qvalueCutoff = 1
+  qvalueCutoff = 0.2
 )
 
 # 保存结果到指定的输出文件
