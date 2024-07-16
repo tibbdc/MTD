@@ -41,7 +41,7 @@ if (length(group_names) != 2) {
 
 # 创建样本分组信息
 sample_info <- data.frame(row.names = colnames(count_df))
-sample_info$group <- rep(group_names, each = n)
+sample_info$group <- rep(c("Control", "Treatment"), each = n)
 
 # 创建dds对象用于差异表达分析
 dds <- DESeqDataSetFromMatrix(countData = count_df,
@@ -69,4 +69,3 @@ res_df <- res_df[, c("Gene", setdiff(names(res_df), "Gene"))]
 
 # 保存结果为TSV文件，第一列列名为"Gene"
 write.table(res_df, file = opt$output, sep = "\t", quote = FALSE, row.names = FALSE)
-

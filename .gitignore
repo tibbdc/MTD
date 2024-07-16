@@ -1,5 +1,6 @@
 .DS_Store
 demo/
+MTD-Turorial
 
 metabolic_analysis/script/.ipynb_checkpoints/
 metabolic_analysis/script/__pycache__
@@ -19,3 +20,6 @@ msa/mafft-mac/mafftdir
 omic_analysis/pca_analysis/output_file/pca_2d_files
 omic_analysis/pca_analysis/output_file/pca_3d_files
 
+
+omic_analysis/differential_analysis/output_file
+omic_analysis/differential_analysis/input_file
