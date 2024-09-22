@@ -11,17 +11,6 @@
     "DOI":"10.1016\/j.carbpol.2024.122387"
   },
   {
-    "PMID":37977536,
-    "Title":"Laccase-mediated degradation of petroleum hydrocarbons in historically contaminated soil",
-    "Abstract":"Laccases (EC1.10.3.2) have attracted growing attention in bioremediation research due to their high reactivity and substrate versatility. In this study, three genes for potential novel laccases were identified in an enrichment culture from contaminated field soil and recombinantly expressed in E. coli. Two of them, designated as PlL and BaL, were biochemically characterized regarding their optimal pH and temperature, kinetic parameters, and substrate versatility. In addition, lacasse PlL from Parvibaculum lavamentivorans was tested on historically contaminated soil. Treatment with PlL led to a significantly higher reduction of total petroleum hydrocarbons (83% w\/w) compared to the microbial control (74% w\/w). Hereby, PlL was especially effective in degrading hydrocarbons > C17. Their residual concentration was by 43% w\/w lower than in the microbial treatment. In comparison to the laccase from Myceliophthora thermophila (MtL), PlL treatment was not significantly different for the fraction > C17 but resulted in a 30% (w\/w) lower residual concentration for hydrocarbons < C18. In general, PlL can promote the degradation of petroleum hydrocarbons. As a consequence, it can be applied to reduce remediation time by duly achieving remediation target concentrations needed for site closure.",
-    "Keywords":"Bioremediation, Laccase, Polyaromatic hydrocarbons",
-    "Journal":"Chemosphere",
-    "Institution":"Institute of Environmental Biotechnology, University of Natural Resources and Life Sciences (BOKU), Tulln, Austria.",
-    "Country":"Austria",
-    "Year":2024,
-    "DOI":"10.1016\/j.chemosphere.2023.140733"
-  },
-  {
     "PMID":39292681,
     "Title":"Laccase-mediated chemoselective C-4 arylation of 5-aminopyrazoles",
     "Abstract":"Chemoselective arylation of 5-aminopyrazoles was performed through oxidative formation of orthoquinones from catechols catalyzed by Myceliophthora thermophila laccase (Novozym 51003), and subsequently nucleophilic attack of 5-aminopyrazole to the catechol intermediates. The C-4 arylated products were obtained under extremely mild conditions without the need for amine protection or halogenation of the substrates. From this method, 10 derivatives with moderate to good efficiency (42-94%) were prepared.",
@@ -55,17 +44,6 @@
     "DOI":"10.1021\/acs.joc.4c00793"
   },
   {
-    "PMID":38462117,
-    "Title":"Genomic characterization and expression profiling of the lytic polysaccharide monooxygenases AA9 family in thermophilic fungi Thermothelomyces fergusii in response to carbon source media",
-    "Abstract":"Enhancing enzyme activity and stability in biomass degradation can improve substrate saccharification and, increases biorefinery efficiency. For the first time, we identified 20 lytic polysaccharide monooxygenases (LPMOs) AA9 genes in the genome of Thermothelomyces fergusii. Our results showed that TfAA9 was categorized into LPMOs1, LPMOs2, and LPMOs3 subgroups based on protein diversity. Protein- 3D structure analysis showed strong interactions between Myceliophthora thermophila AA9 proteins and 17 TfAA9 proteins. Gene ontology analysis indicated a high enrichment of cellulase activity in TfAA9 genes. KEGG pathways analysis revealed the role of TfAA9 proteins in the endohydrolysis of 1,4-beta-D-glucosidic linkages in cellulose. Numerous TfAA9s gene transcripts were up-regulated on avicel, cellobiose, and glucose, with a higher proportion on avicel. Protein concentration, endoglucanase, and cellulase activity were also boosted on avicel. However, limited fungal biomass was observed on avicel, despite the abundance of AA9 LPMOs in the T. fergusii genome. These findings expand our understanding of fungal AA9 genes and their role in lignocellulolytic degradation. The disparity between biomass and enzymatic activity suggests screening TfAA9 genes for highly active enzymes and redundant genes via heterologous expression. In short, functional characterization of these genes could contribute to improving the saccharification process of industrial raw materials.",
-    "Keywords":"Enzymatic activity, Gene expression, Reducing sugar",
-    "Journal":"International journal of biological macromolecules",
-    "Institution":"Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China; College of Physics and Optoelectronic Engineering, Shenzhen University, Shenzhen 518060, China.",
-    "Country":"China",
-    "Year":2024,
-    "DOI":"10.1016\/j.ijbiomac.2024.130740"
-  },
-  {
     "PMID":39187522,
     "Title":"Exploring the hidden hot world of long non-coding RNAs in thermophilic fungus using a robust computational pipeline",
     "Abstract":"Long noncoding RNAs (lncRNAs) are versatile RNA molecules recently identified as key regulators of gene expression in response to environmental stress. Our primary focus in this study was to develop a robust computational pipeline for identifying structurally identical lncRNAs across replicates from publicly available bulk RNA-seq datasets. In order to demonstrate the effectiveness of the pipeline, we utilized the transcriptome of the thermophilic fungus Thermothelomyces thermophilus and assessed the expression pattern of lncRNAs in conjunction with Heat Shock Proteins (HSP), a well-known protein family critical for the cell's response to high temperatures. Our findings demonstrate that the identification of structurally identical transcripts among replicates in this thermophilic fungus ensures the reliability and accuracy of RNA studies, contributing to the validity of biological interpretations. Furthermore, the majority of lncRNAs exhibited a distinct expression pattern compared to HSPs. Our study contributes to advancing the understanding of the biological mechanisms comprising lncRNAs in thermophilic fungi.",
@@ -75,39 +53,6 @@
     "Country":"Brazil",
     "Year":2024,
     "DOI":"10.1038\/s41598-024-67975-x"
-  },
-  {
-    "PMID":38380057,
-    "Title":"Independent metabolism of oligosaccharides is the keystone of synchronous utilization of cellulose and hemicellulose in Myceliophthora",
-    "Abstract":"The effective utilization of cellulose and hemicellulose, the main components of plant biomass, is a key technical obstacle that needs to be overcome for the economic viability of lignocellulosic biorefineries. Here, we firstly demonstrated that the thermophilic cellulolytic fungus Myceliophthora thermophila can simultaneously utilize cellulose and hemicellulose, as evidenced by the independent uptake and intracellular metabolism of cellodextrin and xylodextrin. When plant biomass serviced as carbon source, we detected the cellodextrin and xylodextrin both in cells and in the culture medium, as well as high enzyme activities related to extracellular oligosaccharide formation and intracellular oligosaccharide hydrolysis. Sugar consumption assay revealed that in contrast to inhibitory effect of glucose on xylose and cellodextrin\/xylodextrin consumption in mixed-carbon media, cellodextrin and xylodextrin were synchronously utilized in this fungus. Transcriptomic analysis also indicated simultaneous induction of the genes involved in cellodextrin and xylodextrin metabolic pathway, suggesting carbon catabolite repression (CCR) is triggered by extracellular glucose and can be eliminated by the intracellular hydrolysis and metabolism of oligosaccharides. The xylodextrin transporter MtCDT-2 was observed to preferentially transport xylobiose and tolerate high cellobiose concentrations, which helps to bypass the inhibition of xylobiose uptake. Furthermore, the expression of cellulase and hemicellulase genes was independently induced by their corresponding inducers, which enabled this strain to synchronously utilize cellulose and hemicellulose. Taken together, the data presented herein will further elucidate the degradation of plant biomass by fungi, with implications for the development of consolidated bioprocessing-based lignocellulosic biorefinery.",
-    "Keywords":"Myceliophthora thermophila, carbon catabolite repression, cellulose and hemicellulose, fungal biotechnology, independent utilization",
-    "Journal":"PNAS nexus",
-    "Institution":"Key Laboratory of Engineering Biology for Low-carbon Manufacturing, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China.",
-    "Country":"China",
-    "Year":2024,
-    "DOI":"10.1093\/pnasnexus\/pgae053"
-  },
-  {
-    "PMID":38122901,
-    "Title":"Carbohydrate-binding modules enhance H(2)O(2) tolerance by promoting lytic polysaccharide monooxygenase active site H(2)O(2) consumption",
-    "Abstract":"Lytic polysaccharide monooxygenases (LPMOs) oxidatively depolymerize recalcitrant polysaccharides, which is important for biomass conversion. The catalytic domains of many LPMOs are linked to carbohydrate-binding modules (CBMs) through flexible linkers, but the function of these CBMs in LPMO catalysis is not well understood. In this study, we utilized MtLPMO9L and MtLPMO9G derived from Myceliophthora thermophila to investigate the impact of CBMs on LPMO activity, with particular emphasis on their influence on H(2)O(2) tolerance. Using truncated forms of MtLPMO9G generated by removing the CBM, we found reduced substrate binding affinity and enzymatic activity. Conversely, when the CBM was fused to the C terminus of the single-domain MtLPMO9L to create MtLPMO9L-CBM, we observed a substantial improvement in substrate binding affinity, enzymatic activity, and notably, H(2)O(2) tolerance. Furthermore, molecular dynamics simulations confirmed that the CBM fusion enhances the proximity of the active site to the substrate, thereby promoting multilocal cleavage and impacting the exposure of the copper active site to H(2)O(2). Importantly, the fusion of CBM resulted in more efficient consumption of H(2)O(2) by LPMO, leading to improved enzymatic activity and reduced auto-oxidative damage of the copper active center.",
-    "Keywords":"H(2)O(2) tolerance, activity, carbohydrate-binding module, cellulose, lytic polysaccharide monooxygenase, substrate binding affinity",
-    "Journal":"The Journal of biological chemistry",
-    "Institution":"Dalian Engineering Research Center for Carbohydrate Agricultural Preparations, Dalian Technology Innovation Center for Green Agriculture, Liaoning Provincial Key Laboratory of Carbohydrates, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China; University of Chinese Academy of Sciences, Beijing, China.",
-    "Country":"China",
-    "Year":2024,
-    "DOI":"10.1016\/j.jbc.2023.105573"
-  },
-  {
-    "PMID":38392793,
-    "Title":"Secretome Analysis of Thermothelomyces thermophilus LMBC 162 Cultivated with Tamarindus indica Seeds Reveals CAZymes for Degradation of Lignocellulosic Biomass",
-    "Abstract":"The analysis of the secretome allows us to identify the proteins, especially carbohydrate-active enzymes (CAZymes), secreted by different microorganisms cultivated under different conditions. The CAZymes are divided into five classes containing different protein families. Thermothelomyces thermophilus is a thermophilic ascomycete, a source of many glycoside hydrolases and oxidative enzymes that aid in the breakdown of lignocellulosic materials. The secretome analysis of T. thermophilus LMBC 162 cultivated with submerged fermentation using tamarind seeds as a carbon source revealed 79 proteins distributed between the five diverse classes of CAZymes: 5.55% auxiliary activity (AAs); 2.58% carbohydrate esterases (CEs); 20.58% polysaccharide lyases (PLs); and 71.29% glycoside hydrolases (GHs). In the identified GH families, 54.97% are cellulolytic, 16.27% are hemicellulolytic, and 0.05 are classified as other. Furthermore, 48.74% of CAZymes have carbohydrate-binding modules (CBMs). Observing the relative abundance, it is possible to state that only thirteen proteins comprise 92.19% of the identified proteins secreted and are probably the main proteins responsible for the efficient degradation of the bulk of the biomass: cellulose, hemicellulose, and pectin.",
-    "Keywords":"CAZymes, Thermothelomyces thermophilus, lignocellulosic biomass, secretome, tamarind seeds",
-    "Journal":"Journal of fungi (Basel, Switzerland)",
-    "Institution":"Departamento de Bioquimica e Imunologia, Faculdade de Medicina de Ribeirao Preto, Universidade de Sao Paulo, Ribeirao Preto 14049-900, SP, Brazil.",
-    "Country":"Brazil",
-    "Year":2024,
-    "DOI":"10.3390\/jof10020121"
   },
   {
     "PMID":39142195,
