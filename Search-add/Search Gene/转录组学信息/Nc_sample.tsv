@@ -165,13 +165,13 @@ nc025006	OR74A		Glucose10.0%		1h	Identification and Characterization of the Gluc
 nc025007	OR74A		Avicel2.0%		40h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081629,GSM2081630
 nc025008	OR74A		Avicel2.0%		54h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081631,GSM2081632
 nc025009	OR74A		Avicel2.0%		72h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081633,GSM2081634
-nc025010	△cre-1		Avicel2.0%		40h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081635,GSM2081636
-nc025011	△cre-1		Avicel2.0%		54h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081637,GSM2081638
-nc025012	△2hgt		Avicel2.0%		40h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081639,GSM2081640
-nc025013	△2hgt		Avicel2.0%		54h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081641,GSM2081642
-nc025014	△2hgt		Avicel2.0%		72h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081643,GSM2081644
-nc025015	△2hgt; △cre-1		Avicel2.0%		40h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081645,GSM2081646
-nc025016	△2hgt; △cre-1		Avicel2.0%		54h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081647,GSM2081648
+nc025010	Delta cre-1		Avicel2.0%		40h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081635,GSM2081636
+nc025011	Delta cre-1		Avicel2.0%		54h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081637,GSM2081638
+nc025012	Delta 2hgt		Avicel2.0%		40h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081639,GSM2081640
+nc025013	Delta 2hgt		Avicel2.0%		54h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081641,GSM2081642
+nc025014	Delta 2hgt		Avicel2.0%		72h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081643,GSM2081644
+nc025015	Delta 2hgt; Delta cre-1		Avicel2.0%		40h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081645,GSM2081646
+nc025016	Delta 2hgt; Delta cre-1		Avicel2.0%		54h	Identification and Characterization of the Glucose Dual-transporter System: Pleiotropic Roles in Nutrient Transport, Signaling, and Carbon Catabolite Repression in Neurospora crassa	GSE78952	GSM2081647,GSM2081648
 nc026001	OR74A		Mannan			Network reconstruction and systems analysis of plant cell wall deconstruction by Neurospora crassa (RNA-seq)	GSE90611	GSM2407767,GSM2407768,GSM2407769
 nc026002	OR74A		Mixed-linkage-glucan			Network reconstruction and systems analysis of plant cell wall deconstruction by Neurospora crassa (RNA-seq)	GSE90611	GSM2407770,GSM2407771,GSM2407772
 nc026003	OR74A		Starch			Network reconstruction and systems analysis of plant cell wall deconstruction by Neurospora crassa (RNA-seq)	GSE90611	GSM2407773,GSM2407774,GSM2407775
@@ -207,8 +207,8 @@ nc031005	OR74A	Light				The coding and noncoding transcriptome of Neurospora cra
 nc031006	Delta wc1	Light				The coding and noncoding transcriptome of Neurospora crassa	GSE99245	GSM2637962
 nc031007	Delta wc2	Light				The coding and noncoding transcriptome of Neurospora crassa	GSE99245	GSM2637963
 nc031008	OR74A	After a light to dark transfer				The coding and noncoding transcriptome of Neurospora crassa	GSE99245	GSM2637964
-nc032001	△3βG		Cellobiose			The Protein Non-anchored cell wall protein NCW-1 promotes cellulase production through effects on cellobiose uptake in Neurospora crassa	GSE73838	GSM1904310
-nc032002	△3βG△ncw-1		Cellobiose			The Protein Non-anchored cell wall protein NCW-1 promotes cellulase production through effects on cellobiose uptake in Neurospora crassa	GSE73838	GSM1904311
+nc032001	Delta 3βG		Cellobiose			The Protein Non-anchored cell wall protein NCW-1 promotes cellulase production through effects on cellobiose uptake in Neurospora crassa	GSE73838	GSM1904310
+nc032002	Delta 3βGDelta ncw-1		Cellobiose			The Protein Non-anchored cell wall protein NCW-1 promotes cellulase production through effects on cellobiose uptake in Neurospora crassa	GSE73838	GSM1904311
 nc033001	delta-gul-1		Avicel	25 ℃	3d	Disruption of gul-1 decreased the culture viscosity and improved protein secretion in the filamentous fungus Neurospora crassa	GSE113321	GSM3103245
 nc033002	OR74A		Avicel	25 ℃	3d	Disruption of gul-1 decreased the culture viscosity and improved protein secretion in the filamentous fungus Neurospora crassa	GSE113321	GSM3103246
 nc034001	genotype: wild type	Low inorganic phosphate				Comparative transcriptome of Neurospora crassa strains	GSE100539	GSM2686167,GSM2686168,GSM2686169
@@ -269,7 +269,7 @@ nc041001	delta-mus52	Low inorganic phosphate	Sucrose		5d	The pH Signaling Transc
 nc041002	delta-mus52	High inorganic phosphate	Sucrose		5d	The pH Signaling Transcription Factor PAC-3 Regulates Metabolic and Developmental Processes in Pathogenic Fungi	GSE132373	GSM3861089,GSM3861090,GSM3861091
 nc041003	delta-pac3	Low inorganic phosphate	Sucrose		10d	The pH Signaling Transcription Factor PAC-3 Regulates Metabolic and Developmental Processes in Pathogenic Fungi	GSE132373	GSM3861092,GSM3861093,GSM3861094
 nc041004	delta-pac3	High inorganic phosphate	Sucrose		10d	The pH Signaling Transcription Factor PAC-3 Regulates Metabolic and Developmental Processes in Pathogenic Fungi	GSE132373	GSM3861095,GSM3861096,GSM3861097
-nc042001	{delta}clr-4		Sucrose	25°	16h	A novel conserved transcription factor CLR-4 regulates cellulase genes expression through controlling the intracellular cAMP level in ascomycete fungi	GSE111986	GSM3048710,GSM3048711
+nc042001	Delta clr-4		Sucrose	25°	16h	A novel conserved transcription factor CLR-4 regulates cellulase genes expression through controlling the intracellular cAMP level in ascomycete fungi	GSE111986	GSM3048710,GSM3048711
 nc043001	delta_lsd1		Sucrose	32°	16h	Loss of Lysine-Specific Demethylase 1 (LSD1) Drives Aberrant Heterochromatin Formation in Neurospora crassa	GSE137018	GSM4065471,GSM4065472
 nc044001	FGSC4200		Glucose2.0%			Effect of cpc-1 deletion in Neurospora crassa on transcriptome under different culture conditions	GSE150287	GSM4544781,GSM4544782,GSM4544783
 nc044002	FGSC4200		Glucose2.0% + 3-at			Effect of cpc-1 deletion in Neurospora crassa on transcriptome under different culture conditions	GSE150287	GSM4544784,GSM4544785,GSM4544786
@@ -349,12 +349,12 @@ nc052024	Delta nit-4	50mm nano3	Sucrose	25°		DNA affinity purification sequenci
 nc052025	Delta nit-4	Nitrogen starvation	Sucrose	25°		DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	GSE150256	GSM4544429,GSM4544430,GSM4544431
 nc052026	Delta nmr	25mm nh4no3	Sucrose	25°		DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	GSE150256	GSM4544432,GSM4544433,GSM4544434
 nc052027	Delta nmr	Nitrogen starvation	Sucrose	25°		DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	GSE150256	GSM4544435,GSM4544436,GSM4544437
-nc053001	OR74A		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576094
-nc053002	OR74A		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576095
-nc053003	delta_mak-1		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576096
-nc053004	delta_mak-1		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576097
-nc053005	delta_mak-2		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576098
-nc053006	delta_mak-2		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576099
+nc053001	OR74A		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576094
+nc053002	OR74A		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576095
+nc053003	delta_mak-1		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576096
+nc053004	delta_mak-1		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576097
+nc053005	delta_mak-2		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576098
+nc053006	delta_mak-2		Sucrose			Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	GSE184024	GSM5576099
 nc054009	WT	1хwt-edp	Glucose			Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	GSE168595	GSM5150332
 nc054010	WT	3хwt-edp	Glucose			Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	GSE168595	GSM5150333
 nc054011	WT	1хopt-edp	Glucose			Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	GSE168595	GSM5150334
@@ -428,21 +428,21 @@ nc060004	NCU09388		Sucrose	32°C	16h	The ACF chromatin remodeling complex is ess
 nc060005	NCU00412		Sucrose	32°C	16h	The ACF chromatin remodeling complex is essential for Polycomb repression	GSE168277	GSM5135467,GSM5135468
 nc060006	OR74A		Sucrose	32°C	16h	The ACF chromatin remodeling complex is essential for Polycomb repression	GSE168277	GSM5135469,GSM5135470,GSM5135473,GSM5135474
 nc060007	set7		Sucrose	32°C	16h	The ACF chromatin remodeling complex is essential for Polycomb repression	GSE168277	GSM5135471,GSM5135472
-nc062001	{delta}ve-1	Dark 		22°C	15h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460907,GSM5460908,GSM5460909,GSM5460910
+nc062001	Delta ve-1	Dark 		22°C	15h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460907,GSM5460908,GSM5460909,GSM5460910
 nc062002	OR74A	Dark 		22°C	15h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460911,GSM5460912,GSM5460913,GSM5460914
-nc062003	{delta}ve-1	Dark 		22°C	48h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460915,GSM5460916
-nc062004	{delta}ve-1	Light		22°C	48h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460917,GSM5460918
+nc062003	Delta ve-1	Dark 		22°C	48h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460915,GSM5460916
+nc062004	Delta ve-1	Light		22°C	48h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460917,GSM5460918
 nc062005	OR74A	Dark 		22°C	48h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460919,GSM5460920
 nc062006	OR74A	Light		22°C	48h 	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460921,GSM5460922
-nc062007	{delta}ve-1	Dark 		22°C	24h	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460923,GSM5460924,GSM5460925,GSM5460926
+nc062007	Delta ve-1	Dark 		22°C	24h	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460923,GSM5460924,GSM5460925,GSM5460926
 nc062008	OR74A	Dark 		22°C	24h	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	GSE180332	GSM5460927,GSM5460928,GSM5460929,GSM5460930
 nc062009	csr-1	Barr mat a	Glucose	25°C	72h	A role for gene expression and mRNA stability in nutritional compensation of the circadian clock	GSE201901	GSM6077761,GSM6077763
 nc062010	cpsf5cpsf6	Barr	Glucose	25°C	72h	A role for gene expression and mRNA stability in nutritional compensation of the circadian clock	GSE201901	GSM6077762,GSM6077764
-nc063001	∆clr5		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921746,GSM6921747
+nc063001	Delta clr5		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921746,GSM6921747
 nc063002	WT		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921748,GSM6921749
-nc063003	∆clr5_His		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921750,GSM6921751
+nc063003	Delta clr5_His		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921750,GSM6921751
 nc063004	WT_His		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921752,GSM6921753
-nc063005	∆clr5_Leu		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921754,GSM6921755
+nc063005	Delta clr5_Leu		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921754,GSM6921755
 nc063006	WT_Leu		Avicel		8h	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	GSE222372	GSM6921756,GSM6921757
 nc064001	WT	Constant light	Glucose	25°C	18h	The nutrient-sensing GCN2 signaling pathway is essential for circadian clock function by regulating histone acetylation under amino acid starvation	GSE220169	GSM6793047,GSM6793048,GSM6793049
 nc064002	cpc-1	Constant light	Glucose	25°C	18h	The nutrient-sensing GCN2 signaling pathway is essential for circadian clock function by regulating histone acetylation under amino acid starvation	GSE220169	GSM6793050,GSM6793051,GSM6793052

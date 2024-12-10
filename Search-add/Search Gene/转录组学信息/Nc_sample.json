@@ -1827,7 +1827,7 @@
   },
   {
     "Sample ID":"nc025010",
-    "Strain":"\u25b3cre-1",
+    "Strain":"Delta cre-1",
     "Strategy":"",
     "Carbon Sources":"Avicel2.0%",
     "Temperature":"",
@@ -1838,7 +1838,7 @@
   },
   {
     "Sample ID":"nc025011",
-    "Strain":"\u25b3cre-1",
+    "Strain":"Delta cre-1",
     "Strategy":"",
     "Carbon Sources":"Avicel2.0%",
     "Temperature":"",
@@ -1849,7 +1849,7 @@
   },
   {
     "Sample ID":"nc025012",
-    "Strain":"\u25b32hgt",
+    "Strain":"Delta 2hgt",
     "Strategy":"",
     "Carbon Sources":"Avicel2.0%",
     "Temperature":"",
@@ -1860,7 +1860,7 @@
   },
   {
     "Sample ID":"nc025013",
-    "Strain":"\u25b32hgt",
+    "Strain":"Delta 2hgt",
     "Strategy":"",
     "Carbon Sources":"Avicel2.0%",
     "Temperature":"",
@@ -1871,7 +1871,7 @@
   },
   {
     "Sample ID":"nc025014",
-    "Strain":"\u25b32hgt",
+    "Strain":"Delta 2hgt",
     "Strategy":"",
     "Carbon Sources":"Avicel2.0%",
     "Temperature":"",
@@ -1882,7 +1882,7 @@
   },
   {
     "Sample ID":"nc025015",
-    "Strain":"\u25b32hgt; \u25b3cre-1",
+    "Strain":"Delta 2hgt; Delta cre-1",
     "Strategy":"",
     "Carbon Sources":"Avicel2.0%",
     "Temperature":"",
@@ -1893,7 +1893,7 @@
   },
   {
     "Sample ID":"nc025016",
-    "Strain":"\u25b32hgt; \u25b3cre-1",
+    "Strain":"Delta 2hgt; Delta cre-1",
     "Strategy":"",
     "Carbon Sources":"Avicel2.0%",
     "Temperature":"",
@@ -2289,7 +2289,7 @@
   },
   {
     "Sample ID":"nc032001",
-    "Strain":"\u25b33\u03b2G",
+    "Strain":"Delta 3\u03b2G",
     "Strategy":"",
     "Carbon Sources":"Cellobiose",
     "Temperature":"",
@@ -2300,7 +2300,7 @@
   },
   {
     "Sample ID":"nc032002",
-    "Strain":"\u25b33\u03b2G\u25b3ncw-1",
+    "Strain":"Delta 3\u03b2GDelta ncw-1",
     "Strategy":"",
     "Carbon Sources":"Cellobiose",
     "Temperature":"",
@@ -2971,7 +2971,7 @@
   },
   {
     "Sample ID":"nc042001",
-    "Strain":"{delta}clr-4",
+    "Strain":"Delta clr-4",
     "Strategy":"",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3856,7 +3856,7 @@
     "Carbon Sources":"Sucrose",
     "Temperature":"",
     "Time":"",
-    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of \u2206mak-2, \u2206mak-1 and Wild Type of Neurospora crassa",
+    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa",
     "Series Accession":"GSE184024",
     "Related Sample":"GSM5576094"
   },
@@ -3867,7 +3867,7 @@
     "Carbon Sources":"Sucrose",
     "Temperature":"",
     "Time":"",
-    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of \u2206mak-2, \u2206mak-1 and Wild Type of Neurospora crassa",
+    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa",
     "Series Accession":"GSE184024",
     "Related Sample":"GSM5576095"
   },
@@ -3878,7 +3878,7 @@
     "Carbon Sources":"Sucrose",
     "Temperature":"",
     "Time":"",
-    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of \u2206mak-2, \u2206mak-1 and Wild Type of Neurospora crassa",
+    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa",
     "Series Accession":"GSE184024",
     "Related Sample":"GSM5576096"
   },
@@ -3889,7 +3889,7 @@
     "Carbon Sources":"Sucrose",
     "Temperature":"",
     "Time":"",
-    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of \u2206mak-2, \u2206mak-1 and Wild Type of Neurospora crassa",
+    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa",
     "Series Accession":"GSE184024",
     "Related Sample":"GSM5576097"
   },
@@ -3900,7 +3900,7 @@
     "Carbon Sources":"Sucrose",
     "Temperature":"",
     "Time":"",
-    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of \u2206mak-2, \u2206mak-1 and Wild Type of Neurospora crassa",
+    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa",
     "Series Accession":"GSE184024",
     "Related Sample":"GSM5576098"
   },
@@ -3911,7 +3911,7 @@
     "Carbon Sources":"Sucrose",
     "Temperature":"",
     "Time":"",
-    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of \u2206mak-2, \u2206mak-1 and Wild Type of Neurospora crassa",
+    "Study Title":"Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa",
     "Series Accession":"GSE184024",
     "Related Sample":"GSM5576099"
   },
@@ -4720,7 +4720,7 @@
   },
   {
     "Sample ID":"nc062001",
-    "Strain":"{delta}ve-1",
+    "Strain":"Delta ve-1",
     "Strategy":"Dark ",
     "Carbon Sources":"",
     "Temperature":"22\u00b0C",
@@ -4742,7 +4742,7 @@
   },
   {
     "Sample ID":"nc062003",
-    "Strain":"{delta}ve-1",
+    "Strain":"Delta ve-1",
     "Strategy":"Dark ",
     "Carbon Sources":"",
     "Temperature":"22\u00b0C",
@@ -4753,7 +4753,7 @@
   },
   {
     "Sample ID":"nc062004",
-    "Strain":"{delta}ve-1",
+    "Strain":"Delta ve-1",
     "Strategy":"Light",
     "Carbon Sources":"",
     "Temperature":"22\u00b0C",
@@ -4786,7 +4786,7 @@
   },
   {
     "Sample ID":"nc062007",
-    "Strain":"{delta}ve-1",
+    "Strain":"Delta ve-1",
     "Strategy":"Dark ",
     "Carbon Sources":"",
     "Temperature":"22\u00b0C",
@@ -4830,7 +4830,7 @@
   },
   {
     "Sample ID":"nc063001",
-    "Strain":"\u2206clr5",
+    "Strain":"Delta clr5",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"",
@@ -4852,7 +4852,7 @@
   },
   {
     "Sample ID":"nc063003",
-    "Strain":"\u2206clr5_His",
+    "Strain":"Delta clr5_His",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"",
@@ -4874,7 +4874,7 @@
   },
   {
     "Sample ID":"nc063005",
-    "Strain":"\u2206clr5_Leu",
+    "Strain":"Delta clr5_Leu",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"",
