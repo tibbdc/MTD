@@ -694,7 +694,7 @@
   },
   {
     "Sample ID":"mt009003",
-    "Strain":"\u0394pfk2-a",
+    "Strain":"Delta pfk2-a",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -705,7 +705,7 @@
   },
   {
     "Sample ID":"mt009004",
-    "Strain":"\u0394pfk2-a",
+    "Strain":"Delta pfk2-a",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -716,7 +716,7 @@
   },
   {
     "Sample ID":"mt009005",
-    "Strain":"\u0394pfk2-b",
+    "Strain":"Delta pfk2-b",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -727,7 +727,7 @@
   },
   {
     "Sample ID":"mt009006",
-    "Strain":"\u0394pfk2-c",
+    "Strain":"Delta pfk2-c",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -738,7 +738,7 @@
   },
   {
     "Sample ID":"mt009007",
-    "Strain":"\u0394pfk2-c",
+    "Strain":"Delta pfk2-c",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -749,7 +749,7 @@
   },
   {
     "Sample ID":"mt009008",
-    "Strain":"\u0394pfk2-abc",
+    "Strain":"Delta pfk2-abc",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -760,7 +760,7 @@
   },
   {
     "Sample ID":"mt009009",
-    "Strain":"\u0394pfk2-abc",
+    "Strain":"Delta pfk2-abc",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -815,7 +815,7 @@
   },
   {
     "Sample ID":"mt011001",
-    "Strain":"\u0394Mycth_90344",
+    "Strain":"Delta Mycth_90344",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"45\u00b0C",
@@ -826,7 +826,7 @@
   },
   {
     "Sample ID":"mt011002",
-    "Strain":"\u0394Mycth_90344",
+    "Strain":"Delta Mycth_90344",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"45\u00b0C",
@@ -837,7 +837,7 @@
   },
   {
     "Sample ID":"mt011003",
-    "Strain":"\u0394Mycth_90344",
+    "Strain":"Delta Mycth_90344",
     "Strategy":"",
     "Carbon Sources":"Starch",
     "Temperature":"45\u00b0C",
@@ -892,7 +892,7 @@
   },
   {
     "Sample ID":"mt012002",
-    "Strain":"\u0394laeA",
+    "Strain":"Delta laeA",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -903,7 +903,7 @@
   },
   {
     "Sample ID":"mt012003",
-    "Strain":"\u0394grf-1",
+    "Strain":"Delta grf-1",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -914,7 +914,7 @@
   },
   {
     "Sample ID":"mt012004",
-    "Strain":"\u0394grf-2",
+    "Strain":"Delta grf-2",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -925,7 +925,7 @@
   },
   {
     "Sample ID":"mt012005",
-    "Strain":"\u0394grf-3",
+    "Strain":"Delta grf-3",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -936,7 +936,7 @@
   },
   {
     "Sample ID":"mt012006",
-    "Strain":"\u0394cre-1",
+    "Strain":"Delta cre-1",
     "Strategy":"",
     "Carbon Sources":"Glucose",
     "Temperature":"45\u00b0C",
@@ -958,7 +958,7 @@
   },
   {
     "Sample ID":"mt012008",
-    "Strain":"\u0394laeA",
+    "Strain":"Delta laeA",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"45\u00b0C",
@@ -980,7 +980,7 @@
   },
   {
     "Sample ID":"mt012010",
-    "Strain":"\u0394laeA",
+    "Strain":"Delta laeA",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"45\u00b0C",
@@ -1002,7 +1002,7 @@
   },
   {
     "Sample ID":"mt012012",
-    "Strain":"\u0394laeA",
+    "Strain":"Delta laeA",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"45\u00b0C",

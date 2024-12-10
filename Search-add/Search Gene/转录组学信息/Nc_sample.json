@@ -435,18 +435,18 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"5h",
-    "Study Title":"Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: \u0394pp-1 vs WT",
+    "Study Title":"Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: Delta pp-1 vs WT",
     "Series Accession":"GSE50446",
     "Related Sample":"GSM1219411"
   },
   {
     "Sample ID":"nc004002",
-    "Strain":"\u0394pp",
+    "Strain":"Delta pp",
     "Strategy":"",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"5h",
-    "Study Title":"Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: \u0394pp-1 vs WT",
+    "Study Title":"Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: Delta pp-1 vs WT",
     "Series Accession":"GSE50446",
     "Related Sample":"GSM1219412"
   },
@@ -474,7 +474,7 @@
   },
   {
     "Sample ID":"nc005005",
-    "Strain":"\u0394clr-2",
+    "Strain":"Delta clr-2",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"",
@@ -512,7 +512,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"6h",
-    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus \u0394czt-1 in Neurospora crassa",
+    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa",
     "Series Accession":"GSE52153",
     "Related Sample":"GSM1260334"
   },
@@ -523,29 +523,29 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"6h",
-    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus \u0394czt-1 in Neurospora crassa",
+    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa",
     "Series Accession":"GSE52153",
     "Related Sample":"GSM1260335"
   },
   {
     "Sample ID":"nc006003",
-    "Strain":"\u0394czt-1",
+    "Strain":"Delta czt-1",
     "Strategy":"1h dmso",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"6h",
-    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus \u0394czt-1 in Neurospora crassa",
+    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa",
     "Series Accession":"GSE52153",
     "Related Sample":"GSM1260336"
   },
   {
     "Sample ID":"nc006004",
-    "Strain":"\u0394czt-1",
+    "Strain":"Delta czt-1",
     "Strategy":"20 \u03bcm sts",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"6h",
-    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus \u0394czt-1 in Neurospora crassa",
+    "Study Title":"Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa",
     "Series Accession":"GSE52153",
     "Related Sample":"GSM1260337"
   },
@@ -815,7 +815,7 @@
   },
   {
     "Sample ID":"nc010001",
-    "Strain":"FGSC 11308: \u0394vib-1 a",
+    "Strain":"FGSC 11308: Delta vib-1 a",
     "Strategy":"",
     "Carbon Sources":"No carbon",
     "Temperature":"",
@@ -826,7 +826,7 @@
   },
   {
     "Sample ID":"nc010002",
-    "Strain":"FGSC 11308 \u0394vib-1 a",
+    "Strain":"FGSC 11308 Delta vib-1 a",
     "Strategy":"",
     "Carbon Sources":"Avicel",
     "Temperature":"",
@@ -837,7 +837,7 @@
   },
   {
     "Sample ID":"nc010003",
-    "Strain":"YX025: Pc clr-2 \u0394vib-1 a",
+    "Strain":"YX025: Pc clr-2 Delta vib-1 a",
     "Strategy":"",
     "Carbon Sources":"No carbon",
     "Temperature":"",
@@ -1057,7 +1057,7 @@
   },
   {
     "Sample ID":"nc016001",
-    "Strain":"OR74A: \u03943\u03b2G",
+    "Strain":"OR74A: Delta 3\u03b2G",
     "Strategy":"",
     "Carbon Sources":"Cellobiose",
     "Temperature":"",
@@ -1068,7 +1068,7 @@
   },
   {
     "Sample ID":"nc016002",
-    "Strain":"OR74A: \u03943\u03b2G\u0394ncu05853",
+    "Strain":"OR74A: Delta 3\u03b2GDelta ncu05853",
     "Strategy":"",
     "Carbon Sources":"Cellobiose",
     "Temperature":"",
@@ -1079,7 +1079,7 @@
   },
   {
     "Sample ID":"nc016003",
-    "Strain":"OR74A: \u03943\u03b2G\u0394cdt2\u0394ncu05853",
+    "Strain":"OR74A: Delta 3\u03b2GDelta cdt2Delta ncu05853",
     "Strategy":"",
     "Carbon Sources":"Cellobiose",
     "Temperature":"",
@@ -1233,7 +1233,7 @@
   },
   {
     "Sample ID":"nc018008",
-    "Strain":"\u0394NCU02202 (\u0394ire-1)",
+    "Strain":"Delta NCU02202 (Delta ire-1)",
     "Strategy":"Er stress agent: h2o",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1244,7 +1244,7 @@
   },
   {
     "Sample ID":"nc018009",
-    "Strain":"\u0394NCU02202 (\u0394ire-1)",
+    "Strain":"Delta NCU02202 (Delta ire-1)",
     "Strategy":"Er stress agent: dtt (5mm)",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1277,7 +1277,7 @@
   },
   {
     "Sample ID":"nc018012",
-    "Strain":"\u0394NCU01856 (\u0394hac-1)",
+    "Strain":"Delta NCU01856 (Delta hac-1)",
     "Strategy":"Er stress agent: h2o",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1288,7 +1288,7 @@
   },
   {
     "Sample ID":"nc018013",
-    "Strain":"\u0394NCU01856 (\u0394hac-1)",
+    "Strain":"Delta NCU01856 (Delta hac-1)",
     "Strategy":"Er stress agent: dtt (5mm)",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1321,7 +1321,7 @@
   },
   {
     "Sample ID":"nc018016",
-    "Strain":"\u0394NCU02724 (\u0394rec-2)",
+    "Strain":"Delta NCU02724 (Delta rec-2)",
     "Strategy":"Er stress agent: h2o",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1332,7 +1332,7 @@
   },
   {
     "Sample ID":"nc018017",
-    "Strain":"\u0394NCU02724 (\u0394rec-2)",
+    "Strain":"Delta NCU02724 (Delta rec-2)",
     "Strategy":"Er stress agent: dtt (5mm)",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1343,7 +1343,7 @@
   },
   {
     "Sample ID":"nc018018",
-    "Strain":"\u0394NCU02413 (\u0394rrg-2)",
+    "Strain":"Delta NCU02413 (Delta rrg-2)",
     "Strategy":"Er stress agent: h2o",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1354,7 +1354,7 @@
   },
   {
     "Sample ID":"nc018019",
-    "Strain":"\u0394NCU02413 (\u0394rrg-2)",
+    "Strain":"Delta NCU02413 (Delta rrg-2)",
     "Strategy":"Er stress agent: dtt (5mm)",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1365,7 +1365,7 @@
   },
   {
     "Sample ID":"nc018020",
-    "Strain":"\u0394NCU03699 (\u0394rec-1)",
+    "Strain":"Delta NCU03699 (Delta rec-1)",
     "Strategy":"Er stress agent: h2o",
     "Carbon Sources":"",
     "Temperature":"",
@@ -1376,7 +1376,7 @@
   },
   {
     "Sample ID":"nc018021",
-    "Strain":"\u0394NCU03699 (\u0394rec-1)",
+    "Strain":"Delta NCU03699 (Delta rec-1)",
     "Strategy":"Er stress agent: dtt (5mm)",
     "Carbon Sources":"",
     "Temperature":"",
@@ -2113,7 +2113,7 @@
   },
   {
     "Sample ID":"nc028002",
-    "Strain":"\u0394sah-2",
+    "Strain":"Delta sah-2",
     "Strategy":"Vogel\u2019s ",
     "Carbon Sources":"",
     "Temperature":"",
@@ -2256,7 +2256,7 @@
   },
   {
     "Sample ID":"nc031006",
-    "Strain":"\u0394wc1",
+    "Strain":"Delta wc1",
     "Strategy":"Light",
     "Carbon Sources":"",
     "Temperature":"",
@@ -2267,7 +2267,7 @@
   },
   {
     "Sample ID":"nc031007",
-    "Strain":"\u0394wc2",
+    "Strain":"Delta wc2",
     "Strategy":"Light",
     "Carbon Sources":"",
     "Temperature":"",
@@ -2355,7 +2355,7 @@
   },
   {
     "Sample ID":"nc034003",
-    "Strain":"\u0394mus-52",
+    "Strain":"Delta mus-52",
     "Strategy":"Low inorganic phosphate",
     "Carbon Sources":"",
     "Temperature":"",
@@ -2366,7 +2366,7 @@
   },
   {
     "Sample ID":"nc034004",
-    "Strain":"\u0394mus-52",
+    "Strain":"Delta mus-52",
     "Strategy":"High inorganic phosphate",
     "Carbon Sources":"",
     "Temperature":"",
@@ -2514,7 +2514,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"0h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121130"
   },
@@ -2525,7 +2525,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"2h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121131"
   },
@@ -2536,7 +2536,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"4h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121132"
   },
@@ -2547,7 +2547,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"6h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121133"
   },
@@ -2558,7 +2558,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"8h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121134"
   },
@@ -2569,7 +2569,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"10h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121135"
   },
@@ -2580,7 +2580,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"12h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121136"
   },
@@ -2591,7 +2591,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"14h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121137"
   },
@@ -2602,7 +2602,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"16h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121138"
   },
@@ -2613,7 +2613,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"18h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121139"
   },
@@ -2624,7 +2624,7 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"20h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121140"
   },
@@ -2635,139 +2635,139 @@
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"22h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121141"
   },
   {
     "Sample ID":"nc037013",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"0h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121142"
   },
   {
     "Sample ID":"nc037014",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"2h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121143"
   },
   {
     "Sample ID":"nc037015",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"4h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121144"
   },
   {
     "Sample ID":"nc037016",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"6h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121145"
   },
   {
     "Sample ID":"nc037017",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"8h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121146"
   },
   {
     "Sample ID":"nc037018",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"10h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121147"
   },
   {
     "Sample ID":"nc037019",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"12h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121148"
   },
   {
     "Sample ID":"nc037020",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"14h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121149"
   },
   {
     "Sample ID":"nc037021",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"16h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121150"
   },
   {
     "Sample ID":"nc037022",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"18h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121151"
   },
   {
     "Sample ID":"nc037023",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"20h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121152"
   },
   {
     "Sample ID":"nc037024",
-    "Strain":"FGSC #11345: \u0394MSN1",
+    "Strain":"FGSC #11345: Delta MSN1",
     "Strategy":"After lights off",
     "Carbon Sources":"",
     "Temperature":"",
     "Time":"22h",
-    "Study Title":"RNA-sequencing of WT and \u0394MSN1 strains of N. crassa over a circadian time course",
+    "Study Title":"RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course",
     "Series Accession":"GSE113845",
     "Related Sample":"GSM3121153"
   },
@@ -3092,7 +3092,7 @@
   },
   {
     "Sample ID":"nc045003",
-    "Strain":"\u0394pas N7617",
+    "Strain":"Delta pas N7617",
     "Strategy":"",
     "Carbon Sources":"Sucrose",
     "Temperature":"",
@@ -3103,7 +3103,7 @@
   },
   {
     "Sample ID":"nc045004",
-    "Strain":"\u0394pas N7680",
+    "Strain":"Delta pas N7680",
     "Strategy":"",
     "Carbon Sources":"Sucrose",
     "Temperature":"",
@@ -3268,7 +3268,7 @@
   },
   {
     "Sample ID":"nc049005",
-    "Strain":"\u0394rco-3",
+    "Strain":"Delta rco-3",
     "Strategy":"",
     "Carbon Sources":"No carbon",
     "Temperature":"",
@@ -3279,7 +3279,7 @@
   },
   {
     "Sample ID":"nc049006",
-    "Strain":"\u0394rco-3",
+    "Strain":"Delta rco-3",
     "Strategy":"",
     "Carbon Sources":"Glucose0.05%",
     "Temperature":"",
@@ -3290,7 +3290,7 @@
   },
   {
     "Sample ID":"nc049007",
-    "Strain":"\u0394rco-3",
+    "Strain":"Delta rco-3",
     "Strategy":"",
     "Carbon Sources":"Glucose0.5%",
     "Temperature":"",
@@ -3301,7 +3301,7 @@
   },
   {
     "Sample ID":"nc049008",
-    "Strain":"\u0394rco-3",
+    "Strain":"Delta rco-3",
     "Strategy":"",
     "Carbon Sources":"Glucose2.0%",
     "Temperature":"",
@@ -3312,7 +3312,7 @@
   },
   {
     "Sample ID":"nc049009",
-    "Strain":"\u0394col-26",
+    "Strain":"Delta col-26",
     "Strategy":"",
     "Carbon Sources":"No carbon",
     "Temperature":"",
@@ -3323,7 +3323,7 @@
   },
   {
     "Sample ID":"nc049010",
-    "Strain":"\u0394col-26",
+    "Strain":"Delta col-26",
     "Strategy":"",
     "Carbon Sources":"Glucose0.05%",
     "Temperature":"",
@@ -3334,7 +3334,7 @@
   },
   {
     "Sample ID":"nc049011",
-    "Strain":"\u0394col-26",
+    "Strain":"Delta col-26",
     "Strategy":"",
     "Carbon Sources":"Glucose0.5%",
     "Temperature":"",
@@ -3345,7 +3345,7 @@
   },
   {
     "Sample ID":"nc049012",
-    "Strain":"\u0394col-26",
+    "Strain":"Delta col-26",
     "Strategy":"",
     "Carbon Sources":"Glucose2.0%",
     "Temperature":"",
@@ -3521,7 +3521,7 @@
   },
   {
     "Sample ID":"nc051002",
-    "Strain":"\u0394cys-3",
+    "Strain":"Delta cys-3",
     "Strategy":"24um sulfate",
     "Carbon Sources":"",
     "Temperature":"",
@@ -3543,7 +3543,7 @@
   },
   {
     "Sample ID":"nc051004",
-    "Strain":"\u0394cys-3",
+    "Strain":"Delta cys-3",
     "Strategy":"Sulfur starvation",
     "Carbon Sources":"",
     "Temperature":"",
@@ -3708,7 +3708,7 @@
   },
   {
     "Sample ID":"nc052015",
-    "Strain":"\u0394amn-1",
+    "Strain":"Delta amn-1",
     "Strategy":"2mm mannose+25mm nh4no3",
     "Carbon Sources":"",
     "Temperature":"25\u00b0",
@@ -3719,7 +3719,7 @@
   },
   {
     "Sample ID":"nc052016",
-    "Strain":"\u0394amn-1",
+    "Strain":"Delta amn-1",
     "Strategy":"50mm isoleucine",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3730,7 +3730,7 @@
   },
   {
     "Sample ID":"nc052017",
-    "Strain":"\u0394amn-1",
+    "Strain":"Delta amn-1",
     "Strategy":"50mm proline",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3741,7 +3741,7 @@
   },
   {
     "Sample ID":"nc052018",
-    "Strain":"\u0394amn-1",
+    "Strain":"Delta amn-1",
     "Strategy":"50mm tryptophan",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3752,7 +3752,7 @@
   },
   {
     "Sample ID":"nc052019",
-    "Strain":"\u0394nit-2",
+    "Strain":"Delta nit-2",
     "Strategy":"50mm nano3",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3763,7 +3763,7 @@
   },
   {
     "Sample ID":"nc052020",
-    "Strain":"\u0394nit-2",
+    "Strain":"Delta nit-2",
     "Strategy":"50mm isoleucine",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3774,7 +3774,7 @@
   },
   {
     "Sample ID":"nc052021",
-    "Strain":"\u0394nit-2",
+    "Strain":"Delta nit-2",
     "Strategy":"50mm proline",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3785,7 +3785,7 @@
   },
   {
     "Sample ID":"nc052022",
-    "Strain":"\u0394nit-2",
+    "Strain":"Delta nit-2",
     "Strategy":"50mm tryptophan",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3796,7 +3796,7 @@
   },
   {
     "Sample ID":"nc052023",
-    "Strain":"\u0394nit-2",
+    "Strain":"Delta nit-2",
     "Strategy":"25mm nh4no3",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3807,7 +3807,7 @@
   },
   {
     "Sample ID":"nc052024",
-    "Strain":"\u0394nit-4",
+    "Strain":"Delta nit-4",
     "Strategy":"50mm nano3",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3818,7 +3818,7 @@
   },
   {
     "Sample ID":"nc052025",
-    "Strain":"\u0394nit-4",
+    "Strain":"Delta nit-4",
     "Strategy":"Nitrogen starvation",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3829,7 +3829,7 @@
   },
   {
     "Sample ID":"nc052026",
-    "Strain":"\u0394nmr",
+    "Strain":"Delta nmr",
     "Strategy":"25mm nh4no3",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3840,7 +3840,7 @@
   },
   {
     "Sample ID":"nc052027",
-    "Strain":"\u0394nmr",
+    "Strain":"Delta nmr",
     "Strategy":"Nitrogen starvation",
     "Carbon Sources":"Sucrose",
     "Temperature":"25\u00b0",
@@ -3961,7 +3961,7 @@
   },
   {
     "Sample ID":"nc054013",
-    "Strain":"\u0394cpc-3",
+    "Strain":"Delta cpc-3",
     "Strategy":"1\u0445wt-edp",
     "Carbon Sources":"Glucose",
     "Temperature":"",
@@ -3972,7 +3972,7 @@
   },
   {
     "Sample ID":"nc054014",
-    "Strain":"\u0394cpc-3",
+    "Strain":"Delta cpc-3",
     "Strategy":"3\u0445wt-edp",
     "Carbon Sources":"Glucose",
     "Temperature":"",
@@ -3983,7 +3983,7 @@
   },
   {
     "Sample ID":"nc054015",
-    "Strain":"\u0394cpc-3",
+    "Strain":"Delta cpc-3",
     "Strategy":"1\u0445opt-edp",
     "Carbon Sources":"Glucose",
     "Temperature":"",
@@ -3994,7 +3994,7 @@
   },
   {
     "Sample ID":"nc054016",
-    "Strain":"\u0394cpc-3",
+    "Strain":"Delta cpc-3",
     "Strategy":"3\u0445opt-edp",
     "Carbon Sources":"Glucose",
     "Temperature":"",

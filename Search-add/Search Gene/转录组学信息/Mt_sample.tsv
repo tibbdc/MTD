@@ -62,35 +62,35 @@ mt008023	JK2.8		Cellulose	45°C	2h	Transcriptomic insights into the roles of the
 mt008024	JK2.8		Cellulose	45°C	4h	Transcriptomic insights into the roles of the transcription factors Clr1, Clr2 and Clr4 in lignocellulose degradation of the thermophilic fungal platform Thermothelomyces thermophilus	GSE183387	GSM5556670,GSM5556671,GSM5556672
 mt009001	WT		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600079,GSM6600080
 mt009002	WT		Glucose	45°C	4d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600081,GSM6600082
-mt009003	Δpfk2-a		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600083,GSM6600084
-mt009004	Δpfk2-a		Glucose	45°C	4d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600085,GSM6600086
-mt009005	Δpfk2-b		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600087,GSM6600088
-mt009006	Δpfk2-c		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600089,GSM6600090
-mt009007	Δpfk2-c		Glucose	45°C	4d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600091,GSM6600092
-mt009008	Δpfk2-abc		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600093,GSM6600094
-mt009009	Δpfk2-abc		Glucose	45°C	4d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600095,GSM6600096
+mt009003	Delta pfk2-a		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600083,GSM6600084
+mt009004	Delta pfk2-a		Glucose	45°C	4d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600085,GSM6600086
+mt009005	Delta pfk2-b		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600087,GSM6600088
+mt009006	Delta pfk2-c		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600089,GSM6600090
+mt009007	Delta pfk2-c		Glucose	45°C	4d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600091,GSM6600092
+mt009008	Delta pfk2-abc		Glucose	45°C	2d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600093,GSM6600094
+mt009009	Delta pfk2-abc		Glucose	45°C	4d	PFK2/FBPase-2 is a potential target for metabolic engineering in the filamentous fungus Myceliophthora thermophila	GSE214142	GSM6600095,GSM6600096
 mt010001	WT		Glucose	35°C	66h	Reconstruction and analysis genome-scale metabolic model of thermophilic fungus Myceliophthora thermophila	GSE184074	GSM5577201,GSM5577202,GSM5577203
 mt010002	WT		Glucose	40°C	40h	Reconstruction and analysis genome-scale metabolic model of thermophilic fungus Myceliophthora thermophila	GSE184074	GSM5577204,GSM5577205,GSM5577206
 mt010003	WT		Glucose	45°C	40h	Reconstruction and analysis genome-scale metabolic model of thermophilic fungus Myceliophthora thermophila	GSE184074	GSM5577207,GSM5577208,GSM5577209
 mt010004	WT		Glucose	50°C	40h	Reconstruction and analysis genome-scale metabolic model of thermophilic fungus Myceliophthora thermophila	GSE184074	GSM5577210,GSM5577211,GSM5577212
-mt011001	ΔMycth_90344		Avicel	45°C	4h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206886,GSM6206887,GSM6206888
-mt011002	ΔMycth_90344		Avicel	45°C	6h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206889,GSM6206890,GSM6206891
-mt011003	ΔMycth_90344		Starch	45°C	4h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206892,GSM6206893,GSM6206894
+mt011001	Delta Mycth_90344		Avicel	45°C	4h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206886,GSM6206887,GSM6206888
+mt011002	Delta Mycth_90344		Avicel	45°C	6h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206889,GSM6206890,GSM6206891
+mt011003	Delta Mycth_90344		Starch	45°C	4h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206892,GSM6206893,GSM6206894
 mt011004	WT		Avicel	45°C	4h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206895,GSM6206896,GSM6206897
 mt011005	WT		Avicel	45°C	6h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206898,GSM6206899,GSM6206900
 mt011006	WT		Starch	45°C	4h	MtTRC-1, a Novel Transcription Factor, Regulates Cellulase Production via Directly Modulating the Genes Expression of the Mthac-1 and Mtcbh-1 in Myceliophthora Thermophila	GSE205182	GSM6206901,GSM6206902,GSM6206903
 mt012001	WT		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589268,GSM6589269
-mt012002	ΔlaeA		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589270,GSM6589271
-mt012003	Δgrf-1		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589272,GSM6589273
-mt012004	Δgrf-2		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589274,GSM6589275
-mt012005	Δgrf-3		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589276,GSM6589277
-mt012006	Δcre-1		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589278,GSM6589279
+mt012002	Delta laeA		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589270,GSM6589271
+mt012003	Delta grf-1		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589272,GSM6589273
+mt012004	Delta grf-2		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589274,GSM6589275
+mt012005	Delta grf-3		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589276,GSM6589277
+mt012006	Delta cre-1		Glucose	45°C	24h	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589278,GSM6589279
 mt012007	WT		Avicel	45°C	2d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589280,GSM6589281
-mt012008	ΔlaeA		Avicel	45°C	2d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589282,GSM6589283
+mt012008	Delta laeA		Avicel	45°C	2d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589282,GSM6589283
 mt012009	WT		Avicel	45°C	4d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589284,GSM6589285
-mt012010	ΔlaeA		Avicel	45°C	4d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589286,GSM6589287
+mt012010	Delta laeA		Avicel	45°C	4d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589286,GSM6589287
 mt012011	WT		Avicel	45°C	6d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589288,GSM6589289
-mt012012	ΔlaeA		Avicel	45°C	6d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589290,GSM6589291
+mt012012	Delta laeA		Avicel	45°C	6d	LaeA regulates mycelium growth by mediating H3K9 methylation in Myceliophthora thermophila [RNA-seq]	GSE213570	GSM6589290,GSM6589291
 mt013001	JG207		Xylose	45°C	4h	Weimberg pathway an alternative for utilization of D-xylose for Myceliophthora thermophila	GSE214002	GSM6597671,GSM6597672
 mt013002	DF1102		Xylose	45°C	4h	Weimberg pathway an alternative for utilization of D-xylose for Myceliophthora thermophila	GSE214002	GSM6597673,GSM6597674
 mt013003	DF1406		Xylose	45°C	4h	Weimberg pathway an alternative for utilization of D-xylose for Myceliophthora thermophila	GSE214002	GSM6597675,GSM6597676

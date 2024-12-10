@@ -38,17 +38,17 @@ nc003013	GSE41484	Multidimensional regulation in transcriptome during sexual dev
 nc003014	GSE41484	Multidimensional regulation in transcriptome during sexual development in Neurospora crassa revealed with RNA sequencing	OR74A N6   96h	GSM1018102	22626843
 nc003015	GSE41484	Multidimensional regulation in transcriptome during sexual development in Neurospora crassa revealed with RNA sequencing	OR74A N6   120h	GSM1018103	22626843
 nc003016	GSE41484	Multidimensional regulation in transcriptome during sexual development in Neurospora crassa revealed with RNA sequencing	OR74A N6   144h	GSM1018104	22626843
-nc004001	GSE50446	Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: Δpp-1 vs WT	OR74A    5h	GSM1219411	24037267
-nc004002	GSE50446	Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: Δpp-1 vs WT	Δpp    5h	GSM1219412	24037267
+nc004001	GSE50446	Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: Delta pp-1 vs WT	OR74A    5h	GSM1219411	24037267
+nc004002	GSE50446	Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: Delta pp-1 vs WT	Delta pp    5h	GSM1219412	24037267
 nc005001	GSE44100	Inducer Free Cellulase Secretion in Neurospora Crassa and comparitive analysis of cellulase induction in Aspergillus nidulans	OR74A  Avicel  	GSM1078920,GSM1078921,GSM1078922	23766336
 nc005002	GSE44100	Inducer Free Cellulase Secretion in Neurospora Crassa and comparitive analysis of cellulase induction in Aspergillus nidulans	OR74A  No carbon  	GSM1078923,GSM1078924,GSM1078925	23766336
-nc005005	GSE44100	Inducer Free Cellulase Secretion in Neurospora Crassa and comparitive analysis of cellulase induction in Aspergillus nidulans	Δclr-2  Avicel  	GSM1078932,GSM1078933,GSM1078934	23766336
+nc005005	GSE44100	Inducer Free Cellulase Secretion in Neurospora Crassa and comparitive analysis of cellulase induction in Aspergillus nidulans	Delta clr-2  Avicel  	GSM1078932,GSM1078933,GSM1078934	23766336
 nc005007	GSE44100	Inducer Free Cellulase Secretion in Neurospora Crassa and comparitive analysis of cellulase induction in Aspergillus nidulans	Pc2  No carbon  	GSM1078938,GSM1078939,GSM1078940	23766336
 nc005008	GSE44100	Inducer Free Cellulase Secretion in Neurospora Crassa and comparitive analysis of cellulase induction in Aspergillus nidulans	Pc2  Sucrose  	GSM1078941	23766336
-nc006001	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Δczt-1 in Neurospora crassa	OR74A 1h dmso   6h	GSM1260334	24717808
-nc006002	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Δczt-1 in Neurospora crassa	OR74A 20 μm sts   6h	GSM1260335	24717808
-nc006003	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Δczt-1 in Neurospora crassa	Δczt-1 1h dmso   6h	GSM1260336	24717808
-nc006004	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Δczt-1 in Neurospora crassa	Δczt-1 20 μm sts   6h	GSM1260337	24717808
+nc006001	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa	OR74A 1h dmso   6h	GSM1260334	24717808
+nc006002	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa	OR74A 20 μm sts   6h	GSM1260335	24717808
+nc006003	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa	Delta czt-1 1h dmso   6h	GSM1260336	24717808
+nc006004	GSE52153	Transcriptional profiling of staurosporine-induced cell death in wild type versus Delta czt-1 in Neurospora crassa	Delta czt-1 20 μm sts   6h	GSM1260337	24717808
 nc007001	GSE42692	A comparative systems analysis of polysaccharide-elicited responses in Neurospora crassa reveals carbon source-specific cellular adaptations	OR74A  Pectin  4h	GSM1048021,GSM1048022,GSM1048023	24224966
 nc007002	GSE42692	A comparative systems analysis of polysaccharide-elicited responses in Neurospora crassa reveals carbon source-specific cellular adaptations	OR74A  Orange peel powder  4h	GSM1048024,GSM1048025	24224966
 nc007003	GSE42692	A comparative systems analysis of polysaccharide-elicited responses in Neurospora crassa reveals carbon source-specific cellular adaptations	OR74A  Xylan  4h	GSM1048026	24224966
@@ -73,9 +73,9 @@ nc009007	GSE53534	Genome-wide characterization of light-regulated genes in Neuro
 nc009008	GSE53534	Genome-wide characterization of light-regulated genes in Neurospora crassa	OR74A Dark    60 min	GSM1295602	25053707
 nc009009	GSE53534	Genome-wide characterization of light-regulated genes in Neurospora crassa	OR74A Dark    120 min	GSM1295603	25053707
 nc009010	GSE53534	Genome-wide characterization of light-regulated genes in Neurospora crassa	OR74A Dark    240 min	GSM1295604	25053707
-nc010001	GSE52316	VIB1, a link between glucose signaling and carbon catabolite repression, is essential for plant cell wall degradation by Neurospora crassa	FGSC 11308: Δvib-1 a  No carbon  	GSM1262788,GSM1262789,GSM1262790	25144221
-nc010002	GSE52316	VIB1, a link between glucose signaling and carbon catabolite repression, is essential for plant cell wall degradation by Neurospora crassa	FGSC 11308 Δvib-1 a  Avicel  	GSM1262791,GSM1262792,GSM1262793	25144221
-nc010003	GSE52316	VIB1, a link between glucose signaling and carbon catabolite repression, is essential for plant cell wall degradation by Neurospora crassa	YX025: Pc clr-2 Δvib-1 a  No carbon  	GSM1262794,GSM1262795,GSM1262796	25144221
+nc010001	GSE52316	VIB1, a link between glucose signaling and carbon catabolite repression, is essential for plant cell wall degradation by Neurospora crassa	FGSC 11308: Delta vib-1 a  No carbon  	GSM1262788,GSM1262789,GSM1262790	25144221
+nc010002	GSE52316	VIB1, a link between glucose signaling and carbon catabolite repression, is essential for plant cell wall degradation by Neurospora crassa	FGSC 11308 Delta vib-1 a  Avicel  	GSM1262791,GSM1262792,GSM1262793	25144221
+nc010003	GSE52316	VIB1, a link between glucose signaling and carbon catabolite repression, is essential for plant cell wall degradation by Neurospora crassa	YX025: Pc clr-2 Delta vib-1 a  No carbon  	GSM1262794,GSM1262795,GSM1262796	25144221
 nc011001	GSE51091	Transcriptional comparison of the filamentous fungus Neurospora crassa growing on three major monosaccharides D-glucose, D-xylose and L-arabinose	OR74A  Aarabinose  	GSM1238597,GSM1238602	24581151
 nc011002	GSE51091	Transcriptional comparison of the filamentous fungus Neurospora crassa growing on three major monosaccharides D-glucose, D-xylose and L-arabinose	OR74A  Glucose  	GSM1238604,GSM1238606	24581151
 nc011003	GSE51091	Transcriptional comparison of the filamentous fungus Neurospora crassa growing on three major monosaccharides D-glucose, D-xylose and L-arabinose	OR74A  Xylose  	GSM1238609	24581151
@@ -95,9 +95,9 @@ nc015001	GSE68514	Identification of direct target genes of the Neurospora crass
 nc015002	GSE68514	Identification of direct target genes of the Neurospora crassa essential plant biomass deconstruction transcription factors CLR-1, CLR-2 and XLR-1 (RNA-Seq)	OR74A: his-3::p_ccg1::xlr-1-A828V  Xylan or sucrose  16h	GSM1674172,GSM1674173,GSM1674174	26463163
 nc015003	GSE68514	Identification of direct target genes of the Neurospora crassa essential plant biomass deconstruction transcription factors CLR-1, CLR-2 and XLR-1 (RNA-Seq)	OR74A: his-3::p_ccg1::xlr-1-A828V  Xylan or sucrose  16h	GSM1674175	26463163
 nc015004	GSE68514	Identification of direct target genes of the Neurospora crassa essential plant biomass deconstruction transcription factors CLR-1, CLR-2 and XLR-1 (RNA-Seq)	OR74A: deltaxlr-1::HygR  Xylan or sucrose  16h	GSM1674176,GSM1674177,GSM1674178,GSM1674179	26463163
-nc016001	GSE60004	The putative cellodextrin transporter-like protein CLP1 is involved in cellulase induction in Neurospora crassa	OR74A: Δ3βG  Cellobiose  4h	GSM1463422	25398875
-nc016002	GSE60004	The putative cellodextrin transporter-like protein CLP1 is involved in cellulase induction in Neurospora crassa	OR74A: Δ3βGΔncu05853  Cellobiose  4h	GSM1463423	25398875
-nc016003	GSE60004	The putative cellodextrin transporter-like protein CLP1 is involved in cellulase induction in Neurospora crassa	OR74A: Δ3βGΔcdt2Δncu05853  Cellobiose  4h	GSM1463424	25398875
+nc016001	GSE60004	The putative cellodextrin transporter-like protein CLP1 is involved in cellulase induction in Neurospora crassa	OR74A: Delta 3βG  Cellobiose  4h	GSM1463422	25398875
+nc016002	GSE60004	The putative cellodextrin transporter-like protein CLP1 is involved in cellulase induction in Neurospora crassa	OR74A: Delta 3βGDelta ncu05853  Cellobiose  4h	GSM1463423	25398875
+nc016003	GSE60004	The putative cellodextrin transporter-like protein CLP1 is involved in cellulase induction in Neurospora crassa	OR74A: Delta 3βGDelta cdt2Delta ncu05853  Cellobiose  4h	GSM1463424	25398875
 nc017001	GSE53040	Transcriptional profiling of wild type Neurospora crassa cells treated with novel antifungal agents	OR74A Dmso   	GSM1280889	26484172
 nc017002	GSE53040	Transcriptional profiling of wild type Neurospora crassa cells treated with novel antifungal agents	OR74A D1   	GSM1280890	26484172
 nc017003	GSE53040	Transcriptional profiling of wild type Neurospora crassa cells treated with novel antifungal agents	OR74A Tx34   	GSM1280891	26484172
@@ -111,20 +111,20 @@ nc018004	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress respo
 nc018005	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	OR74A Er stress agent: tm (40ug/ml)   direct culture	GSM1517608	25883682
 nc018006	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	OR74A Er stress agent: h2o   transfer culture	GSM1517609	25883682
 nc018007	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	OR74A Er stress agent: dtt (5mm)   transfer culture	GSM1517610	25883682
-nc018008	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU02202 (Δire-1) Er stress agent: h2o   transfer culture	GSM1517611	25883682
-nc018009	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU02202 (Δire-1) Er stress agent: dtt (5mm)   transfer culture	GSM1517612	25883682
+nc018008	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU02202 (Delta ire-1) Er stress agent: h2o   transfer culture	GSM1517611	25883682
+nc018009	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU02202 (Delta ire-1) Er stress agent: dtt (5mm)   transfer culture	GSM1517612	25883682
 nc018010	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	FGSC#9720 Er stress agent: h2o   transfer culture	GSM1517613	25883682
 nc018011	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	FGSC#9720 Er stress agent: dtt (5mm)   transfer culture	GSM1517614	25883682
-nc018012	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU01856 (Δhac-1) Er stress agent: h2o   transfer culture	GSM1517615	25883682
-nc018013	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU01856 (Δhac-1) Er stress agent: dtt (5mm)   transfer culture	GSM1517616	25883682
+nc018012	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU01856 (Delta hac-1) Er stress agent: h2o   transfer culture	GSM1517615	25883682
+nc018013	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU01856 (Delta hac-1) Er stress agent: dtt (5mm)   transfer culture	GSM1517616	25883682
 nc018014	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	OR74A Er stress agent: h2o   direct culture	GSM1517617	25883682
 nc018015	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	OR74A Er stress agent: dtt (5mm)   direct culture	GSM1517618	25883682
-nc018016	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU02724 (Δrec-2) Er stress agent: h2o   direct culture	GSM1517619	25883682
-nc018017	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU02724 (Δrec-2) Er stress agent: dtt (5mm)   direct culture	GSM1517620	25883682
-nc018018	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU02413 (Δrrg-2) Er stress agent: h2o   direct culture	GSM1517621	25883682
-nc018019	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU02413 (Δrrg-2) Er stress agent: dtt (5mm)   direct culture	GSM1517622	25883682
-nc018020	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU03699 (Δrec-1) Er stress agent: h2o   direct culture	GSM1517623	25883682
-nc018021	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	ΔNCU03699 (Δrec-1) Er stress agent: dtt (5mm)   direct culture	GSM1517624	25883682
+nc018016	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU02724 (Delta rec-2) Er stress agent: h2o   direct culture	GSM1517619	25883682
+nc018017	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU02724 (Delta rec-2) Er stress agent: dtt (5mm)   direct culture	GSM1517620	25883682
+nc018018	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU02413 (Delta rrg-2) Er stress agent: h2o   direct culture	GSM1517621	25883682
+nc018019	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU02413 (Delta rrg-2) Er stress agent: dtt (5mm)   direct culture	GSM1517622	25883682
+nc018020	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU03699 (Delta rec-1) Er stress agent: h2o   direct culture	GSM1517623	25883682
+nc018021	GSE61949	Genome-wide analysis of the endoplasmic reticulum stress response during lignocellulase synthesis in Neurospora crassa	Delta NCU03699 (Delta rec-1) Er stress agent: dtt (5mm)   direct culture	GSM1517624	25883682
 nc019001	GSE78157	Genomic analysis of N. crassa histone H1	OR74A Vogel's    5h	GSM2068339,GSM2068340,GSM2068341	27172195
 nc019002	GSE78157	Genomic analysis of N. crassa histone H1	OR74A: hH1 Vogel's    5h	GSM2068342,GSM2068343,GSM2068344	27172195
 nc020003	GSE75293	Neurospora crassa transcriptomics reveals oxidative stress and plasma membrane homeostasis biology genes as key targets in response to chitosan	strain info: FGSC2489 Vogel's    8h	GSM1948939	26694141
@@ -191,7 +191,7 @@ nc027012	GSE95681	Network of nutrient sensing pathways and a conserved kinase ca
 nc027013	GSE95681	Network of nutrient sensing pathways and a conserved kinase cascade integrates osmolarity and carbon sensing in Neurospora crassa	OR74A  Avicel  4h	GSM2521574,GSM2521575,GSM2521576	28973881
 nc027014	GSE95681	Network of nutrient sensing pathways and a conserved kinase cascade integrates osmolarity and carbon sensing in Neurospora crassa	OR74A Starvation   4h	GSM2521577,GSM2521578,GSM2521579	28973881
 nc028001	GSE95807	Deciphering the Regulatory Network between the SREBP pathway and Protein Secretion in Neurospora crassa	OR74A Vogel’s    	GSM2526303,GSM2526304,GSM2526305	28420736
-nc028002	GSE95807	Deciphering the Regulatory Network between the SREBP pathway and Protein Secretion in Neurospora crassa	Δsah-2 Vogel’s    	GSM2526306,GSM2526307,GSM2526308	28420736
+nc028002	GSE95807	Deciphering the Regulatory Network between the SREBP pathway and Protein Secretion in Neurospora crassa	Delta sah-2 Vogel’s    	GSM2526306,GSM2526307,GSM2526308	28420736
 nc028003	GSE95807	Deciphering the Regulatory Network between the SREBP pathway and Protein Secretion in Neurospora crassa	Mclr-2 Vogel’s    	GSM2526309,GSM2526310,GSM2526311	28420736
 nc028004	GSE95807	Deciphering the Regulatory Network between the SREBP pathway and Protein Secretion in Neurospora crassa	Mclr-2 Vogel’s    	GSM2526312,GSM2526313,GSM2526314	28420736
 nc029005	GSE97717	Translation initiation from conserved non-AUG codons provides additional layers of regulation and coding capacity	OR74A Dark    	GSM2576087,GSM2576088	28655822
@@ -204,8 +204,8 @@ nc031002	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	OR
 nc031003	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	OR74A Light   1h	GSM2637959	29258423
 nc031004	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	OR74A Light   2h	GSM2637960	29258423
 nc031005	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	OR74A Light   	GSM2637961	29258423
-nc031006	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	Δwc1 Light   	GSM2637962	29258423
-nc031007	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	Δwc2 Light   	GSM2637963	29258423
+nc031006	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	Delta wc1 Light   	GSM2637962	29258423
+nc031007	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	Delta wc2 Light   	GSM2637963	29258423
 nc031008	GSE99245	The coding and noncoding transcriptome of Neurospora crassa	OR74A After a light to dark transfer   	GSM2637964	29258423
 nc032001	GSE73838	The Protein Non-anchored cell wall protein NCW-1 promotes cellulase production through effects on cellobiose uptake in Neurospora crassa	△3βG  Cellobiose  	GSM1904310	28039555
 nc032002	GSE73838	The Protein Non-anchored cell wall protein NCW-1 promotes cellulase production through effects on cellobiose uptake in Neurospora crassa	△3βG△ncw-1  Cellobiose  	GSM1904311	28039555
@@ -213,8 +213,8 @@ nc033001	GSE113321	Disruption of gul-1 decreased the culture viscosity and impro
 nc033002	GSE113321	Disruption of gul-1 decreased the culture viscosity and improved protein secretion in the filamentous fungus Neurospora crassa	OR74A  Avicel 25 ℃ 3d	GSM3103246	29908565
 nc034001	GSE100539	Comparative transcriptome of Neurospora crassa strains	genotype: wild type Low inorganic phosphate   	GSM2686167,GSM2686168,GSM2686169	29668735
 nc034002	GSE100539	Comparative transcriptome of Neurospora crassa strains	genotype: wild type High inorganic phosphate   	GSM2686170,GSM2686171,GSM2686172	29668735
-nc034003	GSE100539	Comparative transcriptome of Neurospora crassa strains	Δmus-52 Low inorganic phosphate   	GSM2686173,GSM2686174,GSM2686175	29668735
-nc034004	GSE100539	Comparative transcriptome of Neurospora crassa strains	Δmus-52 High inorganic phosphate   	GSM2686176,GSM2686177,GSM2686178	29668735
+nc034003	GSE100539	Comparative transcriptome of Neurospora crassa strains	Delta mus-52 Low inorganic phosphate   	GSM2686173,GSM2686174,GSM2686175	29668735
+nc034004	GSE100539	Comparative transcriptome of Neurospora crassa strains	Delta mus-52 High inorganic phosphate   	GSM2686176,GSM2686177,GSM2686178	29668735
 nc035001	GSE104019	Telomere repeats induce domains of H3K27 methylation in Neurospora	N5100_AR16_FGSC1614  Sucrose  16h	GSM2787830	29297465
 nc035002	GSE104019	Telomere repeats induce domains of H3K27 methylation in Neurospora	N5101_ALS159_FGSC2100  Sucrose  16h	GSM2787831	29297465
 nc035003	GSE104019	Telomere repeats induce domains of H3K27 methylation in Neurospora	N5102_OY329_FGSC3670  Sucrose  16h	GSM2787832	29297465
@@ -227,30 +227,30 @@ nc036001	GSE118495	ASH-1-catalyzed H3K36 methylation drives gene repression and 
 nc036002	GSE118495	ASH-1-catalyzed H3K36 methylation drives gene repression and marks H3K27me2/3-competent chromatin	set-2    	GSM3330984	30468429
 nc036003	GSE118495	ASH-1-catalyzed H3K36 methylation drives gene repression and marks H3K27me2/3-competent chromatin	N3752 His-   	GSM3330985	30468429
 nc036004	GSE118495	ASH-1-catalyzed H3K36 methylation drives gene repression and marks H3K27me2/3-competent chromatin	N3752 Mus-52   	GSM3330986	30468429
-nc037001	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   0h	GSM3121130	30472532
-nc037002	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   2h	GSM3121131	30472532
-nc037003	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   4h	GSM3121132	30472532
-nc037004	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   6h	GSM3121133	30472532
-nc037005	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   8h	GSM3121134	30472532
-nc037006	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   10h	GSM3121135	30472532
-nc037007	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   12h	GSM3121136	30472532
-nc037008	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   14h	GSM3121137	30472532
-nc037009	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   16h	GSM3121138	30472532
-nc037010	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   18h	GSM3121139	30472532
-nc037011	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   20h	GSM3121140	30472532
-nc037012	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	OR74A After lights off   22h	GSM3121141	30472532
-nc037013	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   0h	GSM3121142	30472532
-nc037014	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   2h	GSM3121143	30472532
-nc037015	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   4h	GSM3121144	30472532
-nc037016	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   6h	GSM3121145	30472532
-nc037017	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   8h	GSM3121146	30472532
-nc037018	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   10h	GSM3121147	30472532
-nc037019	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   12h	GSM3121148	30472532
-nc037020	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   14h	GSM3121149	30472532
-nc037021	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   16h	GSM3121150	30472532
-nc037022	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   18h	GSM3121151	30472532
-nc037023	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   20h	GSM3121152	30472532
-nc037024	GSE113845	RNA-sequencing of WT and ΔMSN1 strains of N. crassa over a circadian time course	FGSC #11345: ΔMSN1 After lights off   22h	GSM3121153	30472532
+nc037001	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   0h	GSM3121130	30472532
+nc037002	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   2h	GSM3121131	30472532
+nc037003	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   4h	GSM3121132	30472532
+nc037004	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   6h	GSM3121133	30472532
+nc037005	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   8h	GSM3121134	30472532
+nc037006	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   10h	GSM3121135	30472532
+nc037007	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   12h	GSM3121136	30472532
+nc037008	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   14h	GSM3121137	30472532
+nc037009	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   16h	GSM3121138	30472532
+nc037010	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   18h	GSM3121139	30472532
+nc037011	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   20h	GSM3121140	30472532
+nc037012	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	OR74A After lights off   22h	GSM3121141	30472532
+nc037013	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   0h	GSM3121142	30472532
+nc037014	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   2h	GSM3121143	30472532
+nc037015	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   4h	GSM3121144	30472532
+nc037016	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   6h	GSM3121145	30472532
+nc037017	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   8h	GSM3121146	30472532
+nc037018	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   10h	GSM3121147	30472532
+nc037019	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   12h	GSM3121148	30472532
+nc037020	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   14h	GSM3121149	30472532
+nc037021	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   16h	GSM3121150	30472532
+nc037022	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   18h	GSM3121151	30472532
+nc037023	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   20h	GSM3121152	30472532
+nc037024	GSE113845	RNA-sequencing of WT and Delta MSN1 strains of N. crassa over a circadian time course	FGSC #11345: Delta MSN1 After lights off   22h	GSM3121153	30472532
 nc038001	GSE101412	Gene expression during conidia germination in Neurospora crassa on different media	OR74A Tween    15min	GSM2702286,GSM2702287,GSM2702288	30914504
 nc038002	GSE101412	Gene expression during conidia germination in Neurospora crassa on different media	OR74A Tween    2h	GSM2702289,GSM2702290,GSM2702291	30914504
 nc038003	GSE101412	Gene expression during conidia germination in Neurospora crassa on different media	OR74A Tween    4h	GSM2702292,GSM2702293,GSM2702294	30914504
@@ -280,8 +280,8 @@ nc044006	GSE150287	Effect of cpc-1 deletion in Neurospora crassa on transcriptom
 nc044007	GSE150287	Effect of cpc-1 deletion in Neurospora crassa on transcriptome under different culture conditions	cpc-1KO+cpc-1WT  Glucose2.0% + 3-at  	GSM4694036,GSM4694037,GSM4694038	33051373
 nc045001	GSE140787	Identification of a novel fungal PRC2 accessory subunit	N3752  Sucrose  	GSM4185072	32179551
 nc045002	GSE140787	Identification of a novel fungal PRC2 accessory subunit	N3752  Sucrose  	GSM4185073	32179551
-nc045003	GSE140787	Identification of a novel fungal PRC2 accessory subunit	Δpas N7617  Sucrose  	GSM4185074	32179551
-nc045004	GSE140787	Identification of a novel fungal PRC2 accessory subunit	Δpas N7680  Sucrose  	GSM4185075	32179551
+nc045003	GSE140787	Identification of a novel fungal PRC2 accessory subunit	Delta pas N7617  Sucrose  	GSM4185074	32179551
+nc045004	GSE140787	Identification of a novel fungal PRC2 accessory subunit	Delta pas N7680  Sucrose  	GSM4185075	32179551
 nc047001	GSE155999	Nonsense mediated decay and a novel protein Period-2 regulate casein kinase I in an opposing manner to control circadian period in Neurospora crassa	328-4  Glucose  	GSM4718795	33295874
 nc047002	GSE155999	Nonsense mediated decay and a novel protein Period-2 regulate casein kinase I in an opposing manner to control circadian period in Neurospora crassa	1810  Glucose  	GSM4718796	33295874
 nc047003	GSE155999	Nonsense mediated decay and a novel protein Period-2 regulate casein kinase I in an opposing manner to control circadian period in Neurospora crassa	328-4  Glucose  	GSM4718797	33295874
@@ -296,14 +296,14 @@ nc049001	GSE157186	RCO-3 and COL-26 form an external-to-internal module that reg
 nc049002	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	OR74A  Glucose0.05%  	GSM4758486,GSM4758487	33509260
 nc049003	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	OR74A  Glucose0.5%  	GSM4758488,GSM4758489	33509260
 nc049004	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	OR74A  Glucose2.0%  	GSM4758490,GSM4758491	33509260
-nc049005	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δrco-3  No carbon  	GSM4758492,GSM4758493	33509260
-nc049006	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δrco-3  Glucose0.05%  	GSM4758494,GSM4758495	33509260
-nc049007	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δrco-3  Glucose0.5%  	GSM4758496,GSM4758497	33509260
-nc049008	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δrco-3  Glucose2.0%  	GSM4758498,GSM4758499	33509260
-nc049009	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δcol-26  No carbon  	GSM4758500,GSM4758501	33509260
-nc049010	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δcol-26  Glucose0.05%  	GSM4758502,GSM4758503	33509260
-nc049011	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δcol-26  Glucose0.5%  	GSM4758504,GSM4758505	33509260
-nc049012	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Δcol-26  Glucose2.0%  	GSM4758506,GSM4758507	33509260
+nc049005	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta rco-3  No carbon  	GSM4758492,GSM4758493	33509260
+nc049006	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta rco-3  Glucose0.05%  	GSM4758494,GSM4758495	33509260
+nc049007	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta rco-3  Glucose0.5%  	GSM4758496,GSM4758497	33509260
+nc049008	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta rco-3  Glucose2.0%  	GSM4758498,GSM4758499	33509260
+nc049009	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta col-26  No carbon  	GSM4758500,GSM4758501	33509260
+nc049010	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta col-26  Glucose0.05%  	GSM4758502,GSM4758503	33509260
+nc049011	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta col-26  Glucose0.5%  	GSM4758504,GSM4758505	33509260
+nc049012	GSE157186	RCO-3 and COL-26 form an external-to-internal module that regulates the dual-affinity glucose transport system in Neurospora crassa	Delta col-26  Glucose2.0%  	GSM4758506,GSM4758507	33509260
 nc050001	GSE150758	IMITATION SWITCH is required for normal chromatin structure and gene repression in PRC2 target domains	OR74A Constant light   	GSM4558135,GSM4558136,GSM4558137	33468665
 nc050002	GSE150758	IMITATION SWITCH is required for normal chromatin structure and gene repression in PRC2 target domains	iaf-1 Constant light   	GSM4558138,GSM4558139,GSM4558140	33468665
 nc050003	GSE150758	IMITATION SWITCH is required for normal chromatin structure and gene repression in PRC2 target domains	iaf-2 Constant light   	GSM4558141,GSM4558142,GSM4558143	33468665
@@ -319,9 +319,9 @@ nc050012	GSE150758	IMITATION SWITCH is required for normal chromatin structure a
 nc050013	GSE150758	IMITATION SWITCH is required for normal chromatin structure and gene repression in PRC2 target domains	Diaf-1; Diaf-2 Constant light   	GSM4909891,GSM4909892	33468665
 nc050014	GSE150758	IMITATION SWITCH is required for normal chromatin structure and gene repression in PRC2 target domains	Dacf; Diaf-1;Diaf-2 Constant light   	GSM4909893,GSM4909894,GSM4909895	33468665
 nc051001	GSE173890	Aspects of the Neurospora crassa sulfur starvation response are revealed by transcriptional profiling and DNA affinity purification sequencing	FGSC 4200 24um sulfate   24h	GSM5282408,GSM5282409,GSM5282410	34523983
-nc051002	GSE173890	Aspects of the Neurospora crassa sulfur starvation response are revealed by transcriptional profiling and DNA affinity purification sequencing	Δcys-3 24um sulfate   24h	GSM5282411,GSM5282412,GSM5282413	34523983
+nc051002	GSE173890	Aspects of the Neurospora crassa sulfur starvation response are revealed by transcriptional profiling and DNA affinity purification sequencing	Delta cys-3 24um sulfate   24h	GSM5282411,GSM5282412,GSM5282413	34523983
 nc051003	GSE173890	Aspects of the Neurospora crassa sulfur starvation response are revealed by transcriptional profiling and DNA affinity purification sequencing	FGSC 4200 Sulfur starvation   24h	GSM5282414,GSM5282415,GSM5282416	34523983
-nc051004	GSE173890	Aspects of the Neurospora crassa sulfur starvation response are revealed by transcriptional profiling and DNA affinity purification sequencing	Δcys-3 Sulfur starvation   24h	GSM5282417,GSM5282418,GSM5282419	34523983
+nc051004	GSE173890	Aspects of the Neurospora crassa sulfur starvation response are revealed by transcriptional profiling and DNA affinity purification sequencing	Delta cys-3 Sulfur starvation   24h	GSM5282417,GSM5282418,GSM5282419	34523983
 nc052001	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	OR74A 25mm nh4no3 Sucrose 25° 	GSM4544352,GSM4544353,GSM4544354,GSM4544355,GSM4544356	33753477
 nc052002	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	OR74A 112nm alanine Sucrose 25° 	GSM4544357,GSM4544358,GSM4544359	33753477
 nc052003	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	OR74A 344mm alanine Sucrose 25° 	GSM4544360,GSM4544361,GSM4544362	33753477
@@ -336,33 +336,33 @@ nc052011	GSE150256	DNA affinity purification sequencing and transcriptional prof
 nc052012	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	OR74A Nitrogen starvation Sucrose 25° 	GSM4544387,GSM4544388,GSM4544389,GSM4544390,GSM4544391,GSM4544392	33753477
 nc052013	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	OR74A 2mm mannose+25mm nh4no3  25° 	GSM4544393,GSM4544394,GSM4544395	33753477
 nc052014	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	OR74A Carbon starvation+25mm nh4no3  25° 	GSM4544396,GSM4544397,GSM4544398	33753477
-nc052015	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δamn-1 2mm mannose+25mm nh4no3  25° 	GSM4544399,GSM4544400,GSM4544401	33753477
-nc052016	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δamn-1 50mm isoleucine Sucrose 25° 	GSM4544402,GSM4544403,GSM4544404	33753477
-nc052017	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δamn-1 50mm proline Sucrose 25° 	GSM4544405,GSM4544406,GSM4544407	33753477
-nc052018	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δamn-1 50mm tryptophan Sucrose 25° 	GSM4544408,GSM4544409,GSM4544410	33753477
-nc052019	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnit-2 50mm nano3 Sucrose 25° 	GSM4544411,GSM4544412,GSM4544413	33753477
-nc052020	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnit-2 50mm isoleucine Sucrose 25° 	GSM4544414,GSM4544415,GSM4544416	33753477
-nc052021	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnit-2 50mm proline Sucrose 25° 	GSM4544417,GSM4544418,GSM4544419	33753477
-nc052022	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnit-2 50mm tryptophan Sucrose 25° 	GSM4544420,GSM4544421,GSM4544422	33753477
-nc052023	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnit-2 25mm nh4no3 Sucrose 25° 	GSM4544423,GSM4544424,GSM4544425	33753477
-nc052024	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnit-4 50mm nano3 Sucrose 25° 	GSM4544426,GSM4544427,GSM4544428	33753477
-nc052025	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnit-4 Nitrogen starvation Sucrose 25° 	GSM4544429,GSM4544430,GSM4544431	33753477
-nc052026	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnmr 25mm nh4no3 Sucrose 25° 	GSM4544432,GSM4544433,GSM4544434	33753477
-nc052027	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Δnmr Nitrogen starvation Sucrose 25° 	GSM4544435,GSM4544436,GSM4544437	33753477
-nc053001	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	OR74A  Sucrose  	GSM5576094	34899653
-nc053002	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	OR74A  Sucrose  	GSM5576095	34899653
-nc053003	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	delta_mak-1  Sucrose  	GSM5576096	34899653
-nc053004	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	delta_mak-1  Sucrose  	GSM5576097	34899653
-nc053005	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	delta_mak-2  Sucrose  	GSM5576098	34899653
-nc053006	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of ∆mak-2, ∆mak-1 and Wild Type of Neurospora crassa	delta_mak-2  Sucrose  	GSM5576099	34899653
+nc052015	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta amn-1 2mm mannose+25mm nh4no3  25° 	GSM4544399,GSM4544400,GSM4544401	33753477
+nc052016	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta amn-1 50mm isoleucine Sucrose 25° 	GSM4544402,GSM4544403,GSM4544404	33753477
+nc052017	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta amn-1 50mm proline Sucrose 25° 	GSM4544405,GSM4544406,GSM4544407	33753477
+nc052018	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta amn-1 50mm tryptophan Sucrose 25° 	GSM4544408,GSM4544409,GSM4544410	33753477
+nc052019	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nit-2 50mm nano3 Sucrose 25° 	GSM4544411,GSM4544412,GSM4544413	33753477
+nc052020	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nit-2 50mm isoleucine Sucrose 25° 	GSM4544414,GSM4544415,GSM4544416	33753477
+nc052021	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nit-2 50mm proline Sucrose 25° 	GSM4544417,GSM4544418,GSM4544419	33753477
+nc052022	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nit-2 50mm tryptophan Sucrose 25° 	GSM4544420,GSM4544421,GSM4544422	33753477
+nc052023	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nit-2 25mm nh4no3 Sucrose 25° 	GSM4544423,GSM4544424,GSM4544425	33753477
+nc052024	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nit-4 50mm nano3 Sucrose 25° 	GSM4544426,GSM4544427,GSM4544428	33753477
+nc052025	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nit-4 Nitrogen starvation Sucrose 25° 	GSM4544429,GSM4544430,GSM4544431	33753477
+nc052026	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nmr 25mm nh4no3 Sucrose 25° 	GSM4544432,GSM4544433,GSM4544434	33753477
+nc052027	GSE150256	DNA affinity purification sequencing and transcriptional profiling reveal new aspects of nitrogen regulation in a filamentous fungus	Delta nmr Nitrogen starvation Sucrose 25° 	GSM4544435,GSM4544436,GSM4544437	33753477
+nc053001	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	OR74A  Sucrose  	GSM5576094	34899653
+nc053002	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	OR74A  Sucrose  	GSM5576095	34899653
+nc053003	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	delta_mak-1  Sucrose  	GSM5576096	34899653
+nc053004	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	delta_mak-1  Sucrose  	GSM5576097	34899653
+nc053005	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	delta_mak-2  Sucrose  	GSM5576098	34899653
+nc053006	GSE184024	Next Generation Sequncimg Facilitates Transcriptional Analysis of Delta mak-2, Delta mak-1 and Wild Type of Neurospora crassa	delta_mak-2  Sucrose  	GSM5576099	34899653
 nc054009	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	WT 1хwt-edp Glucose  	GSM5150332	34417614
 nc054010	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	WT 3хwt-edp Glucose  	GSM5150333	34417614
 nc054011	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	WT 1хopt-edp Glucose  	GSM5150334	34417614
 nc054012	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	WT 3хopt-edp Glucose  	GSM5150335	34417614
-nc054013	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Δcpc-3 1хwt-edp Glucose  	GSM5150336	34417614
-nc054014	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Δcpc-3 3хwt-edp Glucose  	GSM5150337	34417614
-nc054015	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Δcpc-3 1хopt-edp Glucose  	GSM5150338	34417614
-nc054016	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Δcpc-3 3хopt-edp Glucose  	GSM5150339	34417614
+nc054013	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Delta cpc-3 1хwt-edp Glucose  	GSM5150336	34417614
+nc054014	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Delta cpc-3 3хwt-edp Glucose  	GSM5150337	34417614
+nc054015	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Delta cpc-3 1хopt-edp Glucose  	GSM5150338	34417614
+nc054016	GSE168595	Codon usage and protein length-dependent feedback from translation elongation to translation initiation and kinetics	Delta cpc-3 3хopt-edp Glucose  	GSM5150339	34417614
 nc055001	GSE195441	Evaluating the mode of Antifungal action of Heat-Stable Antifungal Factor (HSAF) in Neurospora crassa	OR74A Untreated Sucrose  	GSM5836806,GSM5836807,GSM5836808	35330254
 nc055002	GSE195441	Evaluating the mode of Antifungal action of Heat-Stable Antifungal Factor (HSAF) in Neurospora crassa	OR74A Hsaf for 5 min Sucrose  	GSM5836809,GSM5836810,GSM5836811	35330254
 nc055003	GSE195441	Evaluating the mode of Antifungal action of Heat-Stable Antifungal Factor (HSAF) in Neurospora crassa	OR74A Hsaf for 30 min Sucrose  	GSM5836812,GSM5836813,GSM5836814	35330254
@@ -438,11 +438,11 @@ nc062007	GSE180332	Transcriptional regulation by the Velvet complex during asexu
 nc062008	GSE180332	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa	OR74A Dark   22°C 24h	GSM5460927,GSM5460928,GSM5460929,GSM5460930	35913159
 nc062009	GSE201901	A role for gene expression and mRNA stability in nutritional compensation of the circadian clock	csr-1 Barr mat a Glucose 25°C 72h	GSM6077761,GSM6077763	36603054
 nc062010	GSE201901	A role for gene expression and mRNA stability in nutritional compensation of the circadian clock	cpsf5cpsf6 Barr Glucose 25°C 72h	GSM6077762,GSM6077764	36603054
-nc063001	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	∆clr5  Avicel  8h	GSM6921746,GSM6921747	38031036
+nc063001	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	Delta clr5  Avicel  8h	GSM6921746,GSM6921747	38031036
 nc063002	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	WT  Avicel  8h	GSM6921748,GSM6921749	38031036
-nc063003	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	∆clr5_His  Avicel  8h	GSM6921750,GSM6921751	38031036
+nc063003	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	Delta clr5_His  Avicel  8h	GSM6921750,GSM6921751	38031036
 nc063004	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	WT_His  Avicel  8h	GSM6921752,GSM6921753	38031036
-nc063005	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	∆clr5_Leu  Avicel  8h	GSM6921754,GSM6921755	38031036
+nc063005	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	Delta clr5_Leu  Avicel  8h	GSM6921754,GSM6921755	38031036
 nc063006	GSE222372	The transcriptional factor Clr-5 is involved in cellulose degradation through regulation of amino acid metabolism in Neurospora crassa	WT_Leu  Avicel  8h	GSM6921756,GSM6921757	38031036
 nc064001	GSE220169	The nutrient-sensing GCN2 signaling pathway is essential for circadian clock function by regulating histone acetylation under amino acid starvation	WT Constant light Glucose 25°C 18h	GSM6793047,GSM6793048,GSM6793049	37083494
 nc064002	GSE220169	The nutrient-sensing GCN2 signaling pathway is essential for circadian clock function by regulating histone acetylation under amino acid starvation	cpc-1 Constant light Glucose 25°C 18h	GSM6793050,GSM6793051,GSM6793052	37083494
